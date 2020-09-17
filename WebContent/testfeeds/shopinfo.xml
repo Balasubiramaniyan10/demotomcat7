@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<osp:Shop xmlns:osp="http://elektronischer-markt.de/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://elektronischer-markt.de/schema http://kuhlins.de/elmar/schema/shop.xsd">
+  <Common>
+    <Version>1.1</Version>
+    <Language>de</Language>
+    <Currency>EUR</Currency>
+  </Common>
+  <Name>My Test Wine Shop</Name>
+  <Url>https://www.vinopedia.com/</Url>
+  <Requests>
+    <OnlineRequest method="POST GET TRACE">
+      <Processor>http://www.a-vino.de/elmar_request.php</Processor>
+      <ParamBrand>p_brand</ParamBrand>
+      <ParamProduct>p_product</ParamProduct>
+      <ParamDescription>p_desc</ParamDescription>
+      <ParamQuickSearch>p_qs</ParamQuickSearch>
+      <ParamPriceBounds>
+        <LowerPrice>p_low</LowerPrice>
+        <UpperPrice>p_high</UpperPrice>
+      </ParamPriceBounds>
+      <ParamSize>p_size</ParamSize>
+      <ParamIP>p_ip</ParamIP>
+    </OnlineRequest>
+    <OfflineRequest>
+      <UpdateMethods>
+        <DirectDownload day="daily"/>
+      </UpdateMethods>
+      <Format>
+        <Tabular>
+          <CSV>
+            <Url>https://localhost.vinopedia.com:6001/testfeeds/customfeed.xml</Url>
+            <Header columns="14">productid	name	brand	offerid	category	description	price	image	url	availability	shipping	special	expirationdate	oldprice</Header>
+            <SpecialCharacters delimiter="[tab]"/>
+          </CSV>
+          <Mappings>
+            <Mapping column="1" columnName="productid" type="privateid"/>
+            <Mapping column="2" columnName="name" type="name"/>
+            <Mapping column="3" columnName="brand" type="brand"/>
+            <Mapping column="5" columnName="category" type="type"/>
+            <Mapping column="6" columnName="description" type="longdescription"/>
+            <Mapping column="7" columnName="price" type="price"/>
+            <Mapping column="8" columnName="image" type="pictureurl"/>
+            <Mapping column="9" columnName="url" type="url"/>
+            <Mapping column="10" columnName="availability" type="deliverable"/>
+            <Mapping column="11" columnName="shipping" type="deliverydetails"/>
+            <Mapping column="12" columnName="special" type="specialdiscount"/>
+          </Mappings>
+        </Tabular>
+      </Format>
+    </OfflineRequest>
+  </Requests>
+  <Interface/>
+  <Logo>http://www.a-vino.de/a-vino_logo.jpg</Logo>
+  <Address sale="no">
+    <Company>a-vino Weinhandel - Dieter Kornwolf</Company>
+    <Street>Im Grommesgarten 9</Street>
+    <Postcode>53332</Postcode>
+    <City>Bornheim</City>
+  </Address>
+  <Address sale="yes">
+    <Company>a-vino Weinhandel - Dieter Kornwolf</Company>
+    <Street>Im Grommesgarten 9</Street>
+    <Postcode>53332</Postcode>
+    <City>Bornheim</City>
+  </Address>
+  <Contact>
+    <PublicMailAddress>jasper.hammink@vinopedia.com</PublicMailAddress>
+    <PrivateMailAddress>jasper.hammink@vinopedia.com</PrivateMailAddress>
+    <OrderPhone>
+      <Number>02227/905943</Number>
+      <CostPerMinute>0</CostPerMinute>
+    </OrderPhone>
+    <OrderFax>
+      <Number>02227/905839</Number>
+      <CostPerMinute>0</CostPerMinute>
+    </OrderFax>
+    <Hotline>
+      <Number>02227/905843</Number>
+      <CostPerMinute>0</CostPerMinute>
+    </Hotline>
+  </Contact>
+  <Categories>
+    <TotalProductCount>305</TotalProductCount>
+    <Item>
+      <Name>Champagner&amp;Co.</Name>
+      <ProductCount>12</ProductCount>
+      <Mapping>Sonstiges</Mapping>
+      <Mapping>Essen &amp; Trinken</Mapping>
+    </Item>
+    <Item>
+      <Name>Olivenöl</Name>
+      <ProductCount>6</ProductCount>
+      <Mapping>Sonstiges</Mapping>
+      <Mapping>Essen &amp; Trinken</Mapping>
+    </Item>
+    <Item>
+      <Name>Rose-Wein</Name>
+      <ProductCount>10</ProductCount>
+      <Mapping>Sonstiges</Mapping>
+      <Mapping>Essen &amp; Trinken</Mapping>
+    </Item>
+    <Item>
+      <Name>Rotwein</Name>
+      <ProductCount>165</ProductCount>
+      <Mapping>Sonstiges</Mapping>
+      <Mapping>Essen &amp; Trinken</Mapping>
+    </Item>
+    <Item>
+      <Name>Schenken+Genießen</Name>
+      <ProductCount>19</ProductCount>
+      <Mapping>Sonstiges</Mapping>
+      <Mapping>Bücher</Mapping>
+      <Mapping>Essen &amp; Trinken</Mapping>
+    </Item>
+    <Item>
+      <Name>Sherry/Madeira</Name>
+      <ProductCount>17</ProductCount>
+      <Mapping>Sonstiges</Mapping>
+      <Mapping>Essen &amp; Trinken</Mapping>
+    </Item>
+    <Item>
+      <Name>Weisswein</Name>
+      <ProductCount>43</ProductCount>
+      <Mapping>Sonstiges</Mapping>
+      <Mapping>Essen &amp; Trinken</Mapping>
+    </Item>
+  </Categories>
+  <Payment>
+    <Item>
+      <Name>cheque</Name>
+    </Item>
+    <Item>
+      <Name>debit</Name>
+    </Item>
+    <Item>
+      <Name>invoice</Name>
+    </Item>
+    <Item>
+      <Name>money transfer</Name>
+    </Item>
+    <Item>
+      <Name>on delivery</Name>
+    </Item>
+    <Item>
+      <Name>pre-payment</Name>
+    </Item>
+  </Payment>
+  <ForwardExpenses>
+    <FlatRate>5</FlatRate>
+    <UpperBound>250</UpperBound>
+  </ForwardExpenses>
+  <Features>
+    <OrderTracking/>
+    <DeliverTracking/>
+    <CareAfterPurchase/>
+    <GiftService/>
+  </Features>
+  <Technology>
+    <SSL/>
+    <Search/>
+  </Technology>
+  <TermsAndConditions>
+    <Url>http://www.a-vino.de/index.php?main_page=conditions</Url>
+  </TermsAndConditions>
+  <Self-Description>Der liebe Weinhändler im Rheinland! Wein bedeutet für uns neben Qualität auch Harmonie, Balance und Ausgeglichenheit. Wir sind sehr kritisch und anspruchsvoll und bieten Ihnen neben unserem vielfältigen Sortiment (über 300 Genüsse) einen zuverlässigen Service und dies zu fair kalkulierten Preisen.</Self-Description>
+</osp:Shop>

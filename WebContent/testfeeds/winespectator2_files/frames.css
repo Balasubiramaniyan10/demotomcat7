@@ -1,0 +1,65 @@
+
+/* ******** Copyright © 2008 M. Shanken Communications Inc. ******** */
+/* Web page frame is divided into 3 horizontal boxes: header, Wrapper and footer **
+** The body (Wrapper) can contain 2 columns, contentBox and thirdColumn **
+** thirdColumn can be removed when un-need while no affecting the design */
+/*	******** ******** ******** ******** ******** ******** ******** */
+
+/* Resets
++     ============================     +++ */
+body, div
+{margin:0; padding:0; }
+
+/* Setting all frames
++     ============================     +++ */
+body
+{ text-align:center; background-color:#fff;}
+#wrapper, #header, #footer, #leaderBannerAd
+{ width:990px; margin:0 auto; }
+#wrapper
+{ padding:10px 6px; position:relative; width:978px; text-align:left; }
+#header
+{ margin:0 auto; position:relative; background:url(images/header-bg-img.gif) #900 repeat-x; }
+#footer
+{ clear:both; float:none; width:100%; border-top:1px solid #ccc; padding-bottom:20px; text-align:left; } /* border-top:3px solid #ccc; */
+.addclear:after, .usersCommentsbox:after
+{ content:"."; display:block; height:0; clear:both; visibility:hidden; }/* this hack does not work for IE */
+
+/* Setting all columns
++++     ============================     +++ */
+#header .moduleContainer
+{ width:330px }
+#homepageContentBox, #contentBox
+{ width:644px; float:left; }
+#thirdColumn
+{ float:right; }
+#wideContentBox
+{ width:100%; }
+.moduleContainer
+{ width:310px; }
+#homepageContentBox.moduleBreak, .moduleBreak
+{ clear:both; margin:17px; height:2px; }
+.moduleBreak
+{ margin:10px; }
+.borderThick
+{ border:2px solid #c1c95a !important; padding:5px; }
+.borderThin
+{ border:1px solid #c1c95a; padding:6px; }
+.left
+{float:left !important; }
+.right
+{ float:right !important; }
+.hide
+{ display:none; }
+.show
+{ display:block; }
+.padding10
+{ padding:10px !important; }
+.bgoptionOne
+{ background-color:#fcfcdf; }
+/* Setting floating box (modules)
++     ============================     +++ */
+#header_content, #floating_content
+{ float:left; position:fixed; bottom:0; left:0; width:100%; background-color:#f6f6f6; z-index: 10000; border-top:1px solid #999; padding:7px 0; }
+#header_content div, #floating_content div
+{ margin:auto; }

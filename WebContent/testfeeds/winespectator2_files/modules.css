@@ -1,0 +1,458 @@
+/* ******** Copyright © 2008 M. Shanken Communications Inc. ******** */
+/* 		 	All other modules are defined here			   */
+/* ------------------------------------------  ------------------------------------------ */
+
+/* +++ Start: header +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#headerPrintLogo{ display:none; }
+#headerLogo, #headerMenu, #headerContent
+{ float:left; }
+#headerMenu
+{ height:110px; }
+#navigation, #sublinks
+{ clear:both; width:100%; text-align:center; }
+#navigation
+{ background-color:#991b1e; border-top:2px solid #fff; }
+#sublinks
+{ background-color:#333; }
+.active-tab-body
+{ display: block; }
+
+/* +++ Start: for homepage +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#hp_searbox
+{ width:644px; float:left; }
+#hp_searbox
+{ background:url(images/homepageSearchBoxBg.gif) no-repeat; padding:7px 0 0; }
+#hpwrsearch
+{ width:485px; float:left !important; }
+#searchtools
+{ width:151px; border-left:3px solid #959d38; float:right !important; padding-left:5px; }
+.hpwrsearchclose
+{ clear:both; background:url(images/hpcloseSearchBoxBg.gif) no-repeat; height:7px; font-size:7px; }
+#hpSlider
+{ width:431px; float:left !important; }
+#hpdailyWinePicks
+{ width:203px !important; float:right; }
+#hpwhatWeDrink, #hpvideos, #hpnewsletters
+{ float:left; }
+#hpblogs, #tabBox
+{ float:right; }
+#hpvideos
+{ border:1px solid #c1c95a; padding:5px; width:298px; height:310px; }
+#tabBox .module, #tabBox .tabs
+{ clear:both; border:1px solid #c1c95a; padding:5px; width:298px; height:277px; overflow:auto; }
+
+/* +++ Start: setting content tools +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#feature, #blog, #forMembersBox, #searchBox, #searchBox2, #wrSearchBox, #searchResults, #promo, errorBox, warningBox, .navMenuBox, .usersCommentsbox
+{ clear:both; float:none; }
+.navMenuBox
+{ clear:both; width:225px; float:right; border-left:7px solid #fff; border-bottom:3px solid #fff; background-color:#fff; } /* it should be: width:227px; border-left:24px */
+.navMenuBox img
+{ margin-bottom:3px; }
+.navMenuBox table
+{ margin:7px 0; }
+.navMenuBox table img
+{ margin-bottom:0; }
+.navMenuBox table.imgcapbox
+{ border:none; margin-bottom:3px; }
+.navMenuBox table.imgcapbox caption
+{ width:99%; margin:0 auto; padding:3px 3px 5px; }
+.navMenuBox td
+{ padding:7px; }
+.navMenuBox tr
+{ background-color:#fcfadf; }
+.navMenuBox tr:hover
+{ background-color:#f3f0ca; }
+.navMenuBox tr th
+{ padding:5px; }
+.navMenuBox tr th
+{ background-color:#959d38; }
+.thunbnailImage
+{ float:left; margin:0 7px 7px 0; }
+.imgcapleft
+{ float:left; margin:0 7px 7px 0; }
+.imgcapright
+{ float:right; margin:0 0 7px 7px; }
+.imgcapbox
+{ float:none; margin:auto; border:none; }
+.imgcapbox td
+{ background-color:#fff; padding:0; }
+.imgcapleft caption, .imgcapright caption, .imgcapbox caption
+{ text-align:left; width:200px; background-color:#fff; color:#000; caption-side:bottom; }
+.imgcapleft td, .imgcapright td, .imgcapbox td
+{ text-align:center !important; }
+.imgcapbox caption
+{ width:auto; margin:auto; }
+.imgcapleft caption
+{ margin-right:7px; }
+.imgcapright caption
+{ margin-left:7px; }
+caption span.photocredit
+{ display:block; font-style:normal; text-align:right; }
+.imgcapleft th, .imgcapright th, .imgcapbox th
+{ background-color:#699; color:#fff !important; padding:3px; }
+.fixHeight
+{ height:225px; }
+.addPadding
+{ padding:7px; }
+.idborderLinks
+{ border:2px solid #00529F; background-color:#eff0f5; }
+.idborderLinks td
+{ padding:7px; }
+.textAdsBox
+{ background-color:#ffc; text-align:center; }
+.auctionRow
+{ background-color:#fcfadf; }
+.readPostCommentsBox
+{ background-color:#fcfadf; padding:7px; height:19px; }
+.readPostCommentsBox .readMoreIcon
+{ float:left; background:url(images/readbutton.gif) no-repeat; padding-left:23px; height:21px; }
+.readPostCommentsBox p
+{ text-align:right; margin:0; }
+.readPostCommentsBox p, .readPostCommentsBox a:link, .readPostCommentsBox a:visited, .readPostCommentsBox a:hover
+{ font: bold 13px Arial, Helvetica, sans-serif; color:#930; }
+.moduleSponsor
+{ float:right; margin:-7px -7px 0 0; margin-bottom:-30px; }
+.module .WSmagazine
+{ text-align:center; border-right:1px solid #999; }
+.WSmagazine big
+{ font-size:14px; font-weight:bold; }
+.thumbnailTable
+{ float:left; margin:0; width:100px; margin-bottom:3px; }
+.thumbnailTable td
+{ padding:0 10px; text-align:center; }
+.thumbnailTable
+{ width:177px; }
+.thumbnailTable img
+{ padding:7px 0; }
+.thumbnailTable caption
+{ text-align:right; margin:0 10px 0 0; caption-side:bottom; }
+.tdSep
+{ border-right:2px solid #cecece; }
+.moduleHeaderNav
+{ background-color:#959d38; margin:-5px -5px 7px -5px; padding:7px 0; }
+#wideContentBox .moduleHeaderNav
+{ margin:-1px 0 0; }
+.readNewsletter
+{ padding:3px; background-color:#fcfadf; }
+.newsletterBox
+{ margin:0; }
+.newsletterBox td
+{ padding:5px; background-color:#fcfadf;}
+.siteZone
+{ background-color:#f00; }
+#breakingNews
+{ background-color:#ff9; padding:4px; margin-bottom:7px; }
+.noMemberModule
+{ border-width:5px; background-color:#fcfadf; margin:7px 0; }
+#feature .noMemberModule, #blog .noMemberModule
+{ width:390px; }
+
+/* ------------------------------------------  ------------------------------------------ */
+/* *** 	* Start: Style for videos	search * 	*** */
+.videos
+{ float:left; padding:0; width:100%; margin-bottom:12px; }
+.videos img
+{ float:left; width:160px; margin:0; margin-right:7px; margin-bottom:7px; }
+.videotxt
+{ margin:0; padding:0; }
+.videotxt h4, .videotxt p
+{ margin:0; }
+.videoSearchTop td
+{ height:40px; }
+.videoSearchTop, .videoSearchResults
+{ width:100%; background-color:#fff; }
+.videoSearchTop form
+{ margin:0; padding:0; }
+.videoSearchTop .vpagination
+{ background-color:#fcfadf; }
+.videoSearchTop .vpagination p
+{ margin:10px; }
+.videoSearchTop .vpagination span
+{ background-color:#600; color:#fff; padding:12px 3px; }
+.videoSearchResults
+{ margin:0; padding:0; border-left:1px solid #999; border-top:3px solid #600; border-bottom:3px solid #600; }
+.videoSearchResults th
+{ padding:3px 12px; text-align:left; background:url(images/videoSearchHeaderbg.gif); border-bottom:1px solid #999; font-size:16px; }
+.videoSearchResults td
+{ padding:3px 7px; }
+.videoSearchResults th, .videoSearchResults td
+{ border-right:1px solid #999; }
+.videoSearchResults th a:link, .videoSearchResults th a:visited, .videoSearchResults th a:hover
+{ color:#600; text-transform:uppercase; }
+.videoSearchResults th span
+{ font-size:9px; color:#999; text-transform:uppercase; }
+.videoSearchResults #unrotatetr, .videoSearchResults #rotatetr:hover
+{ background-color:#ececec; }
+.videoSearchResults #rotatetr
+{ background-color:#fff; }
+.videoSearchResults .selectedCol
+{ background:#600; }
+.videoSearchResults .selectedCol a:link, .videoSearchResults .selectedCol a:visited, .videoSearchResults .selectedCol a:hover
+{ color:#fff; }
+.videoSearchResults .selectedCol img
+{ vertical-align:middle; }
+
+/* +++ Start: forMembersBox module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+/*#forMembersBox
+{ border:1px solid #959d38; padding:5px; }*/
+/* START: forMembersBox */
+.usersCommentsbox
+{ padding:3px; height:100%; border:1px solid #c1c95a; background-color:#fcfadf; }
+.usersCommentsbox .user
+{ background-color:#f3f0ca; padding:7px; }
+.usersCommentsbox .comments
+{ ; }
+
+/* +++ Start: searchBox module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+/*#searchBox, #searchBox2, #wrSearchBox, #searchResults, #searchDetail
+{ border:2px solid #c1c95a; padding:4px; }*/
+#pwlmenu
+{ padding:10px;background-color:#fcfadf; }
+#wrSearchBox
+{ border-color:#900 !important; }
+.searchBox .searchforbox img, .searchBox2 .searchforbox img
+{ margin:0 0 0 140px; padding:0; }
+.searchBox .searchforbox input, .searchBox2 .searchforbox input
+{ margin:12px 0; }
+.searchBox th.active a:link
+{ color:#ccc; }
+.searchBox .navBarLarge, .searchBox2 .navBarLarge
+{ background:url(images/searchNavLargeBg.gif) no-repeat; height:46px; margin:3px 12px 0; width:620px; }
+.searchBox .navBarLarge td, .searchBox2 .navBarLarge td
+{ padding:0 5px;vertical-align:middle; }
+.searchBox .navBarLarge label, .searchBox2 .navBarLarge label
+{ color:#fff;font-size:12px; }
+.searchBox label, .searchBox2 label, .wrSearchBox label
+{ color:#900;margin:0;padding:0;font-size:12px; }
+.searchBox form label
+{ color:#900;margin:0;padding:0;font-size:12px; }
+.searchBox form button, .searchBox2 form button
+{ line-height:normal; }
+.searchBox2 .navbar
+{ background:url(images/searchNavBg.gif) no-repeat;padding:15px 10px;margin:3px;text-align:center; }
+
+/* +++ Start: promo module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#promo
+{ background-color:#ddd; border:2px solid #ccc; }
+
+/* +++ Start: legend module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#searchLegend
+{ background-color:#bdd0f3; border:2px solid #00529f; }
+
+/* +++ Start: headline module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+table#headlinesTable, table.headlinesTable
+{ border:0; border-collapse:collapse; margin:0; padding:0; margin-top:10px; } 
+#headlinesTable tr td img, .headlinesTable tr td img
+{ margin:0 7px 0 0 !important; }
+#countdownModule table#headlinesTable, #countdownModule table.headlinesTable
+{margin-top:0 !important;}
+/* +++ Start: what am I tastin box WAIT +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#WAIT
+{ background-color:#fcfadf; }
+#WAIT div.alignLeft
+{ width:35% !important; }
+#WAIT div.alignRight
+{ width:60% !important; border-left:1px solid #c1c95a; }
+#WAIT #archive
+{ background-color:#f3f0ca; display:block; margin:7px 0 0; }
+/* +++ Start: headline module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#errorBox
+{ border-color:#900 !important; background:url(images/wrong.png) 1% 50% no-repeat; }
+
+/* +++ Start: pwl module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.pwl
+{ position:relative !important; border:1px solid #c1c95a; padding:6px; margin:7px 0; clear:both }
+.pwl .mycellar
+{ clear:both; border:1px solid #c1c95a; background-color:#fcfadf; padding:6px; height:50%; }
+#pwlHeadFoot .pwltotals
+{ border:1px solid #c1c95a; color:#fff; background:#4e4e4e; }
+
+/* +++ Start: tour module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#siteTour
+{ border:2px #c1c95a solid; background-color:#fcfadf !important; }
+
+/* +++ Start: classifieds module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.classifiedsBox
+{ margin:0 auto; width:600px; padding:5px; background-color:#fcfadf; }
+.classifiedsBoxleft
+{ margin:0; width:400px; margin-left:60px; background-color:#fff; float:left; }
+.classifiedsBoxright
+{ margin:0; width:400px; margin-right:60px; background-color:#fff; float:right }
+.classifiedsNavBar
+{ clear:both; margin:10px 0; }
+.classifiedsNavBar td
+{ margin:0; padding:0; background-color:#fafadf; text-align:center; height:33px; vertical-align:middle;  border-left:1px solid #fff; color:#900;  font-weight:bold; }
+.classifiedsNavBar .cl-active, .classifiedsNavBar td:hover
+{ background-color:#959D38; }
+.classifiedsNavBar .cl-open, .classifiedsNavBar .cl-open:hover
+{ background:#f3f0ca; border-left:none; }
+.classifiedsNavBar .cl-close
+{ margin:0; padding:0; background:#fafadf; width:180px; border-left:none; }
+.classifiedsNavBar a:link, .classifiedsNavBar a:active, .classifiedsNavBar a:visited, .classifiedsNavBar .cl-active a:hover
+{ color:#7a7e1d; }
+.classifiedsNavBar a:hover
+{ color:#600; }
+.classifiedsNavBar .cl-active a:link, .classifiedsNavBar .cl-active a:active, .classifiedsNavBar .cl-active a:visited, .classifiedsNavBar .cl-active a:hover
+{ color:#fff; }
+#classifiedsMainBox
+{ width:976px; height:324px; padding:0; clear:both; background-color:#7a7e1d }
+#classifiedsMainBox .classifiedsItemBox
+{ width:236px; height:310px; margin:6px; padding:0; background:#fcfadf; float:left; }
+#classifiedsMainBox .classifiedsItemBox a, #classifiedsMainBox .classifiedsItemBox p
+{ color:#7a7e1d; }
+#classifiedsMainBox .classifiedsItemBox h4, #classifiedsMainBox .classifiedsItemBox p
+{ line-height:normal; padding:0 7px; }
+#classifiedsMainBox .marginpad
+{ margin-left:0; margin-right:6px; _margin-left:0; _margin-right:4px; }
+
+/* +++ Start: footer module +++ */
+/* ------------------------------------------  ------------------------------------------ */
+#footer .moduleContainer
+{ width:990px !important; margin:auto; }
+#footer .moduleContainer div
+{ margin:auto; text-align:center; }
+
+/* +++ Start: Name that game box +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.nameThatGame th
+{ padding:7px 2px; color:#fff; background-color:#c00; }
+.nameThatGame th big
+{ color:#fff; }
+.nameThatGame td
+{ padding:4px; border-bottom:1px solid #ccc; }
+.nameThatGame tr.correct
+{ background-color:#e3e3e3; }
+.nameThatGame td.score
+{ color:#666; font-weight:bold; text-align:center; vertical-align:middle; }
+
+/* +++ Start: Vintage chart search +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.menulist
+{ width:155px; vertical-align:top; }
+.menulist a
+{ font-weight:bold; }
+.menulist p
+{ font:14px Arial, Helvetica, sans-serif; margin:10px 0 10px 5px; }
+.menulist p.vcbreaker
+{ background:url(images/vcbreaker.gif) no-repeat; height:10px; line-height:0; }
+.menulist #highlighted
+{ margin:-10px 0; padding:15px 0 15px 5px;; background:#f3f0ca; color:#900; font-weight:bold; }
+.menulist #highlighted a:link, table .menulist #highlighted a:visited
+{ color:#900; }
+.vintagelistheader
+{ font:7px Arial, Helvetica, sans-serif; margin:0; width:449px; padding:0; }
+.vintagelist
+{ vertical-align:middle; padding:1px 15px; margin:0; background-color:#fcfadf; }
+.vintagelist p
+{ font:14px/1.5em Arial, Helvetica, sans-serif; }
+.vintagelistheader, .vintagecontent, .vintagecontenttable
+{ width:489px; }
+.vintagecontent
+{ padding:0 10px 0 30px; background-color:#f3f0ca; }
+.vintagelistheader
+{ background:#f3f0ca; margin:0; padding:7px 0; }
+.vintagelistheader h2
+{ color:#900; margin:0; margin-left:10px; }
+.vintagelistheader h2 span
+{ font-size:12px; float:right; padding:3px; }
+.vintagecontenttable
+{ margin:0; padding:0; padding-left:10px; background-color:#fcfadf; vertical-align:top; }
+.vintagecontenttable td
+{ padding:3px; }
+.vintagecontenttable th
+{ padding:3px; color:#900; }
+.vintagecontenttable .border
+{ text-align:center; border-right:1px solid #c0c0c0; border-bottom:1px solid #c0c0c0; }
+.vintagecontenttable .borders
+{ border-bottom:1px solid #c0c0c0; }
+#vintageGrid
+{ width:100%; background-color:#fcfadf; margin:0; padding:0; }
+#vintageGrid a:link, #vintageGrid a:visited
+{ color:#333; }
+#vintageGrid td
+{ padding:10px 5px; margin:auto; font:12px Arial, Helvetica, sans-serif; border-right:1px solid #c1c95a; border-bottom:1px solid #c1c95a; text-align:center; }
+#vintageGrid td.vintgridaxis
+{ background-color:#fff; border-right-color:#fcfadf; border-bottom-color:#fcfadf; }
+#vintageGrid td.nyr
+{ background-color:#f5f3f4; }
+#vintageGrid td.drinkhold
+{ background-color:#f2e77e; }
+#vintageGrid td.drink
+{ background-color:#6d92a0; }
+#vintageGrid td.hold
+{ background-color:#a24444; }
+#vintageGrid td.pastpeak
+{ background-color:#8357a0; }
+#vintageGrid td.region
+{ background:url(images/vintagegrid-td-regionbg.gif) right top no-repeat; padding:0 10px; color:#600; text-align:left; }
+#vintageGrid td.region1
+{ padding-left:15px; text-align:left; }
+#vintageGrid td.region2
+{ padding-left:30px; text-align:left; }
+#vintageGrid td.regiontopline
+{ border:none; background-color:#f3f0ca; height:5px; padding:0; margin:0; }
+#vintageGrid td.regiontopline p
+{ font:12px Arial, Helvetica, sans-serif; margin:0 10px; text-align:center; }
+#vintageGrid td.regiontopline img
+{ vertical-align:middle; }
+#vintageGrid td.regiontopline span
+{ background-color:#f3f0ca; color:#600; font:bold 14px Arial, Helvetica, sans-serif; padding:8px 4px; }
+#vintageGrid td.regiontopline a:link, #vintageGrid td.regiontopline a:visited
+{ color:#7a7e1d; }
+#vintageGrid td.region1 a:link, #vintageGrid td.region1 a:visited, #vintageGrid td.region2 a:link, #vintageGrid td.region2 a:visited
+{ font:bold 14px Arial, Helvetica, sans-serif; color:#900; }
+#vintageGrid td.region a:link, #vintageGrid td.region a:visited
+{ font:bold 14px Arial, Helvetica, sans-serif; color:#900; }		
+#vintageGrid td.footer
+{ border:none; padding:20px; }
+#vintageGrid td.footer p
+{ font:14px Arial, Helvetica, sans-serif; }
+
+/* +++ Start: FOR OLD DESIGN rules-Feature picture frame and menu boxes +++ */
+/* ------------------------------------------  ------------------------------------------ */
+.rightsidebox
+{ clear:both; width:200px; float:right; padding:0; margin: 0; margin-left:7px; border-bottom:5px solid White; }
+.leftsidebox
+{ width:200px; float:left; padding:0; margin: 0; margin-right:7px; border-bottom:5px solid White; }
+.rightsidebox #imagebox, .leftsidebox #imagebox
+{ padding:0; margin:0; background-color:#fff; }
+.rightsidebox #seealsobox
+{ font:bold 16px Arial, Helvetica, sans-serif; text-align:left; background-color:#ccc; padding:5px 3px 5px 15px; color:#600; }
+.rightsidebox #seealsotdimg
+{ background-color:#b5c6d8; padding:1px 0 1px 0; vertical-align:top; }
+.rightsidebox #seealsotdimg div
+{ width:24px; height:24px; background:url(images/arrow_inside.gif) no-repeat; }
+.rightsidebox #seealsotditem
+{ padding: 2px; font: 12px Arial, Helvetica, sans-serif; vertical-align:top; }
+.rightsidebox p, .leftsidebox p, .rightsidebox #caption, .leftsidebox #caption, .rightsidebox .caption, .leftsidebox .caption
+{ padding:3px;  font:italic 9pt Georgia, "Times New Roman", Times, serif !important; margin:0; }
+table.rightsidebox, table.leftsidebox
+{ border:0; border-collapse:collapse; }
+#feature table[align=right]
+{clear:right;}
+#trhighlight, #trunhighlight:hover
+{ background-color: #d9e5f1; }
+#trunhighlight
+{ background-color: #eff2f7; }
+.blueboxtext
+{ width:275px; }
+.blueboxtext td img
+{ display:inline; }
+.navMenuBox .blueboxtext td
+{ padding:5px 0; background-color:#e3e3e3; }
+.navMenuBox td.blueboxheader
+{ font:bold 16px Arial, Helvetica, sans-serif; text-align:left; background-color:#ccc; padding:5px 3px 5px 15px; color:#600; }
+/* *** End: OLD STYLE-Feature picture frame and menu boxes 	*** */

@@ -1,0 +1,30 @@
+/* Print */
+#wrapper, #header, #contentBox, #wideContentBox
+{ margin:0; padding:0; float:none; width:auto; clear:both; }
+#headerPrintLogo{ display:block; }
+#header #headerLogo, #header #headerMenu, #header #headerContent, #header #navigation, #header #sublinks
+{ display:none; }
+.module
+{ background:none;  border:none;  width:99%; }
+#thirdColumn, #footer, #adimgleft, #adimgright, #leaderBannerAd, #headerMenu, #headerContent, #navigation, #sublinks, .navicon, .moduleOpen, .moduleClose, .moduleLargeOpen, .moduleLargeClose, .contentFooter, #contentBox form #forMembersBox, .tabMenu, #floating_content
+{ display:none; }
+.navMenuBox
+{ border:none; margin-bottom:3px; margin-left:7px; }
+.navMenuBox tr, .navMenuBox tr th
+{ color: #000; background:none; }
+.navMenuBox a:link
+{ color:#000 !important; }
+td, div, input
+{ border-color:#333 !important; }
+a:link, a:active, a:visited, a:hover
+{ color:#000 !important; }
+h1, h2, h3, h4, h5, h6, .fontColor2, .fontColor3, .fontColor4
+{ color:#000 !important; }
+h1, h2, h3, h4, h5, h6, p, li, dt, dd, td
+{ font-family:Arial, Helvetica, sans-serif !important; }
+p, li, dt, dd, td
+{ font-size:10pt; }
+caption, .caption
+{ font:italic 12px "Times New Roman", Times, serif; }
+.onmodule td
+{ background-color:#ccc !important; }

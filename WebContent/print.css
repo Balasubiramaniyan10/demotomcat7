@@ -1,0 +1,10 @@
+body 
+ {
+ display: inline ;
+ overflow:visible;
+ float:none !important;
+ font-size: 11px;
+ }
+ table{
+ float:none !important;
+ }

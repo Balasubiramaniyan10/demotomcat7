@@ -1,0 +1,1 @@
+document.write('<a target="_blank" href="http://ad.doubleclick.net/click;h=v8/3b85/0/0/%2a/e;246280457;0-0;1;39472533;4307-300/250;44074183/44091970/1;;~sscs=%3fhttp://www.frescobaldi.it/en/the-world-of-frescobaldi/micro-history.html"><img src="http://s0.2mdn.net/viewad/3306811/MDF_Banner300x250-B2.JPG" border=0 alt="Click Here!"></a>');

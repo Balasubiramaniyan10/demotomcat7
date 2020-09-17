@@ -1,0 +1,27 @@
+
+<html>
+	<body>
+<pre>
+Wine Directory List
+<BR>
+
+Wine Title	Vintage	Country	Region	Sub region	Appellation	Bottle Size	Price	URL
+337 Cab Sauv Lodi	2007					750ML	14.99	HTTP://www.shorthillswine.com/sku21095.html
+A To Z Wineworks Pinot Gris	2006	United States	Oregon			750ML	12.97	HTTP://www.shorthillswine.com/sku18733.html
+A To Z Wineworks Pinot Noir Willamette	2006					750ML	16.97	HTTP://www.shorthillswine.com/sku18446.html
+Acacia A Chardonnay California						375ML	9.99	HTTP://www.shorthillswine.com/sku21271.html
+Acacia Chardonnay Carneros		United States	California	Carneros		750ML	19.97	HTTP://www.shorthillswine.com/sku4786.html
+Acacia Pinot Noir Carneros		United States	California	Carneros		750ML	21.97	HTTP://www.shorthillswine.com/sku3379.html
+Achaval Ferrer Malbec	2008					750ML	33.99	HTTP://www.shorthillswine.com/sku21629.html
+Adelsheim Pinot Gris	2006	United States	Oregon	Willamette Valley		750ML	19.99	HTTP://www.shorthillswine.com/sku19181.html
+Alaia						750ML	8.99	HTTP://www.shorthillswine.com/sku18769.html
+Alain Corcia Bourgogne Pinot Noir	2006					750ML	13.99	HTTP://www.shorthillswine.com/sku19539.html
+Alexander Valley Merlot						375ML	12.99	HTTP://www.shorthillswine.com/sku21265.html
+Alfasi Cabernet Sauvignon Kosher		Chile	Maule			750ML	9.97	HTTP://www.shorthillswine.com/sku13752.html
+Alfasi Chardonnay		Chile				750ML	9.97	HTTP://www.shorthillswine.com/sku13751.html
+Alfasi Merlot Kosher		Chile	Maule			750ML	9.97	HTTP://www.shorthillswine.com/sku13753.html
+Alfasi Reserve Cabernet Sauvignon						750ML	11.97	HTTP://www.shorthillswine.com/sku21596.html
+Alfasi Reserve Malbec Syrah						750ML	11.97	HTTP://www.shorthillswine.com/sku21598.html
+Alfasi Reserve Merlot						750ML	11.97	HTTP://www.shorthillswine.com/sku21597.html
+Alfasi Reserve Pinot Noir						750ML	11.97	HTTP://www.shorthillswine.com/sku21599.html
+Alice White Muscat Lexia		Australia	South Eastern Australia			1.50L	15.99	HTTP://www.shorthillswine.com/sku20337.html

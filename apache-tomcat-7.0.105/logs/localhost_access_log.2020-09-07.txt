@@ -1,0 +1,11 @@
+0:0:0:0:0:0:0:1 - - [07/Sep/2020:17:42:40 +0530] "GET / HTTP/1.1" 200 8963
+0:0:0:0:0:0:0:1 - - [07/Sep/2020:17:42:49 +0530] "GET /admin HTTP/1.1" 200 4021
+0:0:0:0:0:0:0:1 - - [07/Sep/2020:17:42:49 +0530] "GET /images/PriceAlert.jpg HTTP/1.1" 200 99936
+0:0:0:0:0:0:0:1 - testing10 [07/Sep/2020:17:44:09 +0530] "POST /j_security_check HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - testing10 [07/Sep/2020:17:44:09 +0530] "GET /admin HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - testing10 [07/Sep/2020:17:44:15 +0530] "GET /admin/ HTTP/1.1" 200 5896
+0:0:0:0:0:0:0:1 - testing10 [07/Sep/2020:17:44:15 +0530] "GET /images/photos/Grapes2.jpg HTTP/1.1" 200 33007
+0:0:0:0:0:0:0:1 - testing10 [07/Sep/2020:17:44:15 +0530] "GET /images/photos/Noval.jpg HTTP/1.1" 200 27871
+0:0:0:0:0:0:0:1 - testing10 [07/Sep/2020:17:44:33 +0530] "GET /settings/editdatafeed.jsp HTTP/1.1" 200 19600
+0:0:0:0:0:0:0:1 - testing10 [07/Sep/2020:17:44:58 +0530] "POST /settings/editdatafeed.jsp HTTP/1.1" 200 200050
+0:0:0:0:0:0:0:1 - testing10 [07/Sep/2020:17:45:22 +0530] "POST /settings/editdatafeed.jsp HTTP/1.1" 200 141044

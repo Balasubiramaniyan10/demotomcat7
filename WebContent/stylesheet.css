@@ -1,0 +1,419 @@
+body {height: 100%;text-align: left;color: #4d0027;background-color: white;background-repeat: no-repeat;font-family:Georgia, Arial;font-size: 14px;vertical-align: top;margin:0px;border:0px;padding:0px;min-width:1000px;}
+div.textpage{font-family:Georgia, Arial;color:#715663;font-size:13px;width:1000px;margin-left:auto;margin-right:auto;position:relative;}
+div.textpage #left{float:left;width:534px;}
+div.textpage #right{float:right;width:300px;}
+div.textpage img.photo{width: 100%;position:relative; margin-top:100px; margin-left: auto;margin-right: auto; /*H-centering in complaint browsers*/}
+h1 {letter-spacing: -1px;font-size: 22px;margin-top: 6px;margin-bottom: 3px;font-weight:normal;}
+h2 {font-family: Georgia, Arial;font-size: 18px;margin-top: 5px;margin-bottom: 2px;font-weight:normal;}
+h3 {font-family: Georgia, Arial;font-size: 17px;margin-top: 4px;margin-bottom: 3px;font-weight:normal;}
+h4 {font-size: 16px;margin-top: 4px;margin-bottom: 3px;font-weight:normal;}
+span.small{font-size:70%;}
+span.small a{text-decoration:underline;}
+a:link img {border-style: none;}
+img {border-style: none;}
+td{vertical-align:top;}
+div.topbar{background:#BC7B29;background-image:url(/css2/refine.jpg);background-repeat:repeat-x;font-family:arial,sans-serif;font-size:12px;color: white;width:100%;height:18px;padding-top:1px;}
+div.topbarcontent{width:1000px;margin-left:auto;margin-right:auto;}
+div.topbar a{color:white;text-decoration:underline;padding-right:30px;}
+#mobile{margin-left:3px;float:left;}
+#language{color:white;float:right;margin-right:3px;}
+#language a{padding-right:0px;}
+#language img{margin-top:1px;}
+div.logoandsearch{width:1000px;margin-top:0px;margin-left:auto;margin-right:auto;height:100px;postion:relative;z-index:1;}
+div.search{position:relative;z-index:990;float:right;width:475px;height:100px;background-repeat: no-repeat;background-position:0px 40px;background-image: url(/css2/search.jpg);}
+div.logoandsearch .findwine{color:white;position:absolute;top:49px;left:7px;}
+div.logoandsearch .searchinput{border:0pt solid white;display:block;width: 252px;font-family: Georgia, "Times New Roman", Times, serif;font-size: 17px;border:hidden;position:relative;top:46px;left:161px;color: black;}
+div.container{width:1000px;margin-left:auto;margin-right:auto;}
+div.logo{height:100px;width:400px;float:left;}
+div.logo img{margin-top:24px;}
+div.logofws{height:100px;width:400px;float:left;}
+div.logofws img{margin-top:1px;}
+div.search .column {float: left;height:192px;}
+div.bigsearchbackground{background-color:#f7e5e5;margin-bottom:48px;}
+div.bigsearch{position:relative;z-index:1;width:1000px;margin-left:auto;margin-right:auto;background-image:url(/css2/bigsearch.jpg);height:192px;}
+div.bigsearch .column {position: relative;float: left;height:192px;}
+div.bigsearch h1{padding-top:45px;padding-left:210px;color:white;font-weight:normal;white-space:nowrap;overflow:hidden;}
+div.bigsearch .searchinput{border:0pt solid white;display:block;width: 100%;font-family: Georgia, "Times New Roman", Times, serif;font-size: 23px;border:hidden;position:absolute;top:85px;left:200px;color: black;width:702px;}
+div.bigsearch div.explanation{font-family:arial,sans-serif;clear:both;float:left;font-size:14px;position:absolute;top:122px;left:210px;color:white;}
+input.searchgo{float:right;height:36px;width:36px;position:absolute;top:83px;left:936px;cursor:pointer;cursor:hand;}
+img.searchgosmall{position:absolute;height:28px;width:28px;margin-top:45px;margin-left:442px;cursor:pointer;cursor:hand;}
+div.main{width:1000px;margin-left:auto;margin-right:auto;position:relative;}
+div.mainwide{width:1020px;margin-left:auto;margin-right:auto;position:relative;}
+#mainleft{width:835px;}
+#mainright{width:795px;position:absolute;left:auto;margin-left:150px;}
+div.clear {clear: both;}
+#tnsuperholder{width:800px;margin-left:auto;margin-right:auto;position:relative;left:0px;top:30px;background-color:#660b0a;visibility:hidden;}
+#tnholder{width:800px;height:420px;overflow:hidden;position:absolute;z-index:999;border-color:#660b0a;border-style:solid;border-width:1px;            }
+#tnheader{width:100%;height:20px;overflow:hidden;visibility:hidden;background-color:#660b0a;color:white;}
+#tnheader a{color:white;}
+#divtnframe{clear:both;width:100%;height:400px;overflow-x:hidden;overflow-y: hidden; visibility:hidden;scroll-top:200;background-color:#660b0a;}
+#tnframe{margin-top:0px;margin-left:-135px;height:489px;width:935px;overflow-x: hidden; }
+table.ratings{width:1000px;border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;margin-left:auto;margin-right:auto;margin-bottom:15px;border-collapse: collapse; float:left;top:82px;margin-left:10px;}
+div.glass{width:72px;height:82px;float:left;}
+table.ratings tr.ratingsrow td.authore{background-color:#d6d6c7;text-align:left;padding-left:10px;width:160px;}
+table.ratings tr.ratingsrow td.authoro{background-color:#e7e8ca;text-align:left;padding-left:10px;width:160px;}
+table.ratings tr.ratingsrow td.authoro a,table.ratings tr.ratingsrow td.authore a,table.ratings tr.ratingsrow td.roundauthoro a,table.ratings tr.ratingsrow td.roundauthore a{text-decoration:underline;}
+table.ratings tr.ratingsrow td.roundauthore{background-image: url(/css2/roundauthore.png);background-position:0px 0px;background-repeat: no-repeat;background-color:#d6d6c7;text-align:left;padding-left:10px;}
+table.ratings tr.ratingsrow td.roundauthoro{background-image: url(/css2/roundauthoro.png);background-position:0px 0px;background-repeat: no-repeat;padding-left:10px;background-color:#e7e8ca;text-align:left;}
+table.ratings tr.ratingsheader td.ratingstar{width:130px;color:white;text-align:left;padding-left:30px;background-repeat: no-repeat;background-position: top left;background-image: url(/css2/ratingstar.jpg);cursor:help;}
+table.ratings td.noratings{width:200px;background-repeat: no-repeat;background-position: top left;background-image: url(/css2/noratings.jpg);cursor:help;color:white;}
+table.ratings td {border-style:none;margin:0px;padding:0px;height:24px;color:#5d5d5d;text-align:center;vertical-align:middle;}
+table.ratings a {color:#ffffff;}
+table.ratings td a.recommended {font-weight:bold;}
+table.ratings tr.ratingsheader{background-repeat: repeat-x;height:28px;font-size:12px;vertical-align:middle;}
+table.ratings td.vintagee{background-image: url(/css2/vintagee.png);}
+table.ratings td.vintageo{background-image: url(/css2/vintageo.png);}
+td.roundrvintagee{background-repeat: no-repeat;background-position: top right;background-image: url(/css2/roundrvintagee.png);}
+td.roundrvintageo{background-repeat: no-repeat;background-position: top right;background-image: url(/css2/roundrvintageo.png);}
+td.roundrvintageno{font-size:12px;vertical-align:middle;}
+#ratingexplanation{padding:4px;visibility:hidden;position:absolute;text-align:left;background:white;border-color:background-color:#d6d6c7;z-index:999;width:600px;height:300px;left:210px;top:120px;overflow:scroll;  border-style: solid;border-width:1px;                    }
+td.ratingee{background-color:#e1e2d2;}
+td.ratingeo{background-color:#d6d6c7;}
+td.ratingoe{background-color:#f3f4d5;}
+td.ratingoo{background-color:#e7e8ca;}
+table.ratings tr.ratingsrow {color:#5f5f5f;}
+table.ratings tr.ratingsrow a{color:#5f5f5f;}
+td.roundrratingee{background-repeat: no-repeat;background-position: top right;background-image: url(/css2/roundrratingee.jpg);background-color:#e1e2d2;}
+td.roundrratingeo{background-repeat: no-repeat;background-position: top right;background-image: url(/css2/roundrratingeo.png);background-color:#d6d6c7;}
+td.roundrratingoe{background-repeat: no-repeat;background-position: top right;background-image: url(/css2/roundrratingoe.png);background-color:#f3f4d5;}
+td.roundrratingoo{background-repeat: no-repeat;background-position: top right;background-image: url(/css2/roundrratingoo.png);background-color:#e7e8ca;}
+div.winecontainer{background-color:#ffffff;background-repeat: no-repeat;background-position: 10px 10px;background-image: url(/css2/wineinfobackground.jpg);position:relative;clear:both;width:1020px;min-height:110px;margin-left:auto;margin-right:auto;margin-top:10px;padding:0px;border:0px;z-index:2;}
+img.wineglass{float:left;}
+div.wine{float:left;margin-top:10px;height:72px;width:938px;padding-top:0px;}
+div.wine div.winename{float:left;clear:left;max-width:600px;margin-top:0px;padding-top:10px;color:white;font-size:18px;}
+div.wine div.winename h1{line-height: 90%;color:white;font-size:20px;letter-spacing:0px;margin-top:0px;}
+div.wine div.region h1,div.wine div.region h1 a {padding-top:0px;font-size:14px;color:#e7a8c8;letter-spacing:0px;margin-top:0px;}
+div.wine div.region h1 a{text-decoration:underline;}
+div.wine div.region{clear:left;float:left;}
+div.tastingnote{float:right;position:relative;background-image: url(/css2/tastingnotes.jpg);width:112px;height:20px;margin-top:8px;margin-right:25px;cursor:pointer;cursor:hand;}
+div.tastingnotes{position:absolute;background-color:white;border-style:solid;border-color:#e7a8c8;visibility:hidden;width:500px;top:30px;right:0px;z-index:2;}
+div.wltv{position:absolute;right:35px;top:48px;background-image: url(/css2/wltv.jpg);width:112px;height:20px;cursor:pointer;cursor:hand;}
+div.label{position:absolute;right:170px;margin-top:11px;}
+div.label img{max-width:100px;max-height:51px;}
+img.label{position:absolute;max-width:60px;max-height:100px;z-index:90;}
+img.label:hover{max-width:400px;max-height:400px;}
+div.labelmouseover{position:absolute;right:170px;margin-top:12px;}
+div.infobox{}
+div.mainwide div.infoboxrating {margin-right: 58px;}
+div.mainwide div.infoboxnorating {margin-right: 58px;}
+div.infoboxrating {margin-left:0px;float:left;width: 240px;height: 110px;margin-right: 25px;margin-top: 5px;margin-bottom: 25px;padding-left: 0px;background-image: url(/css2/ratingbox.jpg);cursor:pointer;cursor:hand;}
+div.infoboxnorating {margin-left:0px;float:left;width: 240px;height: 110px;margin-right: 25px;margin-top: 5px;margin-bottom: 25px;padding-left: 0px;background-image: url(/css2/noratingbox.jpg);cursor:pointer;cursor:hand;}
+div.infobox img.glassimg{float:left;border:0px;padding:0px;}
+div.infobox div.winename{width:164px;height:52px;float:left;padding-top:18px;color: #ffffff;overflow:hidden;cursor:pointer;cursor:hand;line-height:17px;}
+div.infobox div.winename a{color: white;cursor:pointer;cursor:hand;}
+div.infobox div.appellation{width:164px;float:left;color: #e7a8c8;cursor:pointer;cursor:hand;}
+div.infobox div.appellation a{color: #e7a8c8;cursor:pointer;cursor:hand;}
+div.clearboth{clear:both;}
+div.hemabox {clear:both;}
+div.infobox div.wineinfoscore {font-size:15px;color:#4a4734;clear:both;float:left;text-align:right;width: 32px;height: 28px;padding-top: 2px;padding-left:02px;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfoscore a{color:#4a4734;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfoprice {font-size:16pt;padding-top: 2px;color:white;font-size:18px;text-align:right;float:left;height: 31px;width: 100px;height: 28px;padding-right: 0px;padding-bottom: 2px;overflow:hidden;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfoprice a{color:white;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfooldprice {text-decoration:line-through;padding-top: 4px;color:#d4d4d4;font-size:14px;text-align:right;float:left;height: 31px;width: 80px;height: 28px;margin-left:20px;padding-right: 0px;padding-bottom: 2px;overflow:hidden;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfooldprice a{color:white;cursor:pointer;cursor:hand;}
+div.infobox div.vintage {padding-top: 2px;color:#d4d4d4;font-size:17px;text-align:center;float:left;height: 31px;width: 80px;height: 28px;margin-left:20px;padding-left: 5px;padding-bottom: 2px;overflow:hidden;cursor:pointer;cursor:hand;}
+div.infobox div.vintage a{color:white;cursor:pointer;cursor:hand;}
+div.infobox div.from a{padding-top: 6px;color:white;font-size:12px;text-align:right;float:left;height: 31px;width: 80px;height: 28px;margin-left:20px;padding-right: 0px;padding-bottom: 2px;overflow:hidden;cursor:pointer;cursor:hand;}
+#adrighthigh{width:160px;position:absolute;left:auto;margin-left:840px;margin-top:18px;}
+#adright{width:160px;position:absolute;left:auto;margin-left:840px;}
+#adright div.googlead{width:160px;position:absolute;left:auto;margin-top:61px;}
+#adright div.bannerad{width:160px;position:absolute;left:auto;margin-top:61px;}
+#adright div.recommendationad{width:160px;position:absolute;left:auto;margin-top:3px;}
+#adright div.recommendationad td{padding:0px;}
+div.recommendationad img{margin-top:1px;}
+div.recommendationad div.info{margin-top:10px;width:46px;height:22px;float:left;text-align:center;color:white;margin-left:4px;background-repeat: no-repeat;background-position: top left;background-image: url(/css/adback.jpg);}
+div.recommendationad div.price{margin-top:10px;width:60px;height:22px;float:left;text-align:center;color:white;background-repeat: no-repeat;background-position: top left;background-image: url(/css/adprice.jpg);}
+div.recommendationad div.rating{width:50px;height:18px;float:left;text-align:center;color:#5d5d5d;margin-right:4px;background-repeat: no-repeat;background-position: top left;background-image: url(/css/adrating.jpg);}
+div.recommendationad div.rating div.author{width:25px;float:left;margin:0px;}
+div.recommendationad div.rating div.points{width:25px;float:left;margin:0px;}
+#adrightplaceholder{width:1px;height:600px;float:right}
+div.announcements{clear:left;margin-left:0px;margin-right:0px;padding-bottom:20px;color:#4a4734;background-color:#fefeb4;background-position: bottom; background-repeat: repeat-x;background-image: url(/css2/champagne.jpg);}
+div.columnholder{width:1000px;margin-left:auto;margin-right:auto;}
+div.announcements h2{margin-top:10px;margin-bottom:5px;color: #94446e;}
+div.announcements div.column{float:left;font-family:arial,sans-serif;width:225px;padding-left:10px;padding-right:30px;}
+div.announcements a{color:white;}
+div.otherfeatures{width:1000px;margin-left:auto;margin-right:auto;background-color:#8c0b46;height:49px;margin-top:30px;margin-bottom:10px;}
+div.otherfeatures h2{float:left;font-weight:normal;padding-left:20px;padding-top:6px;color:#bfc152;}
+div.otherfeatures a{float:left;padding-top:7px;color:#ffffff;margin-left:30px;margin-top:7px;}
+div.otherfeaturesl{float:left;background-image:url(/css2/otherfeaturesl.jpg);height:49px;width:10px;}
+div.otherfeaturesr{float:right;background-image:url(/css2/otherfeaturesr.jpg);height:49px;width:10px;}
+div.tips{}
+div.tipslink{float:left;margin-left:700px;height:25px;font-family:Arial;}
+div.column a{text-decoration:underline;color: #94446e;}
+div.footer {clear:both;height:20px;margin-top:10px;margin-left:10px;font-family: arial;font-size:11px;}
+div.authornote {clear:both;font-family: arial;font-size:11px;}
+div.footer #copyright{float:left;margin-top:8px;}
+div.footer #links{float:left;margin-top:8px;}
+div.footer a{text-decoration:underline;padding-right:10px;}
+a {text-decoration: none;border-style: none;color: #4d0027;}
+a:hover {text-decoration: none;border-style: none;color: #94446e;}
+div.refinelist a{}
+div.refinelist table{border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;border-collapse: collapse; font-size:14px;color: #4d0027;}
+div.refinelist tr{height:24px;}
+div.refinelist tr.odd{background-color:#f6ebdb;}
+div.suggestionlist a:hover {color: #94130e;}
+div.suggestionlist a{color: #4d0027;}
+div.suggestionlist{max-width:800px;}
+div.suggestionlist table{width:100%;border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;border-collapse: collapse; font-size:14px;color: #4d0027;}
+div.suggestionlist tr{height:24px;}
+div.suggestionlist tr.odd{background-color:#f6ebdb;}
+div.refinelist a:hover {color: #94130e;}
+.suggest_link {background-color: #cb8a8a;color: white;padding: 1px 3px 1px 3px;z-index: 999;}
+.suggest_link_over {background-color: #964d4d;color: white;padding: 1px 3px 1px 3px;z-index: 999;}
+div.search_suggest_hidden {visibility: hidden;cursor: default;position: absolute;top:120px;left:0px;background-color: #ffffff;color: black;text-align: left;border: 1px solid white;}
+div.search_suggest_border {-moz-box-sizing: border-box;box-sizing: border-box;cursor: default;position: absolute;top:116px;left:200px;width: 273px;background-color: #ffffff;color: black;text-align: left;border: 1px solid #94446e;z-index: 999;}
+div.search div.search_suggest_border {position: absolute;top:69px;left:160px;margin-top:0px;}
+h2.refine{width:1000px;margin-left:auto;margin-right:auto;}
+div.refine{width:1000px;margin-left:auto;margin-right:auto;height:31px;background-image:url(/css2/refine.jpg);background-repeat:repeat-x;vertical-align:bottom;color:#ffffff;position:relative;margin-bottom:10px;z-index:1;}
+div.refine div.refinel{float:left;width:7px;height:31px;background-image:url(/css2/refinel.jpg);background-repeat:no-repeat;}
+div.refine div.refiner{float:right;width:7px;height:31px;background-image:url(/css2/refiner.jpg);background-repeat:no-repeat;}
+div.refine div.refinewines{float:left;padding-top:7px;padding-left:5px;z-index:2;cursor:hand;cursor:pointer;}
+div.refine div.refinelist{position:absolute;z-index:200;background-color:white;top:32px;border:2px solid #985900;border-top:0px;margin-top:-1px;visibility:hidden;}
+div.refine div.suggestions{width:90px;float:left;padding-top:7px;padding-left:15px;z-index:2;}
+div.refine div.suggestionlist{position:absolute;min-width:400px;z-index:200;background-color:white;top:32px;visibility:hidden;border:2px solid #985900;border-top:0px;margin-top:-1px;}
+div.refine div.text{float:left;padding-top:7px;padding-left:15px;}
+div.refine select{float:left;margin-top:5px;margin-left:7px;}
+div.refine div.currency{float:left;padding-top:5px;padding-left:15px;}
+div.refine img{margin-left:4px;}
+div.refine img.greengo{float:right;width:24px;height:24px;padding-top:3px;cursor:pointer;cursor:hand;}
+div.results{margin-top:15px;width:827px;}
+div.resulth img{width:11px;}
+div.resulth a{color:white;}
+div.results div.resulth{float:left;width:827px;color:white;height:32px;background-image:url(/css2/resulth.jpg);background-repeat:repeat-x;}
+div.results div.flag {width:34px;height:27px;padding-top:5px;float:left;background-image:url(/css2/resulthl.jpg);background-repeat:no-repeat;}
+div.results div.flagstr {width:34px;height:27px;padding-top:5px;float:left;background-image:url(/css2/resulthlstr.jpg);background-repeat:no-repeat;}
+div.results div.shop {float:left;padding-top:5px;height:27px;width:150px;}
+div.results div.rating {float:left;padding-top:5px;height:27px;width:60px;text-align:right;}
+div.results div.vintage {float:left;height:27px;padding-top:5px;width:66px;text-align:right;}
+div.results div.currency {float:right;height:27px;padding-top:5px;width:7px;text-align:right;background-image:url(/css2/resulthr.jpg);background-position:top right;background-repeat:no-repeat;}
+div.results div.size {float:left;padding-top:5px;height:27px;width:46px;text-align:right;}
+div.results div.region {float:left;padding-top:5px;height:27px;width:140px;text-align:left;}
+div.results div.winename {float:left;padding-top:0px;padding-top:5px;height:27px;width:387px;}
+div.results div.roundwinename {float:left;padding-top:0px;padding-top:5px;height:27px;width:365px;padding-left:10px;background-image:url(/css2/resulthl.jpg);background-repeat:no-repeat;}
+div.results div.price{float:left;padding-top:5px;height:27px;width:74px;text-align:right;}
+div.results div.oldprice{float:left;padding-top:5px;height:27px;width:49px;text-align:right;}
+div.results img.sort{position:relative;margin:0px;padding:0px;border-style:collapse;border-width:0px;top:3px;}
+div.resultf div.pages{float:left;padding-top:7px;padding-left:15px;height:27px;background-image:url(/css2/resultfl.jpg);background-repeat:no-repeat;cursor:pointer;}
+div.resultf div.pageselector{float:right;padding-top:7px;padding-right:15px;height:27px;background-image:url(/css2/resultfr.jpg);background-position:top right;background-repeat:no-repeat;}
+div.resultf div.pageselector a{color:white;padding-left:3px;padding-right:3px;cursor:pointer;}
+div.results div.resultf{float:left;width:827px;color:white;height:32px;background-image:url(/css2/resultf.jpg);background-repeat:repeat-x;margin-bottom:5px;font-size:12px;}
+#adbetween{width:1000px;margin-left:auto;margin-right:auto;margin-bottom:10px;}
+table.results{table-layout:fixed;width:827px;border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;border-collapse: collapse; clear:left;}
+table.results tr{}
+table.results td{color:#646464;height:24px;padding:0px;margin:0px;cell-spacing:0px;overflow:hidden;white-space: nowrap;vertical-align:middle;font-size:12px;}
+table.results td a{color:#646464;}
+table.results tr.odd{background-color:#f5e5d8;}
+table.results td.flag {width:30px;padding-left:3px;}
+table.results td.shop {width:140px;white-space: nowrap;overflow:hidden;}
+table.results td.region {width:140px;white-space: nowrap;overflow:hidden;}
+table.results td.rating {width:52px;text-align:right;}
+table.results td.vintage {width:63px;text-align:right;}
+table.results td.currency {width:20px;text-align:left;padding-left:2px;vertical-align:middle;}
+table.results td.size {width:57px;text-align:right;}
+table.results td.winename span{cursor:pointer;color:#4d0027;width:397px;overflow:hidden;white-space: nowrap;font-size:13px;margin-left:10px;}
+table.results td.price{color:#4d0027;width:60px;font-size:13px;}
+table.results td.oldprice{color:#4d0027;width:60px;font-size:13px;text-decoration: line-through;}
+div.results h2{float:left;}
+div.alternatives{margin-top:15px;width:700px;}
+div.alternatives div.alternativesh{float:left;width:700px;color:white;height:32px;background-image:url(/css2/resulth.jpg);background-repeat:repeat-x;}
+div.alternatives div.left {width:7px;height:27px;padding-top:5px;float:left;background-image:url(/css2/resulthl.jpg);background-repeat:no-repeat;}
+div.alternatives div.hits {float:right;height:27px;padding-top:5px;width:60px;text-align:left;background-image:url(/css2/resulthr.jpg);background-position:top right;background-repeat:no-repeat;}
+div.alternatives div.region {float:left;padding-top:5px;height:27px;width:216px;text-align:left;}
+div.alternatives div.winename {float:left;padding-top:0px;padding-top:5px;height:27px;width:397px;}
+div.alternatives div.alternativesf{float:left;width:700px;color:white;height:32px;background-image:url(/css2/resultf.jpg);background-repeat:repeat-x;margin-bottom:5px;font-size:12px;}
+div.alternativesf div.left{float:left;padding-top:7px;padding-left:15px;height:27px;background-image:url(/css2/resultfl.jpg);background-repeat:no-repeat;}
+div.alternativesf div.right{float:right;padding-top:7px;padding-right:15px;height:27px;background-image:url(/css2/resultfr.jpg);background-position:top right;background-repeat:no-repeat;}
+table.alternatives{table-layout:fixed;width:700px;border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;border-collapse: collapse; clear:left;}
+table.alternatives tr.odd{background-color:#f1e7ec;}
+table.alternatives td{color:#646464;height:24px;padding:0px;margin:0px;cell-spacing:0px;overflow:hidden;white-space: nowrap;vertical-align:middle;font-size:12px;}
+table.alternatives td.winename a{color:#4d0027;width:400px;overflow:hidden;white-space: nowrap;font-size:13px;margin-left:8px;}
+#name{padding-left:18px;}
+table.alternatives td.number {width:70px;text-align:right;padding-right:10px;}
+table.alternatives td a{color:#646464;}
+table.alternatives td.region {width:216px;text-align:left;}
+div.permalink{float:right;vertical-align:top;padding-top:7px;}
+div.bookmark{float:right;padding-top:8px;}
+a.freetext{float:left;padding-top:7px;padding-left:20px;}
+div.bigsearch a{color:white;text-decoration:none;}
+div.textpage li{font-family:georgia,arial;color:#53494e;font-size:16px;padding-bottom:10px;padding-top:5px;}
+div.textpage h1{font-family:georgia,arial;font-size:30px;padding-bottom:4px;padding-top:20px;color: #920402;}
+div.textpage h2{font-family:georgia,arial;font-size:18px;padding-bottom:4px;padding-top:10px;color: #4d0027;}
+img.feedexample { border-width: 4px;border-spacing: 0px;border-style: ridge;border-color: grey;border-collapse: separate;}
+img.feedexamples{clear:both;margin-top:10px;margin-right:15px;float:left;}
+div.feedexamples{float:left;}
+div.feedexamples h3{padding-top:15px;padding-bottom:5px;}
+div.feedexamples div{float:left;width:1000px;}
+img.moneyselected { border-width: 4px;border-spacing: 0px;border-style: ridge;border-color: grey;border-collapse: separate;cursor:pointer;}
+img.money { padding:4px;cursor:pointer;}
+img.glassselected { border-width: 4px;border-spacing: 0px;border-style: ridge;border-color: grey;border-collapse: separate;cursor:pointer;}
+img.glass { padding:4px;cursor:pointer;}
+div.champcolumn{width:380px;height:100%;margin-top:0px;margin-right:7px;margin-left:0px;background-repeat: no-repeat;background-image: url(/css2/champroundcorners.gif);float:left;}
+div.champcolumn div.text{margin:10px;}
+div.businesscard{float:right;background-repeat: no-repeat;background-image: url(/css2/businesscard.gif);background-position:top left;vertical-align:middle;height:150px;width:270px;margin-left:15px;padding:15px;padding-top:0px;color:black;}
+div.businesscard h3{color:#94446e;}
+div.champcolumnbottom{background-repeat: no-repeat;background-image: url(/css2/roundbottom.gif);background-position:bottom;height:8px;}
+.top10 th{height:1px;width:330px;}
+table.top10 h2{padding-left:21px;color:#ffa;}
+.top10 td.c1{width:15px;}
+.top10 td.c3{width:90px;}
+div.pricenote {font-family:Arial;font-size: 7pt;float: left;margin-left:10px;clear: left;margin-top:12px;}
+div.note {font-size: 10px;}
+div.hbox{height:30px;border:0px;}
+/* Autocomplete */.ac_results {z-index:999;padding: 0px;border: 1px solid WindowFrame;border-top:0px;background-color: Window;overflow: hidden;}
+.ac_results ul {width: 100%;list-style-position: outside;list-style: none;padding: 0;margin: 0;}
+.ac_results ul div{padding: 0;margin: 0;}
+.big ul div{height:20px;}
+.ac_results iframe {display:none;/*sorry for IE5*/display/**/:block;/*sorry for IE5*/position:absolute;top:0;left:0;z-index:-1;filter:mask();width:3000px;height:3000px;}
+.ac_results li {margin: 0px;cursor: pointer;display: block;width: 100%;line-height:20px;font: menu;font-size: 12px;}
+.ac_results.big li {height:20px;overflow: hidden;}
+.ac_loading {background : Window url('/images/indicator.gif') left center no-repeat;}
+.ac_over {background-color: #cb8a8a;color: HighlightText;}
+.ac_over {background-color: #930503;color: HighlightText;}
+.ac_results ul li div.category,.ac_results ul li div.categoryhead{width:100px;height:100%;float:left;clear:left;background-color: Window;color: #888;}
+.ac_results.small ul li{padding:2px;}
+.ac_results.small ul li div.c,.ac_results.small ul li div.chead{width:100%;}
+.ac_results.small ul li div.categoryhead{width:100%;}
+.ac_results.small ul li div.category{width:0px;}
+.ac_results  div.categoryhead img{float:left;margin-right:5px;padding-top:3px;padding-left:5px;}
+.ac_results div.category{width:50px;}
+.ac_results li {}
+.ac_results div.categoryhead, .ac_results div.chead{border-top:1px solid #888;}
+div#frameheader{vertical-align:top;height:45px;overflow:hidden;}
+div#frameheader a{text-decoration:underline;}
+div#frameheader div{float:left;margin-top:4px;}
+div#frameheader div.text{margin-left:20px;margin-top:15px;}
+div#frameheader .findwine{top:12px;}
+div#frameheader div.search{background-position: 0px 4px;}
+div#frameheader .searchinput{top:10px;}
+div#frameheader img.searchgosmall {margin-left:442px;margin-top:10px;}
+div#frameheader div.closeframe.text{float:right;}
+body#framebody{height:48px;}
+div#wr{position:relative;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#rnext,#rprev{cursor:pointer;background: url(/images/button.jpg) no-repeat;text-align:center;color:white;width:76px;height:22px;margin:10px;padding-top:3px;font-family:arial;}
+#rprev {position:absolute; top:20px; right:80px;}
+#rnext {position:absolute; top:20px; right:0px;}
+#rnext a,#rprev a{text-align:center;color:white;font-size:12px;}
+#guidedsearch{width:150px;position:absolute;float:left;}
+table.guidedsearch{width:100%;}
+div.criterionh{    clear:both;    margin-top:10px;    text-decoration: none;    font-weight:bold;    color:#500;    }
+    .criterions{    background-color:#ff9;    color:#700;    clear:both;            }
+    div.criterion:hover, div.criterions:hover{    background-color:#ff9;    color:#700;    cursor:pointer;    }
+    #pricemin,#pricemax,#vintageminsl,#vintagemaxsl{display:none;}
+    img.close{float:right;cursor:pointer;padding-top:2px;z-index:5;    }
+    img#ratingclose, img#vintageclose{margin-top:8px;}
+    img#ratingspinner,img#pricespinner,img#vintagespinner{margin-top:8px;}
+    img#regionclose, img#grapeclose{padding-top:3px;}
+    #priceclose{display:none;margin-top:8px;}
+div.subregion{color:gray;}
+    #region{width:120px;float:left;}
+#grape{width:130px;float:left;}
+#countryofseller{width:130px;float:left;}
+#result {min-height:650px;margin:0px;margin-left:10px;position:relative; overflow-x:hidden; overflow-y:visible; width: 616px;z-index:1;}
+#result.shopresult{width: 658px;}
+#result h1{color:#5f5f5f;font-size:20px;padding-top:0px;float:left;}
+#result div.items { width:20000em;  position:absolute;clear:left;}
+ #result div.items div.page {  float:left; }
+#GuidedSearchform h4{padding-top:4px;}
+#GuidedSearchform .spinner{float:right;display:none;}
+div.slider{float:left;width:120px;margin-top: 10px;margin-left:5px;}
+div.sliderlegend{width:130px;clear:left;padding-top:5px;}
+div.slider-min{width:50px;float:left;margin-bottom:10px;}
+    div.slider-max{width:60px;float:right;text-align:right;}
+div#criteria{position:relative;}
+.cc{cursor:pointer;}
+.cc:hover{text-decoration:underline;}
+#gspanes {background-color:red;margin:0px;padding:0px;height:0px;}
+div.wa a{color:#5f5f5f;}
+div.wa {width:604px;position:relative;float:left; clear:left;font-family: arial;color:#5F5F5F;font-size: 9pt;background-repeat:no-repeat;border-style:solid;border-width:1px;border-top-style:none;border-color:#999999;padding-right:10px;border-collapse:separate;padding-top:5px;}
+div.wa .wn{position:relative;margin-left:70px;margin-top:5px;}
+div.wa .wn a{position:relative;margin-top:5px;font-weight:bold;color:#4d0027;font-size:1.2em;}
+.wn a:hover{color:#4d0027;text-decoration:underline;}
+.wa img.wrlabel{border:1px grey; border-style:solid;left:0px;position:absolute;z-index:1;max-width:60px;max-height:80px;}
+.wa img.wrlabel:hover{max-width:300px;max-height:300px;position:absolute;z-index:200;}
+.wa img.wrlabel.bottom:hover{left:0px;bottom:10px;}
+.wa div{position:relative;margin-bottom:4px;border-style:none;}
+.detail{float:left;padding-left:70px;width:350px;}
+span.gr{float:left;background: url(/images/grapered.jpg) no-repeat 0px 2px;;padding-left:25px;}
+span.gw{float:left;background: url(/images/grapewhite.jpg) no-repeat;padding-left:25px;}
+.gt img{vertical-align:middle;margin-left:10px;margin-right:5px;margin-bottom:5px;}
+span.wt img{margin-right:5px;}
+div.ct{padding-top:2px;clear:both;background:url(/images/chateau.jpg) no-repeat center left;padding-left:25px;}
+.ras{float:left;width:90px;min-height:50px;}
+div.au{clear:both;float:left;width:40px;background: #aaaaaa;color:white;text-align:center;margin-bottom:2px;}
+div.po{float:left;width:46px;background: #f3f4d5;text-align:center;margin-bottom:2px;}
+.pr{float:left;width:80px;}
+.pre{text-align:right;padding-right:30px;background:url(/images/europe.jpg)  no-repeat; background-position:right;}
+.pra{text-align:right;padding-right:30px;background:url(/images/usa.jpg)  no-repeat; background-position:right;}
+div.act{float:right;height:50px;}
+div.ps{padding-left:25px;background: url(/images/magnglass.jpg) no-repeat;height:17px;text-align:right;}
+div.ps a{color:#5f5f5f;cursor:pointer;}
+div.ps a:hover{text-decoration:underline;}
+div.wish{background: url(/images/plus.jpg) no-repeat;padding-left:25px;}
+div.waline {width:604px;;position:relative; clear:left;float:left;height:0px;border-style:solid;border-width:1px;border-bottom-style:none;border-color:#999999;padding-right:10px;border-collapse:separate;}
+#next1,#next2,#next3,#next4,#prev1,#prev2,#prev3,#prev4{cursor:pointer;background: url(/images/button.jpg) no-repeat;text-align:center;color:white;width:76px;height:22px;margin:10px;padding-top:3px;font-family:arial;}
+#prev1,#prev2,#prev3,#prev4 {position:absolute; top:30px; right:80px;z-index:100;display:none}
+#next1,#next2,#next3,#next4 {position:absolute; top:30px; right:0px;z-index:100;display:none}
+#next1 a,#next2 a,#next3 a,#next4 a,#prev1 a,#prev2 a,#prev3 a,#prev4 a{text-align:center;color:white;font-size:12px;}
+#winedetails{width:1000px;overflow:auto;margin-bottom:20px;}
+#winedetails div.wa{border:0px;width:530px}
+#winedetails table td.left{font-family:Arial;border:1px solid #888;padding:10px;width:450px}
+#winedetails table td.left .name{font-family:Arial;font-weight:bold;}
+#winedetails table td.left .addedon{color:#888;padding-top:3px;padding-bottom:3px;}
+#winedetails table td.center{border:0px solid white;width:10px;}
+#winedetails table td.right{border:1px solid #888;}
+#result table.results td{overflow:hidden;}
+#result table.results td.info {width:15px;}
+#result table.results td.winename {cursor:pointer;color:#4D0027;padding-left:10px;}
+#result table.results td.vintage {width:20px;}
+#result table.results td.rating {width:30px;}
+#result table.results td.size {width:50px;}
+#result table.results td.price {min-width:50px;}
+#result table.results td.currency {width:10px;}
+#result table.results td.marketprice {width:70px;}
+#result table.results td.marketprice img{width:13px;margin:0px;padding:0px;}
+#result div.results {margin-top:0px;}
+#result table.results div.detail{width:400px;}
+#result table.results div.ras{width:100px;}
+#result div.brd{border: solid 1px #808080;border-top:none;margin:0;padding:0;width:656px;}
+#result table.results{width:656px;}
+div.starslabel{clear:both;float:left;width:70px;margin-bottom:2px;}
+div.stars{float:left;width:70px;margin-bottom:2px;}
+div.pan{background-color:white;}
+div.storecontent{float:left;min-width:600px;max-width:958px;min-height:180px;border:1px solid #808080;border-top:none;overflow:auto;margin-bottom:20px;}
+#storegeneral div.storecontent{padding:20px;width:968px;}
+#storepanes .storepane{display:none;}
+#storepanes div.storepane#storegeneral{display:block;}
+div.storecontent div.description{float: left;padding-left:10px;}
+div.storecontent div.storeimage img{float: right;max-width:250px;max-height:180px;margin-left:10px;}
+#cart {padding:10px;padding-left:20px;}
+#cart a{text-decoration:underline;cursor:pointer;}
+
+.dialog {clear:both; position:relative; margin:0px auto; min-width:8em; max-width:1060px; /* based on image dimensions - not quite consistent with drip styles yet */ color:#fff; z-index:1; margin-left:20px; /* default, width of left corner */ margin-bottom:0.5em; /* spacing under dialog */}
+.dialog .content,.dialog .t,.dialog .b,.dialog .b div { background:transparent url(/css2/redbox.png) no-repeat top right; _background-image:url(/css2/redbox.png);}
+.dialog .content,.dialog .content a { position:relative; zoom:1; _overflow-y:hidden; padding:0px 12px 0px 0px; color:#fff;}
+.dialog .t { /* top+left vertical slice */ position:absolute; left:0px; top:0px; width:12px; /* top slice width */ margin-left:-12px; height:100%; _height:1600px; /* arbitrary long height, IE 6 */ background-position:top left;}
+.dialog .b { /* bottom */ position:relative; width:100%;}
+.dialog .b,.dialog .b div { height:30px; /* height of bottom cap/shade */ font-size:1px;}
+.dialog .b { background-position:bottom right;}
+.dialog .b div { position:relative; width:12px; /* bottom corner width */ margin-left:-12px; background-position:bottom left;}
+.dialog.crit .content,.dialog.crit .t,.dialog.crit .b,.dialog.crit .b div { background-image:url(/css2/criteriabox.png);}
+.dialog .hd,.dialog .bd,.dialog .ft { position:relative;}
+.dialog .wrapper { /* extra content protector - preventing vertical overflow (past background) */ position:static; max-height:1000px; overflow:auto; /* note that overflow:auto causes a rather annoying redraw "lag" in Firefox 2, and may degrade performance. Might be worth trying without if you aren't worried about height/overflow issues. */}
+.dialog h2,.dialog p { margin:0px; /* margins will blow out backgrounds, leaving whitespace. */ padding:0.5em 0px 0.5em 0px;}
+.dialog h2 { padding-bottom:0px;}

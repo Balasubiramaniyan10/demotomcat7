@@ -1,0 +1,1013 @@
+html { overflow-y: scroll; }
+body {height: 100%;text-align: left;color: #4d0027;background-color:#ffffff;background-repeat: no-repeat;font-family:Georgia, Arial;font-size: 14px;vertical-align: top;margin:0px;border:0px;padding:0px;min-width:1000px;}
+div.centertext{width:1000px;margin-left:auto;margin-right:auto;position:relative;}
+div.textpage{font-family:Georgia, Arial;color:#715663;font-size:16px;width:1000px;margin-left:auto;margin-right:auto;position:relative;}
+div.textpage #left{float:left;width:534px;} 
+div.textpage #right{float:right;width:300px;}
+div.textpage img.photo{width: 100%;position:relative; margin-top:100px; margin-left: auto;margin-right: auto; /*H-centering in complaint browsers*/}
+h1 {letter-spacing: -1px;font-size: 22px;margin-top: 6px;margin-bottom: 3px;font-weight:normal;}
+h2 {font-family: Georgia, Arial;font-size: 18px;margin-top: 5px;margin-bottom: 2px;font-weight:normal;}
+h3 {font-family: Georgia, Arial;font-size: 17px;margin-top: 4px;margin-bottom: 3px;font-weight:normal;}
+h4 {font-size: 16px;margin-top: 4px;margin-bottom: 3px;font-weight:normal;}
+span.small{font-size:70%;}
+span.small a{text-decoration:underline;}
+a:link img {border-style: none;}
+img {border-style: none;}
+td{vertical-align:top;}
+span.jslink{text-decoration:underline;cursor:pointer}
+div.topbar.spriter.spriter-refine{font-family:arial,sans-serif;font-size:12px;color: white;width:100%;height:18px;padding-top:1px;}
+div.topbarcontent{width:1000px;margin-left:auto;margin-right:auto;}
+div.topbar a{color:white;text-decoration:underline;padding-right:30px;}
+#mobile{margin-left:3px;float:left;}
+#language{color:white;float:right;margin-right:3px;}
+#language a{padding-right:0px;}
+#language img{margin-top:1px;}
+#plusone{float:right;width:60px;margin-top:50px;}
+#storeskyscraper{float:left;width:160px;height:660px;padding-top:60px;padding-left:10px;}
+div.logoandsearch{width:1000px;margin-top:0px;margin-left:auto;margin-right:auto;height:100px;postion:relative;z-index:1;font-size:13px;}
+div.logoandsearch .logo img,div.container .logo img{width:334px;height:63px;}
+img.sort{width:9px;height:13px;}
+div.search{position:relative;z-index:990;float:right;width:475px;height:100px;background-repeat: no-repeat;background-position:0px 40px;background-image: url(https://static.vinopedia.com/css2/search.jpg);}
+.findwine{color:white;position:absolute;top:49px;left:7px;}
+#linkboard div.text{float:right;padding-top:11px;}
+#linkboard #back{position:absolute; top:20px;right:30px;width:150px;}
+div.logoandsearch .searchinput,#linkboard .searchinput{border:0pt solid white;display:block;width: 252px;font-family: Georgia, "Times New Roman", Times, serif;font-size: 17px;border:hidden;position:relative;top:46px;left:161px;color: black;}
+div.container{width:1000px;margin-left:auto;margin-right:auto;}
+div.logo{height:100px;width:400px;float:left;}
+div.logo img{margin-top:24px;}
+div.logofws{height:100px;width:400px;float:left;}
+div.logofws img{margin-top:1px;}
+div.search .column {float: left;height:192px;}
+div.bigsearchbackground{background-color:#f7e5e5;margin-bottom:24px;}
+div.bigsearch{position:relative;z-index:1;width:1000px;margin-left:auto;margin-right:auto;background-image:url(https://static.vinopedia.com/css2/bigsearch.jpg);height:192px;}
+div.bigsearch .column {position: relative;float: left;height:192px;}
+div.bigsearch h1{padding-top:45px;padding-left:210px;color:white;font-weight:normal;white-space:nowrap;overflow:hidden;}
+div.bigsearch .searchinput{border:0pt solid white;display:block;width: 100%;font-family: Georgia, "Times New Roman", Times, serif;font-size: 23px;border:hidden;position:absolute;top:85px;left:200px;color: black;width:702px;}
+div.bigsearch div.explanation{font-family:arial,sans-serif;clear:both;float:left;font-size:14px;position:absolute;top:122px;left:210px;color:white;}
+input.searchgo{float:right;height:36px;width:36px;position:absolute;top:83px;left:936px;cursor:pointer;cursor:hand;}
+div.searchgosmall{position:absolute;height:28px;width:28px;top:45px;left:442px;cursor:pointer;cursor:hand;}
+div.main{width:1000px;margin-left:auto;margin-right:auto;position:relative;clear:both;}
+div.mainstore{width:1200px;margin-left:auto;margin-right:auto;position:relative;clear:both;}
+div.mainwide{width:1020px;margin-left:auto;margin-right:auto;position:relative;}
+#mainleft{width:835px;}
+#mainright{width:650px;left:auto;margin-left:150px;}
+div.clear {clear: both;}
+#tnsuperholder{width:800px;margin-left:auto;margin-right:auto;position:relative;left:0px;top:30px;background-color:#660b0a;visibility:hidden;}
+#tnholder{width:800px;height:420px;overflow:hidden;position:absolute;z-index:999;border-color:#660b0a;border-style:solid;border-width:1px;            }
+#tnheader{width:100%;height:20px;overflow:hidden;visibility:hidden;background-color:#660b0a;color:white;}
+#tnheader a{color:white;}
+#divtnframe{clear:both;width:100%;height:400px;overflow-x:hidden;overflow-y: hidden; visibility:hidden;scroll-top:200;background-color:#660b0a;}
+#tnframe{margin-top:0px;margin-left:-135px;height:489px;width:935px;overflow-x: hidden; }
+table.ratings{width:1000px;border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;margin-left:auto;margin-right:auto;margin-bottom:15px;border-collapse: collapse; float:left;top:82px;margin-left:10px;}
+div.glass{width:72px;height:82px;float:left;}
+div.wine #twitdrinkingnow{position:absolute;right:160px;top:20px;width:48px;height:48px;}
+table.ratings tr.ratingsrow td.authore{background-color:#d6d6c7;text-align:left;padding-left:10px;width:160px;}
+table.ratings tr.ratingsrow td.authoro{background-color:#e7e8ca;text-align:left;padding-left:10px;width:160px;}
+table.ratings tr.ratingsrow td.authoro a,table.ratings tr.ratingsrow td.authore a{text-decoration:underline;}
+table.ratings tr.ratingsrow td.sprite-authoro a,table.ratings tr.ratingsrow td.sprite-authore a,table.ratings tr.ratingsrow td.sprite-roundauthoro a,table.ratings tr.ratingsrow td.sprite-roundauthore a{text-decoration:underline;}
+table.ratings tr.ratingsrow td.sprite-roundauthore{background-color:#d6d6c7;text-align:left;padding-left:10px;}
+table.ratings tr.ratingsrow td.sprite-roundauthoro{padding-left:10px;background-color:#e7e8ca;text-align:left;}
+td.roundrratingee{background-color:#e1e2d2;}
+td.roundrratingeo{background-color:#d6d6c7;}
+td.roundrratingoe{background-color:#f3f4d5;}
+td.roundrratingoo{background-color:#e7e8ca;}
+table.ratings tr.ratingsheader td.ratingstar{width:130px;color:white;text-align:left;padding-left:30px;cursor:help;}
+table.ratings td.noratings{width:200px;background-repeat: no-repeat;background-position: top left;background-image: url(https://static.vinopedia.com/css2/noratings.jpg);cursor:help;color:white;}
+table.ratings td {border-style:none;margin:0px;padding:0px;height:24px;color:#5d5d5d;text-align:center;vertical-align:middle;}
+table.ratings a {color:#ffffff;}
+table.ratings td a.recommended {font-weight:bold;}
+table.ratings tr.ratingsheader{background-repeat: repeat-x;height:28px;font-size:12px;vertical-align:middle;}
+table.ratings tr.ratingsheader h2{font-size:12px;vertical-align:middle;}
+td.sprite-roundrvintagee a,td.sprite-roundrvintageo a,table.ratings td.spriter-vintagee a,table.ratings td.spriter-vintageo a{border-bottom:1px solid #ddd;}
+table.ratings td.spriter-vintagee,table.ratings td.spriter-vintageo{color:white}
+td.roundrvintagee{background-repeat: no-repeat;background-position: top right;background-image: url(https://static.vinopedia.com/css2/roundrvintagee.png);}
+td.roundrvintageo{background-repeat: no-repeat;background-position: top right;background-image: url(https://static.vinopedia.com/css2/roundrvintageo.png);}
+td.roundrvintageno{font-size:12px;vertical-align:middle;}
+#ratingexplanation{padding:4px;display:none;position:absolute;text-align:left;background:white;border-color:background-color:#d6d6c7;z-index:999;width:600px;height:300px;left:210px;top:120px;overflow:scroll;  border-style: solid;border-width:1px;                    }
+td.ratingee{background-color:#e1e2d2;}
+td.ratingeo{background-color:#d6d6c7;}
+td.ratingoe{background-color:#f3f4d5;}
+td.ratingoo{background-color:#e7e8ca;}
+table.ratings tr.ratingsrow {color:#5f5f5f;}
+table.ratings tr.ratingsrow a{color:#5f5f5f;}
+div.winecontainer{background-color:#ffffff;background-repeat: no-repeat;background-position: 10px 10px;background-image: url(https://static.vinopedia.com/css2/wineinfobackground.jpg);position:relative;clear:both;width:1020px;min-height:110px;margin-left:auto;margin-right:auto;margin-top:10px;padding:0px;border:0px;z-index:2;}
+#linkboard{position:relative;height:200px;margin-top:-148px;width:100%}
+#linkboard #content{height:64px;border:2px solid #370504;border-top:0px;}
+#linkboard img.linkimage{margin:10px;}
+#linkboard div.winecontainer{margin-top:-1px;height:82px;min-height:82px;overflow:hidden;}
+#linkboardheader img{margin-bottom:7px;margin-top:1px;float:left;}
+.divider{height:2px;width:100%;background-color: #aaaaaa;position:absolute;bottom:0px;z-index:999;}
+img.wineglass{float:left;}
+div.wine{float:left;margin-top:10px;height:72px;width:938px;padding-top:0px;}
+div.wine div.winename{float:left;clear:left;max-width:600px;margin-top:0px;padding-top:10px;color:white;font-size:18px;}
+div.wine div.winename h1,div.wine div.winename h1 a{line-height: 90%;color:white;font-size:20px;letter-spacing:0px;margin-top:0px;}
+div.wine div.region,div.wine div.region a {padding-top:0px;font-size:14px;color:#e7a8c8;letter-spacing:0px;margin-top:0px;}
+div.wine div.region a{text-decoration:underline;}
+div.wine div.region{clear:left;float:left;max-width:600px;}
+div.tastingnote{float:right;position:relative;background-image: url(https://static.vinopedia.com/css2/tastingnotes.jpg);width:112px;height:20px;margin-top:8px;margin-right:25px;cursor:pointer;cursor:hand;}
+div.tastingnotes{position:absolute;background-color:white;border-style:solid;border-color:#e7a8c8;visibility:hidden;width:500px;top:30px;right:0px;z-index:2;}
+div.wltv{position:absolute;right:35px;top:48px;background-image: url(https://static.vinopedia.com/css2/wltv.jpg);width:112px;height:20px;cursor:pointer;cursor:hand;}
+div.label{position:absolute;right:220px;margin-top:11px;z-index:1;}
+td.right div.label{right:735px;z-index:995;margin-top:5px;}
+table.winerywines{width:800px;}
+table.winerywines .hreview-aggregate,.winerynote{color:#444444}
+td.label{width:110px;}
+div.winerylabel{float:right;z-index:1}
+div.winerylabelmouseover{float:right;z-index:2}
+div.winerylabel img{max-height:50px;z-index:1}
+div.winerylabel img,div.winerylabelmouseover img{max-width:400px;position:absolute;right:200px;padding-top:10px;}
+div.winerylabelmouseover img{z-index:2}
+img.label{position:absolute;max-width:50px;max-height:60px;z-index:90;}
+img.label:hover{max-width:400px;max-height:400px;}
+div.label img{max-width:50px;max-height:60px;z-index:100;}
+div.labelmouseover{position:absolute;right:220px;margin-top:12px;}
+div.infobox{}
+div.infoboxrating {margin-left:0px;float:left;width: 240px;height: 110px;margin-right: 10px;margin-top: 5px;margin-bottom: 25px;padding-left: 0px;background-image: url(https://static.vinopedia.com/css2/ratingbox.jpg);cursor:pointer;cursor:hand;}
+div.infoboxnorating {margin-left:0px;float:left;width: 240px;height: 110px;margin-right: 10px;margin-top: 5px;margin-bottom: 25px;padding-left: 0px;background-image: url(https://static.vinopedia.com/css2/noratingbox.jpg);cursor:pointer;cursor:hand;}
+div.infobox img.glassimg{float:left;border:0px;padding:0px;width:72px;height:82px;}
+div.infobox div.winename{width:164px;height:52px;float:left;padding-top:18px;color: #ffffff;overflow:hidden;cursor:pointer;cursor:hand;line-height:17px;}
+div.infobox div.winename a{color: white;cursor:pointer;cursor:hand;}
+div.infobox div.appellation{width:164px;float:left;color: #e7a8c8;cursor:pointer;cursor:hand;}
+div.infobox div.appellation a{color: #e7a8c8;cursor:pointer;cursor:hand;}
+div.clearboth{clear:both;}
+div.hbox, div.hemabox {clear:both;}
+div.infobox div.wineinfoscore {font-size:15px;color:#4a4734;clear:both;float:left;text-align:right;width: 32px;height: 28px;padding-top: 2px;padding-left:02px;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfoscore a{color:#4a4734;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfoprice {font-size:16pt;padding-top: 2px;color:white;font-size:18px;text-align:right;float:left;height: 31px;width: 100px;height: 28px;padding-right: 0px;padding-bottom: 2px;overflow:hidden;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfoprice a{color:white;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfooldprice {text-decoration:line-through;padding-top: 4px;color:#d4d4d4;font-size:14px;text-align:right;float:left;height: 31px;width: 80px;height: 28px;margin-left:20px;padding-right: 0px;padding-bottom: 2px;overflow:hidden;cursor:pointer;cursor:hand;}
+div.infobox div.wineinfooldprice a{color:white;cursor:pointer;cursor:hand;}
+div.infobox div.vintage {padding-top: 2px;color:#d4d4d4;font-size:17px;text-align:center;float:left;height: 31px;width: 80px;height: 28px;margin-left:20px;padding-left: 5px;padding-bottom: 2px;overflow:hidden;cursor:pointer;cursor:hand;}
+div.infobox div.vintage a{color:white;cursor:pointer;cursor:hand;}
+div.infobox div.from a{padding-top: 6px;color:white;font-size:12px;text-align:right;float:left;height: 31px;width: 80px;height: 28px;margin-left:20px;padding-right: 0px;padding-bottom: 2px;overflow:hidden;cursor:pointer;cursor:hand;}
+#adrighthigh{width:160px;position:absolute;right:0px;margin-top:18px;}
+#adright{width:160px;position:absolute;left:840px;}
+#adright div.googlead{margin-top:61px;}
+#adright div.bannerad{margin-top:61px;}
+#adright div.recommendationad{margin-top:3px;}
+#adright div.recommendationad td{padding:0px;}
+div.banners{width:1020px; margin:auto;font-family:arial;font-size:11px;}
+div.banners div.head{margin-left:10px;}
+div.banner{float:left;margin-left:10px;margin-right:10px;}
+div.recommendationad {font-family: arial;font-size: 9pt;padding-top:0px;}
+div.recommendationad h3{color:#5f5f5f;}
+div.recommendationad div.buy a {color:white;}
+div.recommendationad img{margin-top:1px;}
+div.recommendationad div.spacer{height:18px;}
+div.recommendationad div.seller{font-size:12px;color:#555;}
+div.recommendationad img.flag{width:20px;height:10px;}
+div.recommendationad div.adlabel{display:table-cell;position:relative;font-family:arial;font-size:16px;height:110px;width:160px;background-color:#f8f8f0;vertical-align: middle;text-align:center;padding:5px 2px 30px 2px;border:1px solid #ddc;}
+div.recommendationad div.adlabel span.vintage{font-family:Georgia;color:black;font-size:16px;color:#555;font-style:italic; }
+div.recommendationad div.adpricenote{margin-left:0px;width:100%;font-family:Arial;font-size: 7pt;float: left;clear: left;margin-top:12px;}
+div.recommendationad div.genlabel{min-height:150px;background-color:#f8f8f0;vertical-align: middle;text-align:center;width:100%;padding:5px 2px 5px 2px;border:1px solid #ddc;}
+div.recommendationad div.sizecont{position:relative;background-color:blue;}
+div.recommendationad div.size{position:absolute;top:-20px;left:5px;font-size:11px;color:black;}
+div.recommendationad div.price{position:absolute;top:-26px;right:5px;padding-top:2px;width:60px;height:22px;float:left;text-align:center;color:white;background-repeat: no-repeat;background-position: top left;background-image: url(https://static.vinopedia.com/css/adprice.jpg);}
+div.recommendationad div.buy{float:right;padding-top:2px;width:60px;height:22px;margin-top:6px;margin-right:6px;text-align:center;color:white;background-repeat: no-repeat;background-position: top left;background-image: url(https://static.vinopedia.com/css/adprice.jpg);cursor:pointer;}
+div.recommendationad div.ras{width:80px;min-height:0px;float:left;text-align:center;color:#5d5d5d;margin-right:4px;margin-top:5px;}
+div.recommendationad div.ras .au{width:32px;}
+#adrightplaceholder{width:1px;height:600px;float:right}
+div.announcements{clear:left;margin-left:0px;margin-right:0px;padding-bottom:20px;color:#4a4734;background-color:#fefeb4;background-position: bottom; background-repeat: repeat-x;background-image: url(https://static.vinopedia.com/css2/champagne.jpg);}
+div.columnholder{width:1000px;margin-left:auto;margin-right:auto;}
+div.announcements h2{margin-top:10px;margin-bottom:5px;color: #94446e;}
+div.announcements div.column{float:left;font-family:arial,sans-serif;width:225px;padding-left:10px;padding-right:30px;}
+div.announcements a{color:white;}
+div.otherfeatures{width:1000px;margin-left:auto;margin-right:auto;background-color:#8c0b46;height:49px;margin-top:30px;margin-bottom:10px;}
+div.otherfeatures h2{float:left;font-weight:normal;padding-left:20px;padding-top:6px;color:#bfc152;}
+div.otherfeatures a{float:left;padding-top:7px;color:#ffffff;margin-left:30px;margin-top:7px;}
+div.otherfeaturesl{float:left;background-image:url(https://static.vinopedia.com/css2/otherfeaturesl.jpg);height:49px;width:10px;}
+div.otherfeaturesr{float:right;background-image:url(https://static.vinopedia.com/css2/otherfeaturesr.jpg);height:49px;width:10px;}
+div.tips{}
+div.tipslink{float:left;margin-left:700px;height:25px;font-family:Arial;}
+div.column a{text-decoration:underline;color: #94446e;}
+div.footer {clear:both;height:20px;margin-top:10px;margin-left:10px;font-family: arial;font-size:11px;}
+div.authornote {clear:both;font-family: arial;font-size:11px;}
+div.footer #copyright{float:left;margin-top:8px;}
+div.footer #links{float:left;margin-top:8px;}
+div.footer a{text-decoration:underline;padding-right:10px;}
+a {border-style: none;color: #4d0027;}
+#adright a,div.ras a,.ratingsheader a{text-decoration: none;}
+#adright a:hover{text-decoration: underline;}
+.vintageinfo{font-family:Arial;font-size:12px;}
+.vintageinfo p{line-height:160%}
+.vintageinfo h1{font-family:Georgia;border-bottom:1px solid #4D0027;}
+.vintageinfo div.description{float:left}
+.vintageinfo ul,.vintageinfo li {margin:0px;margin-left: 10px; padding-left: 0px;line-height:140%}
+.vintageinfo ul{margin-bottom:10px;}
+.vintageinfo img{margin-left:5px;margin-bottom:30px;}
+div.factsheet{float:right; background: url(/images/factsheet2.jpg) no-repeat bottom right;margin-left:10px;}
+div.factsheet table {max-width:260px;padding:5px;padding-right:15px;padding-bottom:15px;}
+div.factsheettop{background: url(/images/factsheet2.jpg) no-repeat top right;padding:5px;padding-top:20px;}
+div.factsheettop h2{text-align:center;margin:0px;padding-right:10px;}
+div.factsheetbottom{float:left;height:10px;width:10px;background: url(/images/factsheet2.jpg) no-repeat bottom left;}
+div.factsheet .category{text-align:right;}
+a:hover {border-style: none;color: #94446e;}
+div.refinelist a{}
+div.refinelist table{border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;border-collapse: collapse; font-size:14px;color: #4d0027;}
+div.refinelist tr{height:24px;}
+div.refinelist tr.odd{background-color:#f6ebdb;}
+div.suggestionlist a:hover {color: #94130e;}
+div.suggestionlist a{color: #4d0027;}
+div.suggestionlist{max-width:800px;}
+div.suggestionlist table{width:100%;border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;border-collapse: collapse; font-size:14px;color: #4d0027;}
+div.suggestionlist tr{height:24px;}
+div.suggestionlist tr.odd{background-color:#f6ebdb;}
+div.refinelist a:hover {color: #94130e;}
+.suggest_link {background-color: #cb8a8a;color: white;padding: 1px 3px 1px 3px;z-index: 999;}
+.suggest_link_over {background-color: #964d4d;color: white;padding: 1px 3px 1px 3px;z-index: 999;}
+div.search_suggest_hidden {visibility: hidden;cursor: default;position: absolute;top:120px;left:0px;background-color: #ffffff;color: black;text-align: left;border: 1px solid white;}
+div.search_suggest_border {-moz-box-sizing: border-box;box-sizing: border-box;cursor: default;position: absolute;top:116px;left:200px;width: 273px;background-color: #ffffff;color: black;text-align: left;border: 1px solid #94446e;z-index: 999;}
+div.search div.search_suggest_border {position: absolute;top:69px;left:160px;margin-top:0px;}
+div.refineheader{width:1000px;margin-left:auto;margin-right:auto;font-family: Georgia, Arial;font-size: 18px;margin-top: 15px;margin-bottom: 2px;font-weight:normal;}
+div.refine{width:1000px;margin-left:auto;margin-right:auto;height:31px;vertical-align:bottom;color:#ffffff;position:relative;margin-bottom:10px;z-index:1;}
+div.refine.narrow{width:100%;}
+div.refine div.refinel{float:left;width:7px;height:31px;}
+div.refine div.refiner{float:right;width:7px;height:31px;}
+div.refine div.refinewines{float:left;padding-top:7px;padding-left:5px;z-index:2;cursor:hand;cursor:pointer;}
+div.refine div.refinelist{position:absolute;z-index:200;background-color:white;top:32px;border:2px solid #985900;border-top:0px;margin-top:-1px;visibility:hidden;}
+div.refine div.suggestions{width:90px;float:left;padding-top:7px;padding-left:15px;z-index:2;}
+div.refine div.suggestionlist{position:absolute;min-width:400px;z-index:200;background-color:white;top:32px;visibility:hidden;border:2px solid #985900;border-top:0px;margin-top:-1px;}
+div.refine div.text{float:left;padding-top:7px;padding-left:15px;}
+div.refine select{float:left;margin-top:5px;margin-left:7px;}
+div.refine div.currency{float:left;padding-top:5px;padding-left:15px;}
+div.refine img{margin-left:4px;}
+div.results div.refine div.currency{width:auto;float:left;}
+div.refine img.greengo{float:right;width:28px;height:27px;padding-top:3px;cursor:pointer;cursor:hand;}
+div.results{margin-top:15px;width:827px;}
+div.resulth img{width:11px;}
+div.spriter-resulth a{color:white;}
+div.results div.spriter-resulth{float:left;width:827px;color:white;height:32px;}
+div.results div.flag {width:34px;height:27px;padding-top:5px;float:left;background-image:url(https://static.vinopedia.com/css2/resulthl.jpg);background-repeat:no-repeat;}
+div.results div.sprite-resulthlstr {width:34px;height:27px;padding-top:5px;float:left;}
+div.results div.shop {float:left;padding-top:5px;height:27px;width:150px;}
+div.results div.rating {float:left;padding-top:5px;height:27px;width:60px;text-align:right;}
+div.results div.vintage {float:left;height:27px;padding-top:5px;width:66px;text-align:right;}
+div.results div.currency {float:right;height:27px;padding-top:5px;width:7px;text-align:right;}
+div.results div.size {float:left;padding-top:5px;height:27px;width:46px;text-align:right;}
+div.results div.region {float:left;padding-top:5px;height:27px;width:140px;text-align:left;}
+div.results div.winename {float:left;padding-top:0px;padding-top:5px;height:27px;width:387px;}
+div.results div.roundwinename {float:left;padding-top:0px;padding-top:5px;height:27px;width:365px;padding-left:10px;background-image:url(https://static.vinopedia.com/css2/resulthl.jpg);background-repeat:no-repeat;}
+div.results div.price{float:left;padding-top:5px;height:27px;width:74px;text-align:right;}
+div.results div.oldprice{float:left;padding-top:5px;height:27px;width:49px;text-align:right;}
+div.results img.sort{position:relative;margin:0px;padding:0px;border-style:collapse;border-width:0px;top:3px;}
+div.resultf div.pages{float:left;padding-top:7px;padding-left:15px;height:27px;cursor:pointer;}
+div.resultf div.sprite-resultfr{float:right;height:32px;width:7px;background-color:white;}
+div.resultf div.pageselector{float:right;padding-top:7px;padding-right:15px;height:27px;}
+div.resultf div.pageselector a{color:white;padding-left:3px;padding-right:3px;cursor:pointer;}
+div.results div.resultf{float:left;width:827px;color:white;height:32px;margin-bottom:5px;font-size:12px;}
+#adbetween{width:1000px;margin-left:auto;margin-right:auto;margin-bottom:10px;}
+img.flag{width:25px;height:15px;}
+table.results{table-layout:fixed;width:827px;border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;border-collapse: collapse; clear:left;}
+table.results tr{}
+table.results td{line-height:24px;color:#646464;padding:0px;margin:0px;cell-spacing:0px;vertical-align:middle;font-size:12px;}
+table.results td a{color:#646464;}
+table.results tr.sponsoredodd td.shop,table.results tr.sponsoredeven td.shop{font-size:13px;}
+table.results tr.sponsoredodd td.winename,table.results tr.sponsoredeven td.winename{font-size:14px;}
+table.results tr.odd td, table.results tr.even td{height:24px;overflow:hidden;white-space:nowrap;}
+table.results tr.odd{background-color:#f5e5d8;}
+table.results tr.sponsoredodd{background-color:#f3f4d5;}
+table.results tr.sponsoredeven{background-color:#e1e2d2;}
+table.results tr.sponsoredeven td.shop a,table.results tr.sponsoredodd td.shop a{color:#333;}
+table.results td.flag {width:30px;padding-left:3px;}
+table.results td.shop {width:140px;}
+table.results td.region {width:140px;}
+table.results td.rating {width:52px;text-align:right;}
+table.results td.vintage {width:63px;text-align:right;}
+table.results td.currency {width:20px;padding-left:2px;vertical-align:middle;}
+table.results td.size {width:57px;text-align:right;}
+table.results td.winename{max-width:397px;font-size:13px;padding-left:10px;}
+table.results td.winename span{cursor:pointer;color:#4d0027;text-decoration:underline;}
+table.results td.price{color:#4d0027;width:60px;font-size:13px;text-align:right;}
+table.results td.oldprice{color:#4d0027;width:60px;font-size:13px;text-decoration: line-through;}
+div.alternatives{margin-top:15px;width:700px;}
+div.alternatives div.alternativesh{float:left;width:700px;color:white;height:32px;background-image:url(https://static.vinopedia.com/css2/resulth.jpg);background-repeat:repeat-x;}
+div.alternatives div.left {width:7px;height:27px;padding-top:5px;float:left;background-image:url(https://static.vinopedia.com/css2/resulthl.jpg);background-repeat:no-repeat;}
+div.alternatives div.hits {float:right;height:27px;padding-top:5px;width:60px;text-align:left;background-image:url(https://static.vinopedia.com/css2/resulthr.jpg);background-position:top right;background-repeat:no-repeat;}
+div.alternatives div.region {float:left;padding-top:5px;height:27px;width:216px;text-align:left;}
+div.alternatives div.winename {float:left;padding-top:0px;padding-top:5px;height:27px;width:397px;}
+div.alternatives div.alternativesf{float:left;width:700px;color:white;height:32px;background-image:url(https://static.vinopedia.com/css2/resultf.jpg);background-repeat:repeat-x;margin-bottom:5px;font-size:12px;}
+div.alternativesf div.left{float:left;padding-top:7px;padding-left:15px;height:27px;background-image:url(https://static.vinopedia.com/css2/resultfl.jpg);background-repeat:no-repeat;}
+div.alternativesf div.right{float:right;padding-top:7px;padding-right:15px;height:27px;background-image:url(https://static.vinopedia.com/css2/resultfr.jpg);background-position:top right;background-repeat:no-repeat;}
+table.alternatives{table-layout:fixed;width:700px;border-width: 0px;border-spacing: 0px;border-style: none;padding:0px;border-collapse: collapse; clear:left;}
+table.alternatives tr.odd{background-color:#f1e7ec;}
+table.alternatives td{color:#646464;height:24px;padding:0px;margin:0px;cell-spacing:0px;overflow:hidden;white-space: nowrap;vertical-align:middle;font-size:12px;}
+table.alternatives td.winename a{color:#4d0027;width:400px;overflow:hidden;white-space: nowrap;font-size:13px;margin-left:8px;}
+#name{padding-left:18px;}
+table.alternatives td.number {width:70px;text-align:right;padding-right:10px;}
+table.alternatives td a{color:#646464;}
+table.alternatives td.region {width:216px;text-align:left;}
+div.permalink{float:right;vertical-align:top;padding-top:7px;}
+div.bookmark{float:right;padding-top:8px;}
+a.freetext{float:left;padding-top:7px;padding-left:20px;}
+div.bigsearch a{color:white;text-decoration:none;}
+div.textpage li{font-family:georgia,arial;color:#53494e;font-size:16px;padding-bottom:10px;padding-top:5px;}
+div.textpage h1{font-family:georgia,arial;font-size:30px;padding-bottom:4px;padding-top:20px;color: #920402;}
+div.textpage h2{font-family:georgia,arial;font-size:18px;padding-bottom:4px;padding-top:10px;color: #4d0027;}
+img.feedexample { border-width: 4px;border-spacing: 0px;border-style: ridge;border-color: grey;border-collapse: separate;}
+img.feedexamples{clear:both;margin-top:10px;margin-right:15px;float:left;}
+div.feedexamples{float:left;}
+div.feedexamples h3{padding-top:15px;padding-bottom:5px;}
+div.feedexamples div{float:left;width:1000px;}
+img.moneyselected { border-width: 4px;border-spacing: 0px;border-style: ridge;border-color: grey;border-collapse: separate;cursor:pointer;}
+img.money { padding:4px;cursor:pointer;}
+img.glassselected { border-width: 4px;border-spacing: 0px;border-style: ridge;border-color: grey;border-collapse: separate;cursor:pointer;}
+img.glass { padding:4px;cursor:pointer;}
+div.champcolumn{width:380px;height:100%;margin-top:0px;margin-right:7px;margin-left:0px;background-repeat: no-repeat;background-image: url(https://static.vinopedia.com/css2/champroundcorners.gif);float:left;}
+div.champcolumn div.text{margin:10px;}
+#shopstatstext{margin:10px;}
+div.businesscard{float:right;background-repeat: no-repeat;background-image: url(https://static.vinopedia.com/css2/businesscard.gif);background-position:top left;vertical-align:middle;height:150px;width:270px;margin-left:15px;padding:15px;padding-top:0px;color:black;}
+div.businesscard h3{color:#94446e;}
+div.champcolumnbottom{background-repeat: no-repeat;background-image: url(https://static.vinopedia.com/css2/roundbottom.gif);background-position:bottom;height:8px;}
+.top10 th{height:1px;width:330px;}
+table.top10 h2{padding-left:21px;color:#ffa;}
+.top10 td.c1{width:15px;}
+.top10 td.c3{width:90px;}
+div.pricenote {font-family:Arial;font-size: 7pt;float: left;margin-left:10px;clear: left;margin-top:12px;}
+div.note {font-size: 10px;}
+div.hbox{height:30px;border:0px;}
+div.dialog a, div.infobox a{text-decoration:none;}
+#breadcrumb,#breadcrumb li{list-style:none;display:inline;padding-left: 0;}
+/* Autocomplete */
+.ac_results {z-index:999;padding: 0px;border: 1px solid WindowFrame;border-top:0px;background-color: Window;overflow: hidden;}
+.ac_results ul {width: 100%;list-style-position: outside;list-style: none;padding: 0;margin: 0;}
+.ac_results ul div{padding: 0;margin: 0;}
+.big ul div{height:20px;}
+.ac_results iframe {display:none;/*sorry for IE5*/display/**/:block;/*sorry for IE5*/position:absolute;top:0;left:0;z-index:-1;filter:mask();width:3000px;height:3000px;}
+.ac_results li {margin: 0px;cursor: pointer;display: block;width: 100%;line-height:20px;font: menu;font-size: 12px;}
+.ac_results.big li {height:20px;overflow: hidden;}
+.ac_loading {background : Window url('https://static.vinopedia.com/images/indicator.gif') left center no-repeat;}
+.ac_results ul li{background-color: Window}
+.ac_results ul li:hover,li.ac_over div.c,li.ac_over div.chead,div.c:hover,div.chead:hover{background-color: #930503;color: HighlightText;}
+.ac_results ul li div.category,.ac_results ul li div.categoryhead{width:100px;height:100%;float:left;clear:left;background-color: Window;color: #888;}
+.ac_results.small ul li div.c,.ac_results.small ul li div.chead{width:100%;padding:2px;}
+.ac_results.small ul li div.categoryhead{width:100%;}
+.ac_results.small ul li div.category{width:0px;}
+.ac_results  div.categoryhead img{float:left;margin-right:5px;padding-top:3px;padding-left:5px;}
+.ac_results div.category{width:50px;}
+div.c,div.chead {background-color:#ffffff;}
+.ac_results div.categoryhead, .ac_results div.chead{border-top:1px solid #888;}
+div#frameheader{vertical-align:top;height:45px;overflow:hidden;}
+div#frameheader a{text-decoration:underline;}
+div#frameheader div{float:left;margin-top:4px;}
+div#frameheader div.text{margin-left:20px;margin-top:15px;}
+div#frameheader .findwine{top:12px;}
+div#frameheader div.search{background-position: 0px 4px;}
+div#frameheader .searchinput{top:10px;}
+div#frameheader img.searchgosmall {margin-left:442px;margin-top:10px;}
+div#frameheader div.closeframe.text{float:right;}
+body#framebody{height:48px;}
+div#wr{position:relative;}
+#wr a{text-decoration:underline;}
+#rnext,#rprev{cursor:pointer;background: url(https://static.vinopedia.com/images/button.jpg) no-repeat;text-align:center;color:white;width:76px;height:22px;margin:10px;padding-top:3px;font-family:arial;}
+#rprev {position:absolute; top:20px; right:80px;}
+#rnext {position:absolute; top:20px; right:0px;}
+#rnext a,#rprev a{text-align:center;color:white;font-size:12px;}
+#guidedsearch{width:150px;float:left;}
+table.guidedsearch{width:100%;}
+div.criterionh{    clear:both;    margin-top:10px;    text-decoration: none;    font-weight:bold;    color:#500;    }
+.criterions{    background-color:#ff9;    color:#700;    clear:both;            }
+div.criterion:hover, div.criterions:hover{background-color:#ff9;color:#700;cursor:pointer;}
+#pricemin,#pricemax,#vintageminsl,#vintagemaxsl{display:none;}
+img.close{float:right;cursor:pointer;padding-top:2px;z-index:5;width:13px;height:13px;   }
+img#ratingclose, img#vintageclose{margin-top:8px;}
+img#ratingspinner,img#pricespinner,img#vintagespinner{margin-top:8px;}
+img#regionclose, img#grapeclose{padding-top:3px;}
+#priceclose{display:none;margin-top:8px;}
+div.subregion{color:gray;}
+#region{width:120px;float:left;}
+#grape{width:130px;float:left;}
+#countryofseller{width:130px;float:left;}
+#result {min-height:670px;margin:0px;margin-left:10px;position:relative; overflow-x:hidden; overflow-y:visible; width: 616px;z-index:1;}
+#result.shopresult{width: 658px;min-height:570px;}
+#result h1{color:#5f5f5f;font-size:20px;padding-top:0px;float:left;}
+#result div.items { width:20000em;  position:absolute;clear:left;}
+#result div.items div.page {  float:left; }
+#GuidedSearchform h4{padding-top:4px;}
+#GuidedSearchform .spinner{float:right;display:none;width:16px;height:16px;}
+div.slider{float:left;width:120px;margin-top: 10px;margin-left:5px;}
+div.sliderlegend{width:130px;clear:left;padding-top:5px;}
+div.slider-min{width:50px;float:left;margin-bottom:10px;}
+div.slider-max{width:60px;float:right;text-align:right;}
+div#criteria{position:relative;}
+.cc{cursor:pointer;}
+.cc:hover{text-decoration:underline;}
+#gspanes {background-color:red;margin:0px;padding:0px;height:0px;}
+div.wa a{color:#5f5f5f;}
+div.wa {width:604px;z-index:0;position:relative;float:left; clear:left;font-family: arial;color:#5F5F5F;font-size: 9pt;background-repeat:no-repeat;border-style:solid;border-width:1px;border-top-style:none;border-color:#999999;padding-right:10px;border-collapse:separate;padding-top:5px;}
+div.wa .wn{position:relative;margin-left:70px;margin-top:5px;}
+div.wa .wn a{position:relative;margin-top:5px;font-weight:bold;color:#4d0027;font-size:1.2em;}
+.wn a:hover{color:#4d0027;text-decoration:underline;}
+.wa img.wrlabel{border:solid 1px #888;left:0px;position:absolute;z-index:20;max-width:60px;max-height:80px;}
+.wa img.wrlabel:hover{max-width:300px;max-height:300px;z-index:200;bottom:-50px;}
+.wa img.wrlabel.bottom:hover{bottom:10px;}
+.wa div{position:relative;margin-bottom:4px;border-style:none;}
+.detail{float:left;padding-left:70px;width:350px;}
+span.sprite-grapered{float:left;padding-left:25px;}
+span.sprite-grapewhite{float:left;padding-left:25px;}
+.gt img{vertical-align:middle;margin-left:10px;margin-right:5px;margin-bottom:5px;width:12px;height:18px;}
+span.wt img{margin-right:5px;}
+div.sprite-zchateau{padding-top:2px;clear:both;padding-left:25px;}
+.ras{float:left;width:90px;min-height:50px;}
+div.au, div.au a{clear:both;float:left;width:40px;background: #aaaaaa;color:white;text-align:center;margin-bottom:2px;}
+div.po, div.po a{float:left;width:46px;background: #f3f4d5;text-align:center;margin-bottom:2px;}
+div.offerings a{text-decoration:underline;}
+.pr{float:left;width:80px;}
+.pre{text-align:right;padding-right:30px;background:url(https://static.vinopedia.com/images/europe.jpg)  no-repeat; background-position:right;}
+.pra{text-align:right;padding-right:30px;background:url(https://static.vinopedia.com/images/usa.jpg)  no-repeat; background-position:right;}
+div.act{float:right;height:50px;}
+div.sprite-magnglass{padding-left:25px;height:17px;text-align:right;}
+div.sprite-magnglass a{color:#5f5f5f;cursor:pointer;}
+div.sprite-magnglass a:hover{text-decoration:underline;}
+div.wish{background: url(https://static.vinopedia.com/images/plus.jpg) no-repeat;padding-left:25px;}
+div.waline {width:604px;;position:relative; clear:left;float:left;height:0px;border-style:solid;border-width:1px;border-bottom-style:none;border-color:#999999;padding-right:10px;border-collapse:separate;}
+#next1,#next2,#next3,#next4,#prev1,#prev2,#prev3,#prev4{cursor:pointer;background: url(https://static.vinopedia.com/images/button.jpg) no-repeat;text-align:center;color:white;width:76px;height:22px;margin:10px;padding-top:3px;font-family:arial;}
+#prev1,#prev2,#prev3,#prev4 {position:absolute; top:30px; right:80px;z-index:100;display:none}
+#next1,#next2,#next3,#next4 {position:absolute; top:30px; right:0px;z-index:100;display:none}
+#next1 a,#next2 a,#next3 a,#next4 a,#prev1 a,#prev2 a,#prev3 a,#prev4 a{text-align:center;color:white;font-size:12px;}
+#winedetails{width:1000px;overflow:auto;margin-bottom:20px;}
+#winedetails div.wa{border:0px;width:530px}
+#winedetails table td.left{font-family:Arial;border:1px solid #888;padding:10px;width:450px}
+#winedetails table td.left .name{font-family:Arial;font-weight:bold;}
+#winedetails table td.left .addedon{color:#888;padding-top:3px;padding-bottom:3px;}
+#winedetails table td.center{border:0px solid white;width:10px;}
+#winedetails table td.right{border:1px solid #888;}
+#result table.results td{overflow:hidden;white-space:nowrap;}
+#result table.results td.info {width:15px;}
+#result table.results td.winename {cursor:pointer;color:#4D0027;padding-left:10px;}
+#result table.results td.vintage {width:20px;}
+#result table.results td.rating {width:30px;}
+#result table.results td.size {width:50px;}
+#result table.results td.price {min-width:50px;}
+#result table.results td.currency {width:10px;}
+#result table.results td.marketprice {width:70px;}
+#result table.results td.marketprice img{width:13px;margin:0px;padding:0px;}
+#result div.results {margin-top:0px;}
+#result table.results div.detail{width:400px;}
+#result table.results div.ras{width:100px;}
+#result div.brd{border: solid 1px #808080;border-top:none;margin:0;padding:0;width:656px;}
+#result table.results{width:656px;}
+#wr #pedia{display:none;font-family:arial;padding:10px;border:2px solid #780200}
+#wr #pedia h2{margin-bottom:10px;}
+#pedia dd{margin-left:0px}
+#pedia dt{font-family: Georgia, Arial;font-size: 18px;margin-top: 5px;margin-bottom: 10px;font-weight:normal;}
+div.starslabel{clear:both;float:left;width:70px;margin-bottom:2px;}
+div.stars{float:left;width:70px;margin-bottom:2px;}
+div.pan{background-color:white;}
+div.storecontent{float:left;min-width:936px;max-width:958px;min-height:180px;border:1px solid #808080;border-top:none;overflow:auto;margin-bottom:20px;}
+#storegeneral div.storecontent{padding:20px;width:auto;}
+#storehome div.storecontent{width: auto; height: auto;overflow:visible;max-width:none;}
+#storehome div.header{padding:10px;}
+#storeiframe{width: 1020px; height: 700px;}
+.storecontent#description{padding:10px;min-width:916px;}
+#recommendations div.storecontent{padding:6px;width:1000px;max-width:1000px;min-height:860px;}
+#storepanes .header{max-width:1000px;}
+#storepanes{float:left;}
+#storepanes .storepane{display:none;}
+#storepanes div.storepane#storehome{display:block;}
+div.storecontent div.description{float: left;padding-left:10px;}
+div.storecontent div.storeimage img{float: right;max-width:250px;max-height:180px;margin-left:10px;}
+#cart {padding:10px;padding-left:20px;}
+#cart a{text-decoration:underline;cursor:pointer;}
+#cart .order, #cart .amount{min-width:100px;text-align:right;}
+.dialog.y{margin:10px;}
+.dialog.y .content{height:200px;}
+.dialog.y .content a{text-decoration:underline;}
+.dialog.y .content h2 a{text-decoration:none;}
+.dialog.y .content h2{color:white;}
+.dialog.y .content,.dialog.y .t,.dialog.y .b,.dialog.y .b div {background-image:url(https://static.vinopedia.com/css2/redroundbox.png); _background-image:url(https://static.vinopedia.com/css2/redroundbox.png);}
+.dialog {clear:both; position:relative; margin:0px auto; min-width:8em; max-width:1060px; /* based on image dimensions - not quite consistent with drip styles yet */ color:#fff; z-index:1; margin-left:20px; /* default, width of left corner */ margin-bottom:0.5em; /* spacing under dialog */}
+.dialog .content,.dialog .t,.dialog .b,.dialog .b div { background:transparent url(https://static.vinopedia.com/css2/redbox.png) no-repeat ; _background-image:url(https://static.vinopedia.com/css2/redbox.png);background-position:top right;}
+.dialog .content,.dialog .content a { position:relative; zoom:1; _overflow-y:hidden; padding:0px 12px 0px 0px; color:#fff;}
+.dialog .t { /* top+left vertical slice */ position:absolute; left:0px; top:0px; width:12px; /* top slice width */ margin-left:-12px; height:100%; _height:1600px; /* arbitrary long height, IE 6 */ background-position:top left;}
+.dialog .b { /* bottom */ position:relative; width:100%;}
+.dialog .b,.dialog .b div { height:30px; /* height of bottom cap/shade */ font-size:1px;}
+.dialog .b { background-position:bottom right;}
+.dialog .b div { position:relative; width:12px; /* bottom corner width */ margin-left:-12px; background-position:bottom left;}
+.dialog.crit .content,.dialog.crit .t,.dialog.crit .b,.dialog.crit .b div { background-image:url(https://static.vinopedia.com/css2/criteriabox.png);}
+.dialog .hd,.dialog .bd,.dialog .ft { position:relative;}
+.dialog .wrapper { /* extra content protector - preventing vertical overflow (past background) */ position:static; max-height:1000px; overflow:auto; /* note that overflow:auto causes a rather annoying redraw "lag" in Firefox 2, and may degrade performance. Might be worth trying without if you aren't worried about height/overflow issues. */}
+.dialog h2,.dialog p { margin:0px; /* margins will blow out backgrounds, leaving whitespace. */ padding:0.5em 0px 0.5em 0px;}
+.dialog h2 { padding-bottom:0px;}
+#regionpane div.pane,#winerypane div.pane{display:none;border: 1px solid #808080;float:left;min-width:782px;}
+#regionpane div.pane#mappane{display:block;}
+#winerypane div.pane#wines{display:block;}
+#regiontabs,#winerytabs{border:0px;}
+#infopane div,#producerspane,#topwines, #subregionspane,#wineguidepane,#infopane{padding:10px;}
+#regionwineguide{left:auto;margin-left:150px;}
+#regionpane .map,#winerypane .map{float:left;position:relative;}
+#winerypane #description,#winerypane #wines{padding:10px;}
+#winerypane #description img{float:left;margin:10px;}
+#winerypane a,#regionpane #producerspane a{text-decoration:underline;}
+div.regionpoi,div.regionpoi a{font-family:arial;font-size:12px;color:white;font-style:italic;font-weight:bold;white-space:nowrap;}
+div.regionpoi{background: rgba(0, 0, 0, 0.5);text-align: center;width:auto;padding-left:2px;padding-right:2px;}
+#switchpoi{background-color:white;position:absolute;z-index:10;top:575px;left:10px;border:1px solid #888;font-size:0.8em;font-family:arial;height:45px;}
+div.infowindow{font-family:arial;font-size:.8em}
+.infow, .infow a{font-family:arial;font-size:12px;}
+.sidebar {font-family:arial;font-size:12px;color:black;float:left;clear:both;width: 190px;margin:0px;padding:5px;padding-top:0px; height:690px;overflow:auto;}
+#sidebar a.hover{background-color:#dddddd} 
+#vpballoon table{border-collapse:collapse;}
+.selectedside{background-color:#ffff55}
+div.textpage div.infowindow {padding:0px} 
+table.shopstats tbody{overflow-y: scroll;overflow-x: hidden;max-height:800px;}
+table.shopstats,table.shopstats a{color:black;font-family:serif}
+table.shopstats th{text-align:left}
+table.shopstats a:link,table.shopstats a:visited{text-decoration:none}
+table.shopstats a:hover{text-decoration:underline}
+table.shopstats a{cursor:hand}
+table.shopstats a.warn,table.shopstats .warn {color:#dd7700}
+table.shopstats a.alert,table.shopstats .alert{color:#ff0000}
+ul.tabs{clear:both;list-style:none;margin:0!important;padding:0;border-bottom:1px solid #808080;height:30px;}
+ul.tabs#gstabs{border-bottom:1px solid #808080;}
+div.textpage ul.tabs li,ul.tabs li{float:left;text-indent:0;padding:0;margin:0!important;list-style-image:none!important;font-family:arial;}
+div.storeinfo ul.tabs{border-bottom:0;}
+div.storeinfo div.storecontent{border-top:1px solid #808080;}
+ul.tabs a{background:url(https://static.vinopedia.com/css/blue.png) no-repeat -420px 0;background-position:-420px 0;font-size:13px;display:block;height:30px;line-height:30px;width:134px;text-align:center;text-decoration:none;color:#333;padding:0;margin:0;position:relative;top:1px;}
+div#regiontab{float:left;}
+div#regiontab ul.tabs,div#periodtab ul.tabs,div#wr ul.tabs{border-bottom:none;}
+div#periodtab{float:right;margin-right:6px;}
+.hbox li a{background:url(https://static.vinopedia.com/css/redtab.png) no-repeat -420px 0;}
+.results li a{background:url(https://static.vinopedia.com/css/redtab2.gif) no-repeat -420px 0;}
+ul.tabs a:active{outline:none;}
+ul.tabs a:hover{background-position:-420px -31px;color:#fff;}
+ul.tabs a.current,ul.tabs a.current:hover,ul.tabs li.current a{background-position:-420px -62px;cursor:default!important;color:#000!important;font-weight:bold;}
+div.hbox ul{padding-left:8px;}
+div.hbox ul.tabs li a,div.hbox ul.tabs li a.current,#wr ul.tabs li a,#wr ul.tabs li a.current{color:white!important;}
+ul.tabs a.s{background-position:-553px 0;width:80px;}
+ul.tabs a.s:hover{background-position:-553px -31px;}
+ul.tabs a.s.current{background-position:-553px -62px;}
+ul.tabs a.l{background-position:-248px -0px;width:174px;}
+ul.tabs a.l:hover{background-position:-248px -31px;}
+ul.tabs a.l.current{background-position:-248px -62px;}
+ul.tabs a.xl{background-position:0 -0px;width:248px;}
+ul.tabs a.xl:hover{background-position:0 -31px;}
+ul.tabs a.xl.current{background-position:0 -62px;}
+div.panes div.pane{display:none;}
+:focus,button{outline-style:none;}
+.markerLabel, .markerLabel a{color: white;font-weight:bold;text-align: center;width:100px;}
+img.categoryicon{float:left;margin-right:5px;}
+h1.category{float:left;margin-bottom:15px;}
+h1 span.categorylabel{color:#888;}
+#linkboard div.item{width:160px;height:60px;float:left;margin-right:15px;}
+#linkboard #links{position:relative;overflow:hidden;height:60px;}
+#pages{position:absolute;height:20000em;}
+/*.page{padding:00px;height:60px;background:#fff;width:800px;}*/
+.scrollable{position:relative;float:left;overflow:hidden;width:700px;height:60px;}
+.scrollable .items{width:20000em;position:absolute;clear:both;}
+.scrollable .item{float:left;cursor:pointer;height:60px;width:200px;padding:00px;}
+#links #pages a{float:left;}
+#links #pages a.disabled{color:white;}
+#linkboardnavi{float:left;padding:0!important;margin:0!important;}
+#linkboardnavi li{background-color:#fff;clear:both;font-size:12px;height:15px;list-style-type:none;padding:1px;width:150px;cursor:pointer;}
+#linkboardnavi li:hover{background-color:#ddd;}
+#linkboardnavi li.active{background-color:#eee;color:black;}
+#linkboardnavi img{float:left;margin-right:10px;}
+#linkboardnavi strong{display:block;}
+#imStreetViewClose{position:absolute;top:150px;left:2px;background-color:white;z-index:999;cursor:pointer;font-family:arial;font-size:12px;color:#6784C7;padding:2px;border:1px solid #6784C7;}
+
+
+/*jqueryui*/
+.ui-helper-hidden{display:none;}
+.ui-helper-hidden-accessible{position:absolute;left:-99999999px;}
+.ui-helper-reset{margin:0;padding:0;border:0;outline:0;line-height:1.3;text-decoration:none;font-size:100%;list-style:none;}
+.ui-helper-clearfix:after{content:".";display:block;height:0;clear:both;visibility:hidden;}
+.ui-helper-clearfix{display:inline-block;}
+/* required comment for clearfix to work in Opera \*/ * html .ui-helper-clearfix{height:1%;}
+.ui-helper-clearfix{display:block;}
+/* end clearfix */ .ui-helper-zfix{width:100%;height:100%;top:0;left:0;position:absolute;opacity:0;filter:Alpha(Opacity=0);}
+.ui-state-disabled{cursor:default!important;}
+.ui-icon{display:block;text-indent:-99999px;overflow:hidden;background-repeat:no-repeat;}
+.ui-widget-overlay{position:absolute;top:0;left:0;width:100%;height:100%;}
+.ui-widget{font-family:Georgia;font-size:1.1em;}
+.ui-widget input,.ui-widget select,.ui-widget textarea,.ui-widget button{font-family:Georgia;font-size:1em;}
+.ui-widget-content{border:1px solid #ddd;background:#eee url(https://static.vinopedia.com/css/ui/images/ui-bg_highlight-soft_100_eeeeee_1x100.png) 50% top repeat-x;color:#333;}
+.ui-widget-content a{color:#333;}
+.ui-widget-header{border:1px solid #e78f08;background:#ff9 url(https://static.vinopedia.com/css/ui/images/ui-bg_gloss-wave_35_ffff99_500x100.png) 50% 50% repeat-x;color:#fff;font-weight:bold;}
+.ui-widget-header.ui-widget-greyheader{background:#aaa url(https://static.vinopedia.com/css/ui/images/ui-bg_gloss-wave_35_ffff99_500x100.png) 50% 50% repeat-x;}
+.ui-widget-header a{color:#fff;}
+.ui-state-default,.ui-widget-content .ui-state-default{border:1px solid #ccc;background:#f6f6f6 url(https://static.vinopedia.com/css/ui/images/ui-bg_glass_100_f6f6f6_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#1c94c4;outline:none;}
+.ui-state-default a,.ui-state-default a:link,.ui-state-default a:visited{color:#1c94c4;text-decoration:none;outline:none;}
+.ui-state-hover,.ui-widget-content .ui-state-hover,.ui-state-focus,.ui-widget-content .ui-state-focus{border:1px solid #fbcb09;background:#fdf5ce url(https://static.vinopedia.com/css/ui/images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#c77405;outline:none;}
+.ui-state-hover a,.ui-state-hover a:hover{color:#c77405;text-decoration:none;outline:none;}
+.ui-state-active,.ui-widget-content .ui-state-active{border:1px solid #fbd850;background:#fff url(https://static.vinopedia.com/css/ui/images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;font-weight:normal;color:#eb8f00;outline:none;}
+.ui-state-active a,.ui-state-active a:link,.ui-state-active a:visited{color:#eb8f00;outline:none;text-decoration:none;}
+.ui-state-highlight,.ui-widget-content .ui-state-highlight{border:1px solid #fed22f;background:#ffe45c url(https://static.vinopedia.com/css/ui/images/ui-bg_highlight-soft_75_ffe45c_1x100.png) 50% top repeat-x;color:#363636;}
+.ui-state-highlight a,.ui-widget-content .ui-state-highlight a{color:#363636;}
+.ui-state-error,.ui-widget-content .ui-state-error{border:1px solid #cd0a0a;background:#b81900 url(https://static.vinopedia.com/css/ui/images/ui-bg_diagonals-thick_18_b81900_40x40.png) 50% 50% repeat;color:#fff;}
+.ui-state-error a,.ui-widget-content .ui-state-error a{color:#fff;}
+.ui-state-error-text,.ui-widget-content .ui-state-error-text{color:#fff;}
+.ui-state-disabled,.ui-widget-content .ui-state-disabled{opacity:.35;filter:Alpha(Opacity=35);background-image:none;}
+.ui-priority-primary,.ui-widget-content .ui-priority-primary{font-weight:bold;}
+.ui-priority-secondary,.ui-widget-content .ui-priority-secondary{opacity:.7;filter:Alpha(Opacity=70);font-weight:normal;}
+.ui-icon{width:16px;height:16px;background-image:url(https://static.vinopedia.com/css/ui/images/ui-icons_222222_256x240.png);}
+.ui-widget-content .ui-icon{background-image:url(https://static.vinopedia.com/css/ui/images/ui-icons_222222_256x240.png);}
+.ui-widget-header .ui-icon{background-image:url(https://static.vinopedia.com/css/ui/images/ui-icons_ffffff_256x240.png);}
+.ui-state-default .ui-icon{background-image:url(https://static.vinopedia.com/css/ui/images/ui-icons_ef8c08_256x240.png);}
+.ui-state-hover .ui-icon,.ui-state-focus .ui-icon{background-image:url(https://static.vinopedia.com/css/ui/images/ui-icons_ef8c08_256x240.png);}
+.ui-state-active .ui-icon{background-image:url(https://static.vinopedia.com/css/ui/images/ui-icons_ef8c08_256x240.png);}
+.ui-state-highlight .ui-icon{background-image:url(https://static.vinopedia.com/css/ui/images/ui-icons_228ef1_256x240.png);}
+.ui-state-error .ui-icon,.ui-state-error-text .ui-icon{background-image:url(https://static.vinopedia.com/css/ui/images/ui-icons_ffd27a_256x240.png);}
+.ui-icon-carat-1-n{background-position:0 0;}
+.ui-icon-carat-1-ne{background-position:-16px 0;}
+.ui-icon-carat-1-e{background-position:-32px 0;}
+.ui-icon-carat-1-se{background-position:-48px 0;}
+.ui-icon-carat-1-s{background-position:-64px 0;}
+.ui-icon-carat-1-sw{background-position:-80px 0;}
+.ui-icon-carat-1-w{background-position:-96px 0;}
+.ui-icon-carat-1-nw{background-position:-112px 0;}
+.ui-icon-carat-2-n-s{background-position:-128px 0;}
+.ui-icon-carat-2-e-w{background-position:-144px 0;}
+.ui-icon-triangle-1-n{background-position:0 -16px;}
+.ui-icon-triangle-1-ne{background-position:-16px -16px;}
+.ui-icon-triangle-1-e{background-position:-32px -16px;}
+.ui-icon-triangle-1-se{background-position:-48px -16px;}
+.ui-icon-triangle-1-s{background-position:-64px -16px;}
+.ui-icon-triangle-1-sw{background-position:-80px -16px;}
+.ui-icon-triangle-1-w{background-position:-96px -16px;}
+.ui-icon-triangle-1-nw{background-position:-112px -16px;}
+.ui-icon-triangle-2-n-s{background-position:-128px -16px;}
+.ui-icon-triangle-2-e-w{background-position:-144px -16px;}
+.ui-icon-arrow-1-n{background-position:0 -32px;}
+.ui-icon-arrow-1-ne{background-position:-16px -32px;}
+.ui-icon-arrow-1-e{background-position:-32px -32px;}
+.ui-icon-arrow-1-se{background-position:-48px -32px;}
+.ui-icon-arrow-1-s{background-position:-64px -32px;}
+.ui-icon-arrow-1-sw{background-position:-80px -32px;}
+.ui-icon-arrow-1-w{background-position:-96px -32px;}
+.ui-icon-arrow-1-nw{background-position:-112px -32px;}
+.ui-icon-arrow-2-n-s{background-position:-128px -32px;}
+.ui-icon-arrow-2-ne-sw{background-position:-144px -32px;}
+.ui-icon-arrow-2-e-w{background-position:-160px -32px;}
+.ui-icon-arrow-2-se-nw{background-position:-176px -32px;}
+.ui-icon-arrowstop-1-n{background-position:-192px -32px;}
+.ui-icon-arrowstop-1-e{background-position:-208px -32px;}
+.ui-icon-arrowstop-1-s{background-position:-224px -32px;}
+.ui-icon-arrowstop-1-w{background-position:-240px -32px;}
+.ui-icon-arrowthick-1-n{background-position:0 -48px;}
+.ui-icon-arrowthick-1-ne{background-position:-16px -48px;}
+.ui-icon-arrowthick-1-e{background-position:-32px -48px;}
+.ui-icon-arrowthick-1-se{background-position:-48px -48px;}
+.ui-icon-arrowthick-1-s{background-position:-64px -48px;}
+.ui-icon-arrowthick-1-sw{background-position:-80px -48px;}
+.ui-icon-arrowthick-1-w{background-position:-96px -48px;}
+.ui-icon-arrowthick-1-nw{background-position:-112px -48px;}
+.ui-icon-arrowthick-2-n-s{background-position:-128px -48px;}
+.ui-icon-arrowthick-2-ne-sw{background-position:-144px -48px;}
+.ui-icon-arrowthick-2-e-w{background-position:-160px -48px;}
+.ui-icon-arrowthick-2-se-nw{background-position:-176px -48px;}
+.ui-icon-arrowthickstop-1-n{background-position:-192px -48px;}
+.ui-icon-arrowthickstop-1-e{background-position:-208px -48px;}
+.ui-icon-arrowthickstop-1-s{background-position:-224px -48px;}
+.ui-icon-arrowthickstop-1-w{background-position:-240px -48px;}
+.ui-icon-arrowreturnthick-1-w{background-position:0 -64px;}
+.ui-icon-arrowreturnthick-1-n{background-position:-16px -64px;}
+.ui-icon-arrowreturnthick-1-e{background-position:-32px -64px;}
+.ui-icon-arrowreturnthick-1-s{background-position:-48px -64px;}
+.ui-icon-arrowreturn-1-w{background-position:-64px -64px;}
+.ui-icon-arrowreturn-1-n{background-position:-80px -64px;}
+.ui-icon-arrowreturn-1-e{background-position:-96px -64px;}
+.ui-icon-arrowreturn-1-s{background-position:-112px -64px;}
+.ui-icon-arrowrefresh-1-w{background-position:-128px -64px;}
+.ui-icon-arrowrefresh-1-n{background-position:-144px -64px;}
+.ui-icon-arrowrefresh-1-e{background-position:-160px -64px;}
+.ui-icon-arrowrefresh-1-s{background-position:-176px -64px;}
+.ui-icon-arrow-4{background-position:0 -80px;}
+.ui-icon-arrow-4-diag{background-position:-16px -80px;}
+.ui-icon-extlink{background-position:-32px -80px;}
+.ui-icon-newwin{background-position:-48px -80px;}
+.ui-icon-refresh{background-position:-64px -80px;}
+.ui-icon-shuffle{background-position:-80px -80px;}
+.ui-icon-transfer-e-w{background-position:-96px -80px;}
+.ui-icon-transferthick-e-w{background-position:-112px -80px;}
+.ui-icon-folder-collapsed{background-position:0 -96px;}
+.ui-icon-folder-open{background-position:-16px -96px;}
+.ui-icon-document{background-position:-32px -96px;}
+.ui-icon-document-b{background-position:-48px -96px;}
+.ui-icon-note{background-position:-64px -96px;}
+.ui-icon-mail-closed{background-position:-80px -96px;}
+.ui-icon-mail-open{background-position:-96px -96px;}
+.ui-icon-suitcase{background-position:-112px -96px;}
+.ui-icon-comment{background-position:-128px -96px;}
+.ui-icon-person{background-position:-144px -96px;}
+.ui-icon-print{background-position:-160px -96px;}
+.ui-icon-trash{background-position:-176px -96px;}
+.ui-icon-locked{background-position:-192px -96px;}
+.ui-icon-unlocked{background-position:-208px -96px;}
+.ui-icon-bookmark{background-position:-224px -96px;}
+.ui-icon-tag{background-position:-240px -96px;}
+.ui-icon-home{background-position:0 -112px;}
+.ui-icon-flag{background-position:-16px -112px;}
+.ui-icon-calendar{background-position:-32px -112px;}
+.ui-icon-cart{background-position:-48px -112px;}
+.ui-icon-pencil{background-position:-64px -112px;}
+.ui-icon-clock{background-position:-80px -112px;}
+.ui-icon-disk{background-position:-96px -112px;}
+.ui-icon-calculator{background-position:-112px -112px;}
+.ui-icon-zoomin{background-position:-128px -112px;}
+.ui-icon-zoomout{background-position:-144px -112px;}
+.ui-icon-search{background-position:-160px -112px;}
+.ui-icon-wrench{background-position:-176px -112px;}
+.ui-icon-gear{background-position:-192px -112px;}
+.ui-icon-heart{background-position:-208px -112px;}
+.ui-icon-star{background-position:-224px -112px;}
+.ui-icon-link{background-position:-240px -112px;}
+.ui-icon-cancel{background-position:0 -128px;}
+.ui-icon-plus{background-position:-16px -128px;}
+.ui-icon-plusthick{background-position:-32px -128px;}
+.ui-icon-minus{background-position:-48px -128px;}
+.ui-icon-minusthick{background-position:-64px -128px;}
+.ui-icon-close{background-position:-80px -128px;}
+.ui-icon-closethick{background-position:-96px -128px;}
+.ui-icon-key{background-position:-112px -128px;}
+.ui-icon-lightbulb{background-position:-128px -128px;}
+.ui-icon-scissors{background-position:-144px -128px;}
+.ui-icon-clipboard{background-position:-160px -128px;}
+.ui-icon-copy{background-position:-176px -128px;}
+.ui-icon-contact{background-position:-192px -128px;}
+.ui-icon-image{background-position:-208px -128px;}
+.ui-icon-video{background-position:-224px -128px;}
+.ui-icon-script{background-position:-240px -128px;}
+.ui-icon-alert{background-position:0 -144px;}
+.ui-icon-info{background-position:-16px -144px;}
+.ui-icon-notice{background-position:-32px -144px;}
+.ui-icon-help{background-position:-48px -144px;}
+.ui-icon-check{background-position:-64px -144px;}
+.ui-icon-bullet{background-position:-80px -144px;}
+.ui-icon-radio-off{background-position:-96px -144px;}
+.ui-icon-radio-on{background-position:-112px -144px;}
+.ui-icon-pin-w{background-position:-128px -144px;}
+.ui-icon-pin-s{background-position:-144px -144px;}
+.ui-icon-play{background-position:0 -160px;}
+.ui-icon-pause{background-position:-16px -160px;}
+.ui-icon-seek-next{background-position:-32px -160px;}
+.ui-icon-seek-prev{background-position:-48px -160px;}
+.ui-icon-seek-end{background-position:-64px -160px;}
+.ui-icon-seek-first{background-position:-80px -160px;}
+.ui-icon-stop{background-position:-96px -160px;}
+.ui-icon-eject{background-position:-112px -160px;}
+.ui-icon-volume-off{background-position:-128px -160px;}
+.ui-icon-volume-on{background-position:-144px -160px;}
+.ui-icon-power{background-position:0 -176px;}
+.ui-icon-signal-diag{background-position:-16px -176px;}
+.ui-icon-signal{background-position:-32px -176px;}
+.ui-icon-battery-0{background-position:-48px -176px;}
+.ui-icon-battery-1{background-position:-64px -176px;}
+.ui-icon-battery-2{background-position:-80px -176px;}
+.ui-icon-battery-3{background-position:-96px -176px;}
+.ui-icon-circle-plus{background-position:0 -192px;}
+.ui-icon-circle-minus{background-position:-16px -192px;}
+.ui-icon-circle-close{background-position:-32px -192px;}
+.ui-icon-circle-triangle-e{background-position:-48px -192px;}
+.ui-icon-circle-triangle-s{background-position:-64px -192px;}
+.ui-icon-circle-triangle-w{background-position:-80px -192px;}
+.ui-icon-circle-triangle-n{background-position:-96px -192px;}
+.ui-icon-circle-arrow-e{background-position:-112px -192px;}
+.ui-icon-circle-arrow-s{background-position:-128px -192px;}
+.ui-icon-circle-arrow-w{background-position:-144px -192px;}
+.ui-icon-circle-arrow-n{background-position:-160px -192px;}
+.ui-icon-circle-zoomin{background-position:-176px -192px;}
+.ui-icon-circle-zoomout{background-position:-192px -192px;}
+.ui-icon-circle-check{background-position:-208px -192px;}
+.ui-icon-circlesmall-plus{background-position:0 -208px;}
+.ui-icon-circlesmall-minus{background-position:-16px -208px;}
+.ui-icon-circlesmall-close{background-position:-32px -208px;}
+.ui-icon-squaresmall-plus{background-position:-48px -208px;}
+.ui-icon-squaresmall-minus{background-position:-64px -208px;}
+.ui-icon-squaresmall-close{background-position:-80px -208px;}
+.ui-icon-grip-dotted-vertical{background-position:0 -224px;}
+.ui-icon-grip-dotted-horizontal{background-position:-16px -224px;}
+.ui-icon-grip-solid-vertical{background-position:-32px -224px;}
+.ui-icon-grip-solid-horizontal{background-position:-48px -224px;}
+.ui-icon-gripsmall-diagonal-se{background-position:-64px -224px;}
+.ui-icon-grip-diagonal-se{background-position:-80px -224px;}
+.ui-corner-tl{-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;}
+.ui-corner-tr{-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;}
+.ui-corner-bl{-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;}
+.ui-corner-br{-moz-border-radius-bottomright:5px;-webkit-border-bottom-right-radius:5px;}
+.ui-corner-top{-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;}
+.ui-corner-bottom{-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-right-radius:5px;}
+.ui-corner-right{-moz-border-radius-topright:5px;-webkit-border-top-right-radius:5px;-moz-border-radius-bottomright:5px;-webkit-border-bottom-right-radius:5px;}
+.ui-corner-left{-moz-border-radius-topleft:5px;-webkit-border-top-left-radius:5px;-moz-border-radius-bottomleft:5px;-webkit-border-bottom-left-radius:5px;}
+.ui-corner-all{-moz-border-radius:5px;-webkit-border-radius:5px;}
+.ui-widget-overlay{background:#666 url(https://static.vinopedia.com/css/ui/images/ui-bg_diagonals-thick_20_666666_40x40.png) 50% 50% repeat;opacity:.50;filter:Alpha(Opacity=50);}
+.ui-widget-shadow{margin:-5px 0 0 -5px;padding:5px;background:#000 url(https://static.vinopedia.com/css/ui/images/ui-bg_flat_10_000000_40x100.png) 50% 50% repeat-x;opacity:.20;filter:Alpha(Opacity=20);-moz-border-radius:5px;-webkit-border-radius:5px;}
+.ui-accordion .ui-accordion-header{cursor:pointer;position:relative;margin-top:1px;zoom:1;}
+.ui-accordion .ui-accordion-li-fix{display:inline;}
+.ui-accordion .ui-accordion-header-active{border-bottom:0!important;}
+.ui-accordion .ui-accordion-header a{display:block;font-size:1em;padding:.5em .5em .5em 2.2em;}
+.ui-accordion .ui-accordion-header .ui-icon{position:absolute;left:.5em;top:50%;margin-top:-8px;}
+.ui-accordion .ui-accordion-content{padding:1em 2.2em;border-top:0;margin-top:-2px;position:relative;top:1px;margin-bottom:2px;overflow:auto;display:none;}
+.ui-accordion .ui-accordion-content-active{display:block;}
+.ui-datepicker{width:17em;padding:.2em .2em 0;}
+.ui-datepicker .ui-datepicker-header{position:relative;padding:.2em 0;}
+.ui-datepicker .ui-datepicker-prev,.ui-datepicker .ui-datepicker-next{position:absolute;top:2px;width:1.8em;height:1.8em;}
+.ui-datepicker .ui-datepicker-prev-hover,.ui-datepicker .ui-datepicker-next-hover{top:1px;}
+.ui-datepicker .ui-datepicker-prev{left:2px;}
+.ui-datepicker .ui-datepicker-next{right:2px;}
+.ui-datepicker .ui-datepicker-prev-hover{left:1px;}
+.ui-datepicker .ui-datepicker-next-hover{right:1px;}
+.ui-datepicker .ui-datepicker-prev span,.ui-datepicker .ui-datepicker-next span{display:block;position:absolute;left:50%;margin-left:-8px;top:50%;margin-top:-8px;}
+.ui-datepicker .ui-datepicker-title{margin:0 2.3em;line-height:1.8em;text-align:center;}
+.ui-datepicker .ui-datepicker-title select{float:left;font-size:1em;margin:1px 0;}
+.ui-datepicker select.ui-datepicker-month-year{width:100%;}
+.ui-datepicker select.ui-datepicker-month,.ui-datepicker select.ui-datepicker-year{width:49%;}
+.ui-datepicker .ui-datepicker-title select.ui-datepicker-year{float:right;}
+.ui-datepicker table{width:100%;font-size:.9em;border-collapse:collapse;margin:0 0 .4em;}
+.ui-datepicker th{padding:.7em .3em;text-align:center;font-weight:bold;border:0;}
+.ui-datepicker td{border:0;padding:1px;}
+.ui-datepicker td span,.ui-datepicker td a{display:block;padding:.2em;text-align:right;text-decoration:none;}
+.ui-datepicker .ui-datepicker-buttonpane{background-image:none;margin:.7em 0 0 0;padding:0 .2em;border-left:0;border-right:0;border-bottom:0;}
+.ui-datepicker .ui-datepicker-buttonpane button{float:right;margin:.5em .2em .4em;cursor:pointer;padding:.2em .6em .3em .6em;width:auto;overflow:visible;}
+.ui-datepicker .ui-datepicker-buttonpane button.ui-datepicker-current{float:left;}
+.ui-datepicker.ui-datepicker-multi{width:auto;}
+.ui-datepicker-multi .ui-datepicker-group{float:left;}
+.ui-datepicker-multi .ui-datepicker-group table{width:95%;margin:0 auto .4em;}
+.ui-datepicker-multi-2 .ui-datepicker-group{width:50%;}
+.ui-datepicker-multi-3 .ui-datepicker-group{width:33.3%;}
+.ui-datepicker-multi-4 .ui-datepicker-group{width:25%;}
+.ui-datepicker-multi .ui-datepicker-group-last .ui-datepicker-header{border-left-width:0;}
+.ui-datepicker-multi .ui-datepicker-group-middle .ui-datepicker-header{border-left-width:0;}
+.ui-datepicker-multi .ui-datepicker-buttonpane{clear:left;}
+.ui-datepicker-row-break{clear:both;width:100%;}
+.ui-datepicker-rtl{direction:rtl;}
+.ui-datepicker-rtl .ui-datepicker-prev{right:2px;left:auto;}
+.ui-datepicker-rtl .ui-datepicker-next{left:2px;right:auto;}
+.ui-datepicker-rtl .ui-datepicker-prev:hover{right:1px;left:auto;}
+.ui-datepicker-rtl .ui-datepicker-next:hover{left:1px;right:auto;}
+.ui-datepicker-rtl .ui-datepicker-buttonpane{clear:right;}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button{float:left;}
+.ui-datepicker-rtl .ui-datepicker-buttonpane button.ui-datepicker-current{float:right;}
+.ui-datepicker-rtl .ui-datepicker-group{float:right;}
+.ui-datepicker-rtl .ui-datepicker-group-last .ui-datepicker-header{border-right-width:0;border-left-width:1px;}
+.ui-datepicker-rtl .ui-datepicker-group-middle .ui-datepicker-header{border-right-width:0;border-left-width:1px;}
+.ui-datepicker-cover{display:none;display:block;position:absolute;z-index:-1;filter:mask();top:-4px;left:-4px;width:200px;height:200px;}
+.ui-dialog{position:relative;padding:.2em;width:300px;}
+.ui-dialog .ui-dialog-titlebar{padding:.5em .3em .3em 1em;position:relative;}
+.ui-dialog .ui-dialog-title{float:left;margin:.1em 0 .2em;}
+.ui-dialog .ui-dialog-titlebar-close{position:absolute;right:.3em;top:50%;width:19px;margin:-10px 0 0 0;padding:1px;height:18px;}
+.ui-dialog .ui-dialog-titlebar-close span{display:block;margin:1px;}
+.ui-dialog .ui-dialog-titlebar-close:hover,.ui-dialog .ui-dialog-titlebar-close:focus{padding:0;}
+.ui-dialog .ui-dialog-content{border:0;padding:.5em 1em;background:none;overflow:auto;zoom:1;}
+.ui-dialog .ui-dialog-buttonpane{text-align:left;border-width:1px 0 0 0;background-image:none;margin:.5em 0 0 0;padding:.3em 1em .5em .4em;}
+.ui-dialog .ui-dialog-buttonpane button{float:right;margin:.5em .4em .5em 0;cursor:pointer;padding:.2em .6em .3em .6em;line-height:1.4em;width:auto;overflow:visible;}
+.ui-dialog .ui-resizable-se{width:14px;height:14px;right:3px;bottom:3px;}
+.ui-draggable .ui-dialog-titlebar{cursor:move;}
+.ui-progressbar{height:2em;text-align:left;}
+.ui-progressbar .ui-progressbar-value{margin:-1px;height:100%;}
+.ui-resizable{position:relative;}
+.ui-resizable-handle{position:absolute;font-size:.1px;z-index:99999;display:block;}
+.ui-resizable-disabled .ui-resizable-handle,.ui-resizable-autohide .ui-resizable-handle{display:none;}
+.ui-resizable-n{cursor:n-resize;height:7px;width:100%;top:-5px;left:0;}
+.ui-resizable-s{cursor:s-resize;height:7px;width:100%;bottom:-5px;left:0;}
+.ui-resizable-e{cursor:e-resize;width:7px;right:-5px;top:0;height:100%;}
+.ui-resizable-w{cursor:w-resize;width:7px;left:-5px;top:0;height:100%;}
+.ui-resizable-se{cursor:se-resize;width:12px;height:12px;right:1px;bottom:1px;}
+.ui-resizable-sw{cursor:sw-resize;width:9px;height:9px;left:-5px;bottom:-5px;}
+.ui-resizable-nw{cursor:nw-resize;width:9px;height:9px;left:-5px;top:-5px;}
+.ui-resizable-ne{cursor:ne-resize;width:9px;height:9px;right:-5px;top:-5px;}
+.ui-slider{position:relative;text-align:left;}
+.ui-slider .ui-slider-handle{position:absolute;z-index:2;width:15px;height:21px;cursor:default;border:0;background:url(https://static.vinopedia.com/js/slider/images/sliderhand.png);}
+.ui-slider .ui-slider-range{position:absolute;z-index:1;font-size:.7em;display:block;border:0;}
+.ui-slider-horizontal{height:.8em;}
+.ui-slider-horizontal .ui-slider-handle{top:-.3em;margin-left:-.6em;}
+.ui-slider-horizontal .ui-slider-range{top:0;height:100%;}
+.ui-slider-horizontal .ui-slider-range-min{left:0;}
+.ui-slider-horizontal .ui-slider-range-max{right:0;}
+.ui-slider-vertical{width:.8em;height:100px;}
+.ui-slider-vertical .ui-slider-handle{left:-.3em;margin-left:0;margin-bottom:-.6em;}
+.ui-slider-vertical .ui-slider-range{left:0;width:100%;}
+.ui-slider-vertical .ui-slider-range-min{bottom:0;}
+.ui-slider-vertical .ui-slider-range-max{top:0;}
+.ui-tabs{padding:.2em;zoom:1;}
+.ui-tabs .ui-tabs-nav{list-style:none;position:relative;padding:.2em .2em 0;}
+.ui-tabs .ui-tabs-nav li{position:relative;float:left;border-bottom-width:0!important;margin:0 .2em -1px 0;padding:0;}
+.ui-tabs .ui-tabs-nav li a{float:left;text-decoration:none;padding:.5em 1em;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected{padding-bottom:1px;border-bottom-width:0;}
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a,.ui-tabs .ui-tabs-nav li.ui-state-disabled a,.ui-tabs .ui-tabs-nav li.ui-state-processing a{cursor:text;}
+.ui-tabs .ui-tabs-nav li a,.ui-tabs.ui-tabs-collapsible .ui-tabs-nav li.ui-tabs-selected a{cursor:pointer;}
+.ui-tabs .ui-tabs-panel{padding:1em 1.4em;display:block;border-width:0;background:none;}
+.ui-tabs .ui-tabs-hide{display:none!important;}
+
+/*uislider extras*/
+.ui-slider{text-decoration:none!important;}
+.ui-slider .ui-slider-handle{overflow:visible!important;}
+.ui-slider .ui-slider-tooltip{display:none;}
+.ui-slider .screenReaderContext{position:absolute;width:0;height:0;overflow:hidden;left:-999999999px;}
+.ui-slider .ui-state-active .ui-slider-tooltip,.ui-slider .ui-state-focus .ui-slider-tooltip,.ui-slider .ui-state-hover .ui-slider-tooltip{display:block;position:absolute;bottom:2.5em;text-align:center;padding:.3em .2em .4em;font-size:.9em;width:3.8em;margin-left:-1.5em;}
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down,.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down-inner{position:absolute;display:block;width:0;height:0;border-bottom-width:0;background:none;}
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down{border-left:7px dashed transparent;border-right:7px dashed transparent;border-top-width:8px;bottom:-8px;right:auto;left:50%;margin-left:-7px;}
+.ui-slider .ui-slider-tooltip .ui-tooltip-pointer-down-inner{border-left:6px dashed transparent;border-right:6px dashed transparent;border-top:7px solid #fff;bottom:auto;top:-9px;left:-6px;}
+.ui-slider a{text-decoration:none;}
+.ui-slider ol,.ui-slider li,.ui-slider dl,.ui-slider dd,.ui-slider dt{list-style:none;margin:0;padding:0;}
+.ui-slider ol,.ui-slider dl{position:relative;top:1.3em;width:100%;}
+.ui-slider dt{top:1.5em;position:absolute;padding-top:.2em;text-align:center;border-bottom:1px dotted #ddd;height:.7em;color:#999;}
+.ui-slider dt span{background:#fff;padding:0 .5em;}
+.ui-slider li,.ui-slider dd{position:absolute;overflow:visible;color:#666;}
+.ui-slider span.ui-slider-label{position:absolute;}
+.ui-slider li span.ui-slider-label,.ui-slider dd span.ui-slider-label{display:none;}
+.ui-slider li span.ui-slider-label-show,.ui-slider dd span.ui-slider-label-show{display:block;}
+.ui-slider span.ui-slider-tic{display:none;position:absolute;left:0;height:.8em;top:-1.3em;} /*Added by Jasper*/ 
+.ui-slider li span.ui-widget-content,.ui-slider dd span.ui-widget-content{border-right:0;border-left-width:1px;border-left-style:solid;border-top:0;border-bottom:0;}
+.ui-slider .first .ui-slider-tic,.ui-slider .last .ui-slider-tic{display:none;}
+
+
+.sprite{background: url(https://static2.vinopedia.com/css/sprite4.png) no-repeat top left;}
+.spriter{background: url(https://static.vinopedia.com/css/spriter.png) repeat-x top left;}
+.sprite-language{width:22px;height:13px;margin-left:5px;}
+
+.spriter-refine { background-position: 0 0; } 
+.spriter-resultf { background-position: 0 -32px; } 
+.spriter-resulth { background-position: 0 -65px; } 
+.spriter-vintagee { background-position: 0 -98px; } 
+.spriter-vintageo { background-position: 0 -127px; }
+
+.sprite-aaaatransparent{ background-position: 0 0;  } 
+.sprite-arrowgreen{ background-position: 0 -51px;  } 
+.sprite-at{ background-position: 0 -107px;  } 
+.sprite-au{ background-position: 0 -167px;  } 
+.sprite-be{ background-position: 0 -229px;  } 
+.sprite-bg{ background-position: 0 -289px;  } 
+.sprite-ca{ background-position: 0 -349px;  } 
+.sprite-ch{ background-position: 0 -409px;  } 
+.sprite-champagne18{ background-position: 0 -469px;  } 
+.sprite-close{ background-position: 0 -537px;  } 
+.sprite-cn{ background-position: 0 -600px;  } 
+.sprite-cy{ background-position: 0 -662px;  } 
+.sprite-cz{ background-position: 0 -722px;  } 
+.sprite-de{ background-position: 0 -782px;  } 
+.sprite-dessert18{ background-position: 0 -842px;  } 
+.sprite-dglassdessert{ background-position: 0 -910px;  } 
+.sprite-dglassno{ background-position: 0 -1042px;  } 
+.sprite-dglassport{ background-position: 0 -1174px;  } 
+.sprite-dglassred{ background-position: 0 -1306px;  } 
+.sprite-dglassrose{ background-position: 0 -1438px;  } 
+.sprite-dglasssparkling{ background-position: 0 -1570px;  } 
+.sprite-dglasswhite{ background-position: 0 -1702px;  } 
+.sprite-dk{ background-position: 0 -1834px;  } 
+.sprite-dutch{ background-position: 0 -1894px;  } 
+.sprite-ee{ background-position: -122px 0;  } 
+.sprite-empty18{ background-position: -122px -60px;  } 
+.sprite-en{ background-position: -122px -128px;  } 
+.sprite-en{ background-position: -122px -188px;  } 
+.sprite-english{ background-position: -122px -251px;  } 
+.sprite-es{ background-position: -122px -314px;  } 
+.sprite-fi{ background-position: -122px -374px;  } 
+.sprite-fr{ background-position: -122px -434px;  } 
+.sprite-french{ background-position: -122px -494px;  } 
+.sprite-gb{ background-position: -122px -557px;  } 
+.sprite-glassdessert{ background-position: -122px -617px;  } 
+.sprite-glassno{ background-position: -122px -749px;  } 
+.sprite-glassport{ background-position: -122px -881px;  } 
+.sprite-glassred{ background-position: -122px -1013px;  } 
+.sprite-glassrose{ background-position: -122px -1145px;  } 
+.sprite-glasssparkling{ background-position: -122px -1277px;  } 
+.sprite-glasswhite{ background-position: -122px -1409px;  } 
+.sprite-gosmall{ background-position: -122px -1541px;  } 
+.sprite-gr{ background-position: -122px -1619px;  } 
+.sprite-grapered{ background-position: -122px -1679px;  } 
+.sprite-grapewhite{ background-position: -122px -1741px;  } 
+.sprite-greengo{ background-position: -122px -1803px;  } 
+.sprite-hk{ background-position: -122px -1880px;  } 
+.sprite-hu{ background-position: -122px -1940px;  } 
+.sprite-ie{ background-position: -244px 0;  } 
+.sprite-it{ background-position: -244px -60px;  } 
+.sprite-jp{ background-position: -244px -120px;  } 
+.sprite-lt{ background-position: -244px -180px;  } 
+.sprite-lu{ background-position: -244px -240px;  } 
+.sprite-lv{ background-position: -244px -300px;  } 
+.sprite-magnglass{ background-position: -244px -360px;  } 
+.sprite-mt{ background-position: -244px -426px;  } 
+.sprite-nl{ background-position: -244px -486px;  } 
+.sprite-no{ background-position: -244px -546px;  } 
+.sprite-nz{ background-position: -244px -606px;  } 
+.sprite-pl{ background-position: -244px -666px;  } 
+.sprite-port18{ background-position: -244px -726px;  } 
+.sprite-pt{ background-position: -244px -794px;  } 
+.sprite-red18{ background-position: -244px -854px;  } 
+.sprite-refinel{ background-position: -244px -922px;  } 
+.sprite-refiner{ background-position: -244px -1003px;  } 
+.sprite-resultfl{ background-position: -244px -1084px;  } 
+.sprite-resultfr{ background-position: -244px -1166px;  } 
+.sprite-resulthl{ background-position: -244px -1248px;  } 
+.sprite-resulthlstr{ background-position: -244px -1330px;  } 
+.sprite-resulthr{ background-position: -244px -1412px;  } 
+.sprite-rose18{ background-position: -244px -1494px;  } 
+.sprite-roundauthore{ background-position: -244px -1562px;  } 
+.sprite-roundauthoro{ background-position: -244px -1636px;  } 
+.sprite-roundrratingee{ background-position: -244px -1710px;  } 
+.sprite-roundrratingeo{ background-position: -244px -1784px;  } 
+.sprite-roundrratingoe{ background-position: -244px -1858px;  } 
+.sprite-roundrratingoo{ background-position: -244px -1932px;  } 
+.sprite-roundrvintagee{ background-position: -366px 0;  } 
+.sprite-roundrvintageo{ background-position: -366px -78px;  } 
+.sprite-roundwine{ background-position: -366px -156px;  } 
+.sprite-se{ background-position: -366px -278px;  } 
+.sprite-searchgo{ background-position: -366px -338px;  } 
+.sprite-sg{ background-position: -366px -424px;  } 
+.sprite-si{ background-position: -366px -484px;  } 
+.sprite-sk{ background-position: -366px -544px;  } 
+.sprite-sortasc{ background-position: -366px -604px;  } 
+.sprite-sortdesc{ background-position: -366px -667px;  } 
+.sprite-us{ background-position: -366px -730px;  } 
+.sprite-white18{ background-position: -366px -790px;  } 
+.sprite-za{ background-position: -366px -858px;  } 
+.sprite-zchateau{ background-position: -366px -918px;  } 

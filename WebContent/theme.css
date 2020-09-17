@@ -1,0 +1,611 @@
+html { height:100%;
+text-align:center;
+color:black;
+	background: white ;
+       background-repeat: repeat-x;
+        font-family: Arial,sans-serif; 
+			font-size: 13px;
+			vertical-align:top; }
+
+body { margin:0;
+		text-align:center;
+		font-family: Arial,sans-serif; 
+		background-image: url(/images/Headersidelong.jpg); 
+		background-repeat: repeat-x; 
+		background-position: top; 
+		vertical-align:top; 
+		}
+
+div.centralpane{
+		width:1000px;
+		min-height: 500px;
+		margin-right:auto;
+		margin-left:auto;
+		text-align:left;  
+		color:black;
+		background: white ;
+		}
+		
+div.show{
+float:left;
+padding-right:10px;
+}
+div.tastingnote{
+	font-family:Comic Sans MS,Arial;
+	padding:0px;
+	padding-right:0px;
+	clear:left;
+	background-color:white;
+	border-style:solid;
+	border-color: grey;
+	border-style:ridge;
+	visibility:hidden;
+	position:absolute;
+	z-index:999;
+	max-width:670px;
+	max-height:300px;
+	overflow:auto;
+	overflow-y: auto; 
+	overflow-x: hidden; 
+	
+}
+div.advicetastingnote{
+	float:left;
+	clear:left;
+	font-family:Comic Sans MS,Arial;
+	padding:0px;
+	padding-right:0px;
+	clear:left;
+	background-color:white;
+	border-style:solid;
+	border-color: grey;
+	border-style:ridge;
+	visibility:hidden;
+	position:absolute;
+	z-index:999;
+	max-width:670px;
+	max-height:300px;
+	overflow:auto;
+	overflow-y: auto; 
+	overflow-x: hidden; 
+	
+}
+div.tncontent{
+	background-color:white;
+	background-image: url(/images/stain.jpg); 
+	background-repeat:no-repeat;
+	background-attachment:local;
+	background-position: 150px 20px;	
+	max-width:670px;
+	padding: 2px 0; /* take care for collapsing margins */
+	padding-left:4px;
+	padding-right:14px;
+	
+}
+div.youmayalsolike{
+	padding:2px;
+	clear:left;
+	border-style:solid;
+	border-color: grey;
+	border-style:ridge;
+	background-color:white;
+	visibility:hidden;
+	position:absolute;
+	z-index:999;
+	max-width:670px;
+	max-height:350px;
+	overflow: auto; 
+	overflow-y: auto; 
+	overflow-x: hidden; 
+}
+table.suggestions{
+border-collapse:	collapse;	
+}
+
+div.refine{
+	padding:2px;
+	clear:left;
+	border-style:solid;
+	border-color: grey;
+	border-style:ridge;
+	background-color:white;
+	visibility:hidden;
+	position:absolute;
+	z-index:999;
+	max-width:670px;
+	max-height:350px;
+	overflow: auto; 
+	overflow-y: auto; 
+	overflow-x: hidden; 
+}
+
+table {	font-size: 13px;
+
+		}
+
+			
+td { vertical-align:top;  }
+table.mywines {
+text-align:left;
+width: 100%;
+}
+table.mywines td.wine{
+text-align:left;
+width: 50%;
+}
+table.mywines td.vintage{
+width: 10%;
+}
+table.mywines td.price{
+text-align:right;
+width: 10%;
+}
+table.ratings{
+ 	border-width: 3px;
+	border-spacing: 0px;
+	border-style: ridge;
+	border-color: grey;
+	border-collapse: separate;
+	
+}
+table.ratings td.odd{
+	background: #e0f3ff;
+	color:black;
+	text-align:center;
+	}
+
+table.ratings td.even{
+	text-align:center;
+	
+	}
+table.ratings td.author{
+	text-align:left;
+	}
+
+table.main {
+	border-collapse: separate; 
+	padding-top: 1px;
+	padding-left: 0px;
+	border-spacing:0px;
+	width: 1000px;
+	margin-left: auto; 
+	margin-right: auto;
+	border-width: 0px; 
+	text-align:left;
+	}
+
+table.main td.left{
+	width: 195px;
+	padding-top: 0px;
+	padding-left: 5px;
+	vertical-align:top;
+}
+
+table.main td.centre{
+	width: 675px;
+	padding-top: 6px;
+	padding-left: 0px;
+	vertical-align:top;
+}
+
+table.main td.right{
+	width: 125px;
+	padding-top: 6px;
+	vertical-align:top;
+}
+
+table.searchform {
+	border-spacing: 0px;
+	padding-top: 0px;
+	
+}
+
+
+table.search {
+	width:180px;
+	padding-top: 0px;
+	border-width: 1px;
+	padding-left: 2px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: #4080ff;
+	border-collapse: separate;
+	background-color: #e0f3ff;
+	color: black;
+}
+
+table.results {
+	width:99%;
+	text-align:left;
+	table-layout:fixed;
+	border-collapse: collapse;
+	border-width: 0px; 
+	white-space: nowrap;
+	}
+table.results tr.odd 	{
+	background: #e0f3ff;
+	color:black;
+	text-align:left;
+	}
+table.results tr.even 	{
+	text-align:left;
+	}
+
+table.results td.googlead 	{
+	background: #ffffff;
+	text-align:left;
+	}
+
+table.results tr.sponsoredodd 	{
+	font-weight : bold;
+	background: #ffffaa;
+	color:black;
+	text-align:left;
+	}
+	
+table.results tr.sponsoredeven 	{
+	background: #ffff00;
+	color:black;
+	font-weight : bold;
+	text-align:left;
+	}
+	
+table.results td {
+white-space: nowrap;
+	overflow:hidden;
+ }
+
+table.results td.flag {
+vertical-align:middle}
+
+table.results td.price {
+white-space: nowrap;
+}
+
+table.results th {
+	font-size:14px;
+	}
+	
+table.results th.flag {
+width:19px;
+}
+
+table.results th.shop {
+width:15%
+}
+table.results th.name {
+width:51%
+}
+table.results th.vintage {
+width:9%
+}
+
+table.results th.size {
+width:10%
+}
+table.results th.price {
+width:10%
+}
+
+table.results td.oldprice 	{
+	width:10%;
+	text-decoration: line-through;
+}
+
+table.tips {
+	width:99%;
+	text-align:left;
+	table-layout:fixed;
+	border-collapse: collapse;
+	border-width: 0px; 
+	white-space: nowrap;
+   	text-align:left;
+	}
+table.tips tr.odd 	{
+	background: #e0f3ff;
+	text-align:left;
+	}
+
+
+table.tips td.vintage 	{
+	text-align:left;
+	width: 32px;
+}
+
+table.tips td.size 	{
+	text-align:left;
+	width: 40px;
+}
+
+table.tips td.price 	{
+	text-align:right;
+
+	width: 65px;
+}
+table.tips td.oldprice 	{
+	text-align:right;
+	text-decoration: line-through;
+	width: 65px;
+}
+table.tips tr.sponsoredodd 	{
+	font-weight : bold;
+	background: #ffffaa;
+	text-align:left;
+	}
+	
+table.tips tr.sponsoredeven 	{
+	background: #ffff00;
+	font-weight : bold;
+	text-align:left;
+	}
+	
+table.tips td {
+white-space: nowrap;
+	overflow:hidden;
+vertical-align:top;}
+
+input.leftfull {
+	width: 160px;
+}	
+ 
+
+a:link {text-decoration: none;border-style: none; color: blue}
+a:visited {text-decoration: none; border-style: none; color: blue}
+a:active {text-decoration: none;border-style: none; color: blue}
+a:hover {text-decoration: underline; border-style: none; color: blue}
+
+a:link img
+{ 
+  border-style: none;
+}
+
+img
+{ 
+  border-style: none;
+}
+
+img.moneyselected 
+{ border-width: 4px;
+	border-spacing: 0px;
+	border-style: ridge;
+	border-color: grey;
+	border-collapse: separate;
+	cursor:pointer;
+}
+img.money 
+{ padding:4px;
+	cursor:pointer;
+}
+img.glassselected 
+{ border-width: 4px;
+	border-spacing: 0px;
+	border-style: ridge;
+	border-color: grey;
+	border-collapse: separate;
+	cursor:pointer;
+}
+img.glass 
+{ padding:4px;
+	cursor:pointer;
+}
+div#regionselector a{
+	text-decoration: underline; border-style: none; color: blue;
+	cursor:pointer;
+	}
+
+div.wineinfo{
+	width:300px;
+	height:137px;
+	float:left;
+	border-width: 3px;
+	border-style: ridge;
+	border-color: grey;
+	border-collapse: separate;
+	padding:2px;
+}
+div.top{
+	width:214px;
+	height:85px;
+	float:left;
+	border-style: none;
+	clear:left;
+}
+div.bottom{
+	width:214px;
+	height:50px;
+	float:left;
+	border-style: none;
+	clear:left;
+}
+div.right{
+	width:80px;
+	height:137px;
+	float:right;
+	border-style: none;
+}
+div.top div{
+	float:none;
+	width:214px;
+	clear:left;
+}
+div.wineinfo div.score{
+	float:right;
+	padding-right:0px;
+	padding-bottom:2px;
+	width:60px;
+	height:31px;
+	clear:right;
+}
+div.wineinfo div.price{
+	padding-top:3px;
+	font-size:20px;
+	width:120px;
+	float:left;
+}
+div.wineinfo div.oldprice{
+	padding-top:7px;
+	font-size:16px;
+	text-decoration: line-through;
+	width:80px;
+	float:left;
+}
+div.wineinfo div.typeimg{
+	float:right;
+	width:70px;
+	clear:right;
+	
+}
+div.wineinfo div.typetext{
+	float:right;
+	clear:right;
+	width:80px;;
+	text-align: center;
+}
+div.wineinfo div.ratingbox{
+	float:right;
+	width:40px;
+	height:29px;
+	margin-right:20px;
+	padding-top:2px;
+	padding-bottom:0px;
+	padding-left:0px;
+	background-image: url(/images/ratingbox.png); 
+}
+div.wineinfo div.twentyratingbox{
+	float:right;
+	margin-right:17px;
+	width:46px;
+	height:29px;
+	padding-top:2px;
+	padding-bottom:0px;
+	padding-left:0px;
+	background-image: url(/images/twentyratingbox.png); 
+}
+div.wineinfo div.rating{
+	width:34px;
+	height:27px;
+	margin-left:3px;
+	font-size:20px;
+	font-weight: bold;
+	text-align:center;
+	font-family:Arial,sans-serif; 
+}
+div.wineinfo div.twentyrating{
+	width:40px;
+	height:27px;
+	margin-left:3px;
+	font-size:20px;
+	font-weight: bold;
+	text-align:center;
+	font-family:Arial,sans-serif; 
+}
+div.spacer{
+	float:left;
+	border-width: 0px 6px 6px 0px;
+	border-style: solid;
+	border-color: white;
+	border-collapse: separate;
+	
+}
+input.page{
+	float:left;
+	cursor:pointer;
+	clear:left;
+}
+div.clear{
+	clear:both;
+	
+}
+div.pricenote{
+	font-size:7pt;
+	float:left;
+	clear:left;	
+}
+
+.suggest_link {
+				background-color: #c0f6ff;
+				color:black;
+				padding: 1px 3px 1px 3px;
+			}
+.suggest_link_over {
+				background-color: #80D0ff;
+				color:black;
+				padding: 1px 3px 1px 3px;
+			}
+div.search_suggest_noborder {
+				visibility: hidden;
+				cursor: default;
+				position: absolute; 
+				background-color: #c0f6ff; 
+				color:black;
+				text-align: left; 
+				border: 1px solid #FFFFFF;			
+			}
+div.search_suggest_border {
+				-moz-box-sizing: border-box;
+    			box-sizing: border-box;
+    			cursor: default;
+				position: absolute; 
+				width: 300px;
+				background-color: #c0f6ff; 
+				color:black;
+				text-align: left; 
+				border: 1px solid #888888;	
+				z-index: 999;		
+			}
+div.helptext {
+				visibility: hidden;
+				cursor: default;
+				position: absolute; 
+				background-color: #c0f6ff; 
+				text-align: left; 
+				padding: 0px 10px 10px 10px;
+				border: 1px solid #000000;
+				width: 500px;
+							
+			}
+
+div.footer {
+	text-align:center;
+	font-size:10px;
+	color:gray;
+	}
+
+div.footer A:link {text-decoration: none;border-style: none; color: gray}
+div.footer A:visited {text-decoration: none; border-style: none; color: gray}
+div.footer A:active {text-decoration: none;border-style: none; color: gray}
+div.footer A:hover {text-decoration: none; border-style: none; color: black}
+
+div.note{
+	font-size:10px;
+}
+
+h1{	font-size:16px;
+	margin-top:6px;
+    margin-bottom:3px;
+}
+h2{	font-size:15px;
+	margin-top:5px;
+    margin-bottom:3px;
+}
+h3{	font-size:14px;
+	margin-top:4px;
+    margin-bottom:3px;
+}
+h4{	font-size:13px;
+	margin-top:4px;
+    margin-bottom:3px;
+}
+td.rating{
+	margin:2;
+	font-size:20px;
+	font-family:Arial,sans-serif; 
+	background-image: url(/images/ratingbox.png); 
+		
+}
+
+input.gettn {
+	   padding:0 .25em 0 .25em;
+   width:auto;
+   overflow:visible;
+}

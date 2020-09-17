@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<project default="copy" basedir="." name="vinopedia">
+
+	<!-- Sets variables which can later be used. -->
+	<!-- The value of a property is accessed via ${} -->
+
+	<property name="TOMCAT" value="/home/runner/work/demo/demo/apache-tomcat-7.0.105" />
+	<property name="TOMCAT.LIB" value="/home/runner/work/demo/demo/apache-tomcat-7.0.105/lib" />
+	<property name="src.dir" value="src" />
+	<property name="resources.dir" value="resources" />
+	<property name="war.file" location="ROOT.war" />
+	<property name="webcontent.dir" value="WebContent" />
+	<property name="build.dir" location="WebContent/WEB-INF/classes" />
+	<property name="deploy.dir" location="${TOMCAT}/webapps/" />
+
+	<path id="WebAppLibraries.libraryclasspath">
+		<fileset dir="WebContent/WEB-INF/lib">
+			<include name="**/*.jar" />
+		</fileset>
+		<pathelement location="ImportedClasses" />
+	</path>
+
+	<path id="TomcatServer.libraryclasspath">
+		<fileset dir="${TOMCAT.LIB}">
+			<include name="**/*.jar" />
+		</fileset>
+		<!-- <pathelement location="${TOMCAT}/lib/annotations-api.jar"/> -->
+	</path>
+
+	<path id="project.classpath">
+		<pathelement location="${build.dir}" />
+		<path refid="WebAppLibraries.libraryclasspath" />
+		<path refid="TomcatServer.libraryclasspath" />
+	</path>
+
+	<!-- Deletes the existing build, docs and dist directory-->
+	<target name="clean">
+		<delete dir="${build.dir}" />
+		<delete file="${war.file}" />
+	</target>
+
+	<!-- Creates the  build, docs and dist directory-->
+	<target name="makedir">
+		<mkdir dir="${build.dir}" />
+	</target>
+
+	<!-- Compiles the java code (including the usage of library for JUnit -->
+	<target name="compile" depends="clean, makedir">
+		<!-- <javac encoding="UTF-8" srcdir="${src.dir}" destdir="${build.dir}"></javac> -->
+
+		<javac debug="true" debuglevel="source,lines,vars" destdir="${build.dir}" includeantruntime="false" source="1.8" target="1.8" encoding="utf-8">
+			<src path="${src.dir}" />
+			<classpath refid="project.classpath" />
+		</javac>
+	</target>
+
+	<!--Creates the deployable war file  -->
+	<target name="war" depends="compile">
+		<buildnumber file="vinopedia.build" />
+		<copy todir="WebContent/WEB-INF/classes">
+			<fileset dir="${resources.dir}" />
+		</copy>
+
+		<war destfile="${war.file}" webxml="WebContent/WEB-INF/web.xml">
+			<fileset dir="${webcontent.dir}">
+				<exclude name="**/.bzr/**" />
+				<exclude name="**/build.**" />
+				<exclude name="**/obsolete or under construction/**" />
+			</fileset>
+			<classes dir="${build.dir}" />
+		</war>
+	</target>
+
+	<!--Copy the deployable war file to the server deployment folder -->
+	<target name="copy" depends="war">
+		<delete dir="${deploy.dir}/ROOT" />
+		<delete file="${deploy.dir}/ROOT.war" />
+		<echo>Copy war '${war.file}' to '${deploy.dir}'</echo>
+		<copy file="${war.file}" todir="${deploy.dir}" />
+		<echo>Build ${build.number} is ready</echo>
+	</target>
+
+</project>

@@ -1,0 +1,6 @@
+"Wine","Appellation","Size","Price","Url"
+"Château Cheval Blanc 1983","St. Emilion","0,75l","510,00","http://myshop.com/product/1.html"
+"Château Cheval Blanc 1983","St. Emilion","1,5l","980,00","http://myshop.com/product/2.html"
+"Château Cheval Blanc 1984","St. Emilion","0,75l","195,00","http://myshop.com/product/3.html"
+"Château Cheval Blanc 1984","St. Emilion","1,5l","390,00","http://myshop.com/product/4.html"
+"Château Cheval Blanc 1985","St. Emilion","0,75l","460,00","http://myshop.com/product/5.html"

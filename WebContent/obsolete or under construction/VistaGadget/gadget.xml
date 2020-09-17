@@ -1,0 +1,16 @@
+<gadget>
+  <name>SDK Hello World</name>
+  <version>1.0.0.0</version>
+  <author name="Microsoft">
+    <info url="msdn.microsoft.com" />
+  </author>
+  <copyright>&#169; Microsoft Corporation.</copyright>
+  <description>"HelloWorld" Sidebar gadget sample.</description>
+  <hosts>
+    <host name="sidebar">
+      <base type="HTML" apiVersion="1.0.0" src="http://192.168.1.2/VistaGadget/FWSgadget.jsp" />
+      <permissions>Full</permissions>
+      <platform minPlatformVersion="1.0" />
+    </host>
+  </hosts>
+</gadget>

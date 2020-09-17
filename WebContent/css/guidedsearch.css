@@ -1,0 +1,123 @@
+     
+#guidedsearch{
+	width:150px;
+	position:absolute;
+	float:left;
+}
+table.guidedsearch{
+	width:100%;
+}
+div.criterionh{
+    clear:both;
+    	margin-top:10px;
+    	text-decoration: none;
+    	font-weight:bold;
+    	color:#500;
+    }
+    .criterions{
+    	background-color:#ff9;
+    	color:#700;
+    	clear:both;
+    	
+    	
+    }
+    div.criterion:hover, div.criterions:hover{
+    background-color:#ff9;
+    	color:#700;
+    	cursor:pointer;
+    }
+    #pricemin,#pricemax,#vintageminsl,#vintagemaxsl{display:none;}
+    img.close{float:right;cursor:pointer;padding-top:2px;z-index:5;    }
+    img#ratingclose, img#vintageclose{margin-top:8px;}
+    img#ratingspinner,img#pricespinner,img#vintagespinner{margin-top:8px;}
+    img#regionclose, img#grapeclose{padding-top:3px;}
+    #priceclose{display:none;margin-top:8px;}
+	div.subregion{color:gray;}
+    #region{width:120px;float:left;}
+	#grape{width:130px;float:left;}
+	#countryofseller{width:130px;float:left;}
+	#result {min-height:650px;margin:0px;margin-left:10px;position:relative; overflow-x:hidden; overflow-y:visible; width: 616px;z-index:1;}
+	#result.shopresult{width: 658px;}
+	#result h1{color:#5f5f5f;font-size:20px;padding-top:0px;float:left;}
+	#result div.items { width:20000em;  position:absolute;clear:left;} 
+	#result div.items div.page {  float:left; }
+	#GuidedSearchform h4{padding-top:4px;}
+	#GuidedSearchform .spinner{float:right;display:none;}
+	div.slider{float:left;width:120px;margin-top: 10px;margin-left:5px;}
+	div.sliderlegend{width:130px;clear:left;padding-top:5px;}
+	div.slider-min{width:50px;float:left;margin-bottom:10px;}
+    div.slider-max{width:60px;float:right;text-align:right;}
+	div#criteria{position:relative;}
+	.cc{cursor:pointer;}
+	.cc:hover{text-decoration:underline;	}
+	#gspanes {background-color:red;margin:0px;padding:0px;height:0px;}
+	
+	div.wa a{color:#5f5f5f;}
+	div.wa {width:604px;position:relative;float:left; clear:left;font-family: arial;color:#5F5F5F;font-size: 9pt;background-repeat:no-repeat;
+	border-style:solid;border-width:1px;border-top-style:none;border-color:#999999;padding-right:10px;border-collapse:separate;padding-top:5px;}
+	div.wa .wn{position:relative;margin-left:70px;margin-top:5px;}
+	div.wa .wn a{position:relative;margin-top:5px;font-weight:bold;	color:#4d0027;	font-size:1.2em;	}
+	.wn a:hover{color:#4d0027;text-decoration:underline;}
+	.wa img.wrlabel{border:1px grey; border-style:solid;left:0px;	position:absolute;z-index:1;	max-width:60px;	max-height:80px;	}
+	.wa img.wrlabel:hover{max-width:300px;max-height:300px;position:absolute;z-index:200;}
+	.wa img.wrlabel.bottom:hover{left:0px;bottom:10px;	}
+	.wa div{position:relative;margin-bottom:4px;border-style:none;}
+	.detail{float:left;margin-left:70px;position:relative;width:350px;}
+	span.gr{float:left;background: url(/images/grapered.jpg) no-repeat 0px 2px;;padding-left:25px;}
+	span.gw{float:left;background: url(/images/grapewhite.jpg) no-repeat;padding-left:25px;}
+	.gt img{vertical-align:middle;margin-left:10px;margin-right:5px;margin-bottom:5px;}
+	span.wt img{margin-right:5px;}
+	
+	div.ct{padding-top:2px;clear:both;background:url(/images/chateau.jpg) no-repeat center left;padding-left:25px;}
+	.ras{float:left;width:90px;min-height:50px;}
+	div.au{clear:both;float:left;width:40px;background: #aaaaaa;color:white;text-align:center;margin-bottom:2px;}
+	div.po{float:left;width:46px;background: #f3f4d5;text-align:center;margin-bottom:2px;}
+	.pr{float:left;width:80px;}
+	.pre{text-align:right;padding-right:30px;background:url(/images/europe.jpg)  no-repeat; background-position:right;}
+	.pra{text-align:right;padding-right:30px;background:url(/images/usa.jpg)  no-repeat; background-position:right;}
+	div.act{float:right;height:50px;}
+	div.ps{padding-left:25px;background: url(/images/magnglass.jpg) no-repeat;height:17px;text-align:right;}
+	div.ps a{color:#5f5f5f;cursor:pointer;}
+	div.ps a:hover{text-decoration:underline;	}
+	div.wish{background: url(/images/plus.jpg) no-repeat;padding-left:25px;}
+	div.waline {width:604px;;position:relative; clear:left;float:left;height:0px;border-style:solid;border-width:1px;border-bottom-style:none;border-color:#999999;padding-right:10px;border-collapse:separate;}
+	#next1,#next2,#next3,#next4,#prev1,#prev2,#prev3,#prev4{cursor:pointer;background: url(/images/button.jpg) no-repeat;text-align:center;color:white;width:76px;height:22px;margin:10px;padding-top:3px;font-family:arial;}
+	#prev1,#prev2,#prev3,#prev4 {position:absolute; top:30px; right:80px;z-index:100;display:none}
+	#next1,#next2,#next3,#next4 {position:absolute; top:30px; right:0px;z-index:100;display:none}
+	#next1 a,#next2 a,#next3 a,#next4 a,#prev1 a,#prev2 a,#prev3 a,#prev4 a{text-align:center;color:white;font-size:12px;}
+	#winedetails{width:1000px;overflow:auto;margin-bottom:20px;}
+	#winedetails div.wa{border:0px;width:530px}
+	#winedetails table td.left{font-family:Arial;border:1px solid #888;padding:10px;width:450px}
+	#winedetails table td.left .name{font-family:Arial;font-weight:bold;}
+	#winedetails table td.left .addedon{color:#888;padding-top:3px;padding-bottom:3px;}
+	#winedetails table td.center{border:0px solid white;width:10px;}
+	#winedetails table td.right{border:1px solid #888;}
+	#result table.results td{overflow:hidden;}
+	#result table.results td.info {width:15px;}
+	#result table.results td.winename {cursor:pointer;color:#4D0027;padding-left:10px;}
+	#result table.results td.vintage {width:20px;}
+	#result table.results td.rating {width:30px;}
+	#result table.results td.size {width:50px;}
+	#result table.results td.price {min-width:50px;}
+	#result table.results td.currency {width:10px;}
+	#result table.results td.marketprice {width:70px;}
+	#result table.results td.marketprice img{width:13px;margin:0px;padding:0px;}
+	#result div.results {margin-top:0px;}
+	#result table.results div.detail{width:400px;}
+	#result table.results div.ras{width:100px;}
+	#result div.brd{border: solid 1px #808080;border-top:none;margin:0;padding:0;width:656px;}
+	#result table.results{width:656px;}
+	div.starslabel{clear:both;float:left;width:70px;margin-bottom:2px;}
+	div.stars{float:left;width:70px;margin-bottom:2px;}
+	div.pan{background-color:white;}
+
+	div.storecontent{float:left;min-width:600px;max-width:958px;min-height:180px;border:1px solid #808080;border-top:none;overflow:auto;margin-bottom:20px;}
+	#storegeneral div.storecontent{padding:20px;width:968px;}
+	#storepanes .storepane{display:none;}
+	#storepanes div.storepane#storegeneral{display:block;}
+	div.storecontent div.description{float: left;padding-left:10px;}
+	div.storecontent div.storeimage img{float: right;max-width:250px;max-height:180px;margin-left:10px;}
+	#cart {padding:10px;padding-left:20px;}
+	#cart a{text-decoration:underline;cursor:pointer;}
+    
+    

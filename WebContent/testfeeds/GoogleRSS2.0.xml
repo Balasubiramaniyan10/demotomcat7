@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0" xmlns:g="http://base.google.com/ns/1.0">
+ 
+ 
+ 
+   <channel>
+       <title>spot-ontv</title>
+       <description>product</description>
+       <link>http://www.spot-ontv.co.uk</link>
+       <lastBuildDate>Sun, 08 Jul 2007 02:15:55 +0100</lastBuildDate>
+ 
+       <image>
+           <url>http://www.spot-ontv.co.uk/rss.png</url>
+ 
+           <title>Powered by Joomla!</title>
+ 
+           <link>http://www.spot-ontv.co.uk</link>
+ 
+           <description>product</description>
+ 
+      </image>
+ 
+ 
+ 
+      <item>
+ 
+           <title>Product Title</title>            
+ 
+           <link>http://www.spot-ontv.co.uk/sampleproduct1.html</link>
+ 
+           <description>Chyateau Latour 2000</description>
+ 
+           <g:condition>New</g:condition>
+ 
+           <g:expiration_date>2007-07-14</g:expiration_date>
+ 
+           <g:brand>Chateau Latour</g:brand>
+ 
+           <g:image_link>http://www.spot-ontv.co.uk/sample.jpg</g:image_link>
+ 
+           <g:currency>GBP</g:currency>
+ 
+           <g:price>738.59000</g:price>
+ 
+           <g:product_type>Red Bdx wine</g:product_type>
+ 
+      </item>    
+ 
+
+      <item>
+ 
+           <title>Product Title</title>            
+ 
+           <link>http://www.spot-ontv.co.uk/sampleproduct1.html</link>
+ 
+           <description>Latour 2001</description>
+ 
+           <g:condition>New</g:condition>
+ 
+           <g:expiration_date>2007-07-14</g:expiration_date>
+ 
+           <g:brand>Ch. Latour</g:brand>
+ 
+           <g:image_link>http://www.spot-ontv.co.uk/sample.jpg</g:image_link>
+ 
+           <g:currency>GBP</g:currency>
+ 
+           <g:price>738.59000</g:price>
+ 
+           <g:product_type>Red Bdx wine</g:product_type>
+ 
+      </item>    
+ 
+     <item>
+ 
+           <title>Product Title</title>            
+ 
+           <link>http://www.spot-ontv.co.uk/sampleproduct1.html</link>
+ 
+           <description>Latour 2002 Magnum</description>
+ 
+           <g:condition>New</g:condition>
+ 
+           <g:expiration_date>2007-07-14</g:expiration_date>
+ 
+           <g:brand>Ch. Latour</g:brand>
+ 
+           <g:image_link>http://www.spot-ontv.co.uk/sample.jpg</g:image_link>
+ 
+           <g:currency>GBP</g:currency>
+ 
+           <g:price>738.59000</g:price>
+ 
+           <g:product_type>Red Bdx wine</g:product_type>
+ 
+      </item>    
+      <item>
+ 
+           <title>Product Title</title>            
+ 
+           <link>http://www.spot-ontv.co.uk/sampleproduct1.html</link>
+ 
+           <description>Latour 2005</description>
+ 
+           <g:condition>New</g:condition>
+ 
+           <g:expiration_date>2007-07-14</g:expiration_date>
+ 
+           <g:brand>Ch. Latour</g:brand>
+ 
+           <g:image_link>http://www.spot-ontv.co.uk/sample.jpg</g:image_link>
+ 
+           <g:currency>GBP</g:currency>
+ 
+           <g:price>338.59000</g:price>
+ 
+           <g:product_type>Red Bdx wine</g:product_type>
+ 
+      </item>    
+ 
+     <item>
+ 
+           <title>Product Title</title>            
+ 
+           <link>http://www.spot-ontv.co.uk/sampleproduct1.html</link>
+ 
+           <description>Rieussec 2005</description>
+ 
+           <g:condition>New</g:condition>
+ 
+           <g:expiration_date>2007-07-14</g:expiration_date>
+ 
+           <g:brand>Rieussec</g:brand>
+ 
+           <g:image_link>http://www.spot-ontv.co.uk/sample.jpg</g:image_link>
+ 
+           <g:currency>GBP</g:currency>
+ 
+           <g:price>338.59000</g:price>
+ 
+           <g:product_type>Sweet white Bdx wine</g:product_type>
+ 
+      </item>    
+ 
+ 
+ 
+   </channel>
+ 
+ </rss> 

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs 
+title="Vinopedia"
+description="Gadget for finding wine prices in Europe"
+width="320"
+height="240"
+author="Jasper Hammink"
+author_affiliation="Google"
+author_location="The Netherlands"
+scrolling="true"
+author_email="DeleteThis_Jasper.Hammink_DeleteThis+Too@vinopedia &#99;om"
+screenshot="https://www.vinopedia.com/GoogleGadget/Gadgetscreenshot.png"
+thumbnail="https://www.vinopedia.com/GoogleGadget/Gadgetthumb.png"
+title_url="https://www.vinopedia.com" />
+<Content type="url" href="https://www.vinopedia.com/m?forcemobile=true"/>
+</Module>

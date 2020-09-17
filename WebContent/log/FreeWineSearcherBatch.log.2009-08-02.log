@@ -1,0 +1,10 @@
+2009-02-26 10:41:39,877 INFO Current build is Build 194 2009-02-25 18:42 @ com.freewinesearcher.common.Wijnzoeker.<clinit>(Wijnzoeker.java:121) <Class> com.freewinesearcher.common.Wijnzoeker <br/>
+2009-02-26 10:55:37,028 INFO Current build is Build 194 2009-02-25 18:42 @ com.freewinesearcher.common.Wijnzoeker.<clinit>(Wijnzoeker.java:121) <Class> com.freewinesearcher.common.Wijnzoeker <br/>
+2009-02-26 10:55:37,310 INFO Starting spidering of shop 2 (Hans Jorissen @ com.freewinesearcher.batch.Spider.run(Spider.java:86) <Class> com.freewinesearcher.batch.Spider <br/>
+2009-02-26 10:56:37,258 INFO Finished batch job. Open connections:0 @ com.freewinesearcher.common.Wijnzoeker.updateSites(Wijnzoeker.java:890) <Class> com.freewinesearcher.common.Wijnzoeker <br/>
+2009-02-26 10:59:10,037 INFO Current build is Build 194 2009-02-25 18:42 @ com.freewinesearcher.common.Wijnzoeker.<clinit>(Wijnzoeker.java:121) <Class> com.freewinesearcher.common.Wijnzoeker <br/>
+2009-02-26 10:59:10,141 INFO Starting spidering of shop 2 (Hans Jorissen @ com.freewinesearcher.batch.Spider.run(Spider.java:86) <Class> com.freewinesearcher.batch.Spider <br/>
+2009-02-26 11:00:47,259 INFO We scraped 649 from web, 636 stored in DB for shop 2 (Hans Jorissen) @ com.freewinesearcher.batch.Spider.Scrapestatistics(Spider.java:548) <Class> com.freewinesearcher.batch.Spider <br/>
+2009-02-26 11:00:47,263 INFO Finished spidering of shop 2 (Hans Jorissen) @ com.freewinesearcher.batch.Spider.run(Spider.java:401) <Class> com.freewinesearcher.batch.Spider <br/>
+2009-02-26 11:00:48,095 INFO 160166 bytes scraped for shop 2 @ com.freewinesearcher.batch.Spider.run(Spider.java:410) <Class> com.freewinesearcher.batch.Spider <br/>
+2009-02-26 11:01:10,066 INFO Finished batch job. Open connections:0 @ com.freewinesearcher.common.Wijnzoeker.updateSites(Wijnzoeker.java:890) <Class> com.freewinesearcher.common.Wijnzoeker <br/>

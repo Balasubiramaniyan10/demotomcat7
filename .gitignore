@@ -1,0 +1,6 @@
+.DS_Store
+**/WEB-INF/classes/**
+**/build/**
+**/.class
+**/ROOT.war
+dist/**

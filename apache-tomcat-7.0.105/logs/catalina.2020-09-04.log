@@ -1,0 +1,162 @@
+Sep 04, 2020 1:00:04 PM org.apache.tomcat.util.digester.SetPropertiesRule begin
+WARNING: [SetPropertiesRule]{Server/Service/Engine/Realm} Setting property 'debug' to '99' did not find a matching property.
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version name:   Apache Tomcat/7.0.105
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server built:          Jul 2 2020 12:25:26 UTC
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Server version number: 7.0.105.0
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Name:               Mac OS X
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: OS Version:            10.14.6
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Architecture:          x86_64
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Java Home:             /Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Version:           1.8.0_231-b11
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: JVM Vendor:            Oracle Corporation
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_BASE:         /Users/10decoders/Documents/apache-tomcat-7.0.105
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: CATALINA_HOME:         /Users/10decoders/Documents/apache-tomcat-7.0.105
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.config.file=/Users/10decoders/Documents/apache-tomcat-7.0.105/conf/logging.properties
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dignore.endorsed.dirs=
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.base=/Users/10decoders/Documents/apache-tomcat-7.0.105
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Dcatalina.home=/Users/10decoders/Documents/apache-tomcat-7.0.105
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.VersionLoggerListener log
+INFO: Command line argument: -Djava.io.tmpdir=/Users/10decoders/Documents/apache-tomcat-7.0.105/temp
+Sep 04, 2020 1:00:04 PM org.apache.catalina.core.AprLifecycleListener lifecycleEvent
+INFO: The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/10decoders/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+Sep 04, 2020 1:00:04 PM org.apache.coyote.AbstractProtocol init
+INFO: Initializing ProtocolHandler ["http-bio-8080"]
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.Catalina load
+INFO: Initialization processed in 1070 ms
+Sep 04, 2020 1:00:04 PM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service [Catalina]
+Sep 04, 2020 1:00:04 PM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/7.0.105
+Sep 04, 2020 1:00:04 PM org.apache.catalina.realm.JDBCRealm startInternal
+SEVERE: Exception opening database connection
+com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2120)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:723)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:46)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:302)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:282)
+	at org.apache.catalina.realm.JDBCRealm.open(JDBCRealm.java:714)
+	at org.apache.catalina.realm.JDBCRealm.startInternal(JDBCRealm.java:792)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.ContainerBase.startInternal(ContainerBase.java:1211)
+	at org.apache.catalina.core.StandardEngine.startInternal(StandardEngine.java:300)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardService.startInternal(StandardService.java:444)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:744)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:183)
+	at org.apache.catalina.startup.Catalina.start(Catalina.java:712)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:284)
+	at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:415)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+Last packet sent to the server was 0 ms ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:406)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1074)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:335)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2043)
+	... 26 more
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.PlainSocketImpl.socketConnect(Native Method)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:606)
+	at java.net.Socket.connect(Socket.java:555)
+	at java.net.Socket.<init>(Socket.java:451)
+	at java.net.Socket.<init>(Socket.java:261)
+	at com.mysql.jdbc.StandardSocketFactory.connect(StandardSocketFactory.java:253)
+	at com.mysql.jdbc.MysqlIO.<init>(MysqlIO.java:284)
+	... 27 more
+
+Sep 04, 2020 1:00:04 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deploying web application archive [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/ROOT.war]
+Sep 04, 2020 1:00:16 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.HostConfig deployWAR
+INFO: Deployment of web application archive [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/ROOT.war] has finished in [12,209] ms
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/docs]
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/docs] has finished in [152] ms
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/manager]
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/manager] has finished in [171] ms
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/examples]
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/examples] has finished in [539] ms
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deploying web application directory [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/host-manager]
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.TldConfig execute
+INFO: At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.HostConfig deployDirectory
+INFO: Deployment of web application directory [/Users/10decoders/Documents/apache-tomcat-7.0.105/webapps/host-manager] has finished in [100] ms
+Sep 04, 2020 1:00:17 PM org.apache.coyote.AbstractProtocol start
+INFO: Starting ProtocolHandler ["http-bio-8080"]
+Sep 04, 2020 1:00:17 PM org.apache.catalina.startup.Catalina start
+INFO: Server startup in 13446 ms
+Sep 04, 2020 3:02:53 PM org.apache.catalina.core.StandardServer await
+INFO: A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+Sep 04, 2020 3:02:53 PM org.apache.coyote.AbstractProtocol pause
+INFO: Pausing ProtocolHandler ["http-bio-8080"]
+Sep 04, 2020 3:02:53 PM org.apache.catalina.core.StandardService stopInternal
+INFO: Stopping service [Catalina]
+Sep 04, 2020 3:02:53 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [File Reaper] but has failed to stop it. This is very likely to create a memory leak.
+Sep 04, 2020 3:02:53 PM org.apache.catalina.loader.WebappClassLoaderBase clearReferencesThreads
+SEVERE: The web application [] appears to have started a thread named [Thread-5] but has failed to stop it. This is very likely to create a memory leak.
+Sep 04, 2020 3:02:53 PM org.apache.coyote.AbstractProtocol stop
+INFO: Stopping ProtocolHandler ["http-bio-8080"]
+Sep 04, 2020 3:02:53 PM org.apache.coyote.AbstractProtocol destroy
+INFO: Destroying ProtocolHandler ["http-bio-8080"]

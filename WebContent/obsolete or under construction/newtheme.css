@@ -1,0 +1,116 @@
+html { height:100%;
+	background: white ;
+       background-repeat: repeat-x;
+        font-family: Arial; 
+			font-size: 13px;
+			vertical-align:top; }
+
+body { height:100%;
+        font-family: Arial; 
+		font-size: 13px;
+		vertical-align:top; }
+			
+			
+td {  font-family: Arial; 
+			font-size: 13px;
+			vertical-align:top; }
+div.main {
+vertical-align:top;
+}
+
+
+div.centerscreen {
+align: center;
+
+}
+
+
+table.main {
+	align: center;
+	border-collapse: separate; 
+	padding-top: 10px;
+	width: 1000px;
+	margin-left: auto; 
+	margin-right: auto;
+	table-layout:fixed;
+	border-width: 0px; 
+	white-space: nowrap;
+  	background-color:#FFF; 
+	text-align:left;
+	vertical-align:top;
+	}
+
+table.main td.left{
+	width: 200px;
+	vertical-align:top;
+}
+
+table.main td.center{
+	vertical-align:top;
+}
+
+table.main td.right{
+	width: 125px;
+	vertical-align:top;
+}
+
+table.searchform {
+	font-size:-1;
+}
+
+table.results {
+width:99%;
+align:left;
+table-layout:fixed;
+border-collapse: collapse;
+border-width: 0px; 
+white-space: nowrap;
+  	white-space: nowrap;
+  	background-color:#FFF; 
+	text-align:left;
+	}
+table.results tr.odd 	{
+	background: #e0f3ff;
+	text-align:left;
+	}
+	
+table.results tr.sponsoredodd 	{
+	font-weight : bold;
+	background: #ffffaa;
+	text-align:left;
+	}
+	
+table.results tr.sponsoredeven 	{
+	background: #ffff00;
+	font-weight : bold;
+	text-align:left;
+	}
+	
+table.results td {
+white-space: nowrap;
+text-overflow:ellipsis;
+	overflow:hidden;
+ }
+	
+table.results th.shop {
+width:15%
+}
+table.results th.wine {
+width:60%
+}
+table.results th.vintage {
+width:7%
+}
+table.results th.size {
+width:9%
+}
+table.results th.price {
+width:9%
+}
+
+A:link {text-decoration: none}
+A:visited {text-decoration: none}
+A:active {text-decoration: none}
+A:hover {text-decoration: underline; color: blue}
+
+

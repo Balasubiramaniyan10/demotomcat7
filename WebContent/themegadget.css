@@ -1,0 +1,318 @@
+html { height:100%;
+text-align:left;
+	background: white ;
+       background-repeat: repeat-x;
+        font-family: Arial; 
+			font-size: 12px;
+			vertical-align:top; }
+
+body { height:100%;
+		text-align:left;
+		background-color: white; 
+		font-family: Arial; 
+		font-size: 12px;
+		vertical-align:top; }
+div.logo{
+		width:160px;
+		margin-right:auto;
+		margin-left:auto;
+		height:31px;
+		text-align:left;
+		background-image: url(/images/smallheader.jpg); 
+		background-repeat: no-repeat; 
+		background-position: top; 
+		background-color: #FFFFFF; 
+		font-family: Arial; 
+		font-size: 12px;
+		vertical-align:top; }
+					
+	
+div.centralpane{
+		width:99%;
+		margin-right:auto;
+		margin-left:0px;
+		height:100%;
+		text-align:left;
+		background-color: #FFFFFF; 
+		font-family: Arial; 
+		font-size: 12px;
+		vertical-align:top; }
+
+		
+td {  font-family: Arial; 
+			font-size: 12px;
+			vertical-align:top; }
+table.mywines {
+text-align:left;
+width: 100%;
+}
+table.mywines td.wine{
+text-align:left;
+width: 50%;
+}
+table.mywines td.size{
+width: 10%;
+}
+table.mywines td.price{
+text-align:right;
+width: 10%;
+}
+table.ratings{
+	font-size: 10px;
+		
+ 	border-width: 3px;
+	border-spacing: 0px;
+	border-style: solid;
+	border-color: #4080ff;
+	border-collapse: separate;
+	background-color: white;
+	
+}
+table.ratings td.odd{
+	font-size: 10px;
+	background: #f1e7ec;
+	text-align:center;
+	}
+
+table.ratings td.even{
+	font-size: 10px;
+	background: #ffffff;
+	text-align:center;
+	
+	}
+
+table.main {
+	align: left;
+	text-align:left;
+	border-collapse: separate; 
+	padding-top: 1px;
+	width: 100%;
+	margin-left: 0px; 
+	margin-right: auto;
+	table-layout:fixed;
+	border-width: 0px; 
+	
+  	background-color:#FFF; 
+	text-align:left;
+	vertical-align:top;
+	}
+
+table.main td.left{
+	padding-top: 0px;
+	
+	vertical-align:top;
+}
+
+table.main td.centre{
+	width: 100%;
+	padding-top: 6px;
+	vertical-align:top;
+	word-wrap: break-word;
+}
+
+table.main td.right{
+	width: 125px;
+	padding-top: 6px;
+	vertical-align:top;
+}
+
+table.searchform {
+	padding-top: 0px;
+	font-size:-1;
+}
+table.search {
+	padding-top: 0px;
+	font-size:-1;
+}
+
+table.results {
+	width:99%;
+	align:left;
+	table-layout:fixed;
+	border-collapse: collapse;
+	border-width: 0px; 
+	white-space: nowrap;
+   	background-color:#FFF; 
+	text-align:left;
+	}
+table.results tr.odd 	{
+	background: #f1e7ec;
+	text-align:left;
+	}
+
+table.results td.flag 	{
+	text-align:left;
+	width: 20px;
+}
+
+table.results td.vintage 	{
+	text-align:right;
+	width: 30px;
+}
+
+table.results td.size 	{
+	text-align:left;
+	width: 35px;
+}
+
+table.results td.price 	{
+	text-align:right;
+
+	width: 42px;
+}
+table.results td.oldprice 	{
+	text-align:right;
+	text-decoration: line-through;
+	width: 42px;
+}
+
+table.results tr.sponsoredodd 	{
+	font-weight : bold;
+	background: #ffffaa;
+	text-align:left;
+	}
+	
+table.results tr.sponsoredeven 	{
+	background: #ffff00;
+	font-weight : bold;
+	text-align:left;
+	}
+	
+table.results td {
+white-space: nowrap;
+	overflow:hidden;
+vertical-align:top;}
+
+	
+ }
+
+
+
+table.results th {
+	font-size:10px;
+	}
+	
+table.results th.flag {
+width:19px;
+valign:middle;
+}
+table.results th.shop {
+width:30px;
+}
+table.results th.wine {
+
+}
+table.results th.vintage {
+width:30px;
+}
+
+table.results th.size {
+width:40px;
+}
+table.results th.price {
+width:55px;
+}
+
+
+
+table.tips {
+	width:99%;
+	align:left;
+	table-layout:fixed;
+	border-collapse: collapse;
+	border-width: 0px; 
+	white-space: nowrap;
+   	background-color:#FFF; 
+	text-align:left;
+	}
+table.tips tr.odd 	{
+	background: #f1e7ec;
+	text-align:left;
+	}
+
+
+table.tips td.vintage 	{
+	text-align:right;
+	width: 32px;
+}
+
+table.tips td.size 	{
+	text-align:left;
+	width: 35px;
+}
+
+table.tips td.price 	{
+	text-align:right;
+
+	width: 42px;
+}
+table.tips td.oldprice 	{
+	text-align:right;
+	text-decoration: line-through;
+	width: 42px;
+}
+table.tips tr.sponsoredodd 	{
+	font-weight : bold;
+	background: #ffffaa;
+	text-align:left;
+	}
+	
+table.tips tr.sponsoredeven 	{
+	background: #ffff00;
+	font-weight : bold;
+	text-align:left;
+	}
+	
+table.tips td {
+white-space: nowrap;
+	overflow:hidden;
+vertical-align:top;}
+
+	
+ }
+
+
+
+
+a:link {vertical-align:top; text-decoration: none;border-style: none; color:#4d0027;}
+a:visited {text-decoration: none; border-style: none; color:#4d0027;}
+a:active {text-decoration: none;border-style: none; color:#4d0027;}
+a:hover {text-decoration: underline; border-style: none; color:#4d0027;}
+
+a:link img
+{ 
+  border-style: none;
+}
+img
+{ 
+  border-style: none;
+}
+
+.suggest_link {
+				background-color: #c0f6ff;
+				padding: 1px 3px 1px 3px;
+			}
+.suggest_link_over {
+				background-color: #80D0ff;
+				padding: 1px 3px 1px 3px;
+			}
+div.search_suggest_noborder {
+				visibility: hidden;
+				cursor: default;
+				position: absolute; 
+				background-color: #c0f6ff; 
+				text-align: left; 
+				border: 1px solid #FFFFFF;			
+			}
+div.search_suggest_border {
+				-moz-box-sizing: border-box;
+    			box-sizing: border-box;
+    			cursor: default;
+				position: absolute; 
+				width: 200px;
+				background-color: #c0f6ff; 
+				text-align: left; 
+				border: 1px solid #888888;	
+				z-index: 999;		
+			}
+

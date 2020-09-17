@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE urlrewrite PUBLIC "-//tuckey.org//DTD UrlRewrite 3.0//EN"
+        "http://tuckey.org/res/dtds/urlrewrite3.0.dtd">
+
+<!--
+
+    Configuration file for UrlRewriteFilter
+    http://tuckey.org/urlrewrite/
+
+-->
+<urlrewrite decode-using="null">
+         <rule>
+            <name>Preserve request url</name>
+            <note>Condition necessary to make sure this only runs 1/request.</note>
+            <from>.*</from>
+            <condition type="attribute"  name="com.example.urlrewrite.originalURL" operator="notequal">.+</condition>
+            <set name="originalURL">%{request-url}</set>
+            <set name="originalURI">%{request-uri}</set>
+            <set name="originalQueryString">%{query-string}</set>
+         </rule>
+	
+	<rule>
+		<name>Redirect to www.</name>
+		<condition name="host" operator="notequal">^(www|test|static|static2|statictest|localhost).vinopedia.com</condition>
+		<condition name="host" operator="equal">^.*.com</condition>
+		<condition type="query-string" operator="notequal">^$</condition>
+		<from>^(.*)$</from>
+		<to type="permanent-redirect">https://www.vinopedia.com$1?%{query-string}</to>
+	</rule>	
+	<rule>
+		<name>Redirect to www.</name>
+		<condition name="host" operator="notequal">^(www|test|static|static2|statictest|localhost).vinopedia.com</condition>
+		<condition name="host" operator="equal">^.*.com</condition>
+		<condition type="query-string" operator="equal">^$</condition>
+		<from>^(.*)$</from>
+		<to type="permanent-redirect">https://www.vinopedia.com$1</to>
+	</rule>	
+    <rule>
+		<name>Redirect to www. for non static content</name>
+		<condition name="host" operator="equal">^(static|static2|statictest).vinopedia.com</condition>
+		<condition type="request-uri" operator="notequal">.*\.(js|gif|png|jpg|jpeg|css)$</condition>
+		<from>^(.*)$</from>
+		<to type="permanent-redirect">https://www.vinopedia.com$1?%{query-string}</to>
+	</rule>	
+    <rule>        
+		<note>
+            Caching of images
+        </note>
+        <name>Cache</name>
+        <from>.*\.(jpeg|css|png|jpg|gif|js)$</from>
+	<set type="response-header" name="Cache-Control">max-age=31536000</set>
+
+    </rule>
+
+    <rule>
+        <note>
+            The rule mimics behaviour of rel=nofollow
+        </note>
+        <from>^/nf(.*)</from>
+        <to type="temporary-redirect">$1</to>
+    </rule>
+    
+    <rule>
+        <note>
+            Used to experiment with new versions
+        </note>
+        <from>.*</from>
+    <condition type="parameter" operator="equal" name="sneakpreview">true</condition>
+ 	<set type="session" name="sneakpreview">true</set>
+    </rule>
+         <rule>
+        <note>
+            Used to experiment with new versions
+        </note>
+        <from>.*</from>
+    <condition type="parameter" operator="equal" name="sneakpreview">false</condition>
+ 	<set type="session" name="sneakpreview">false</set>
+    </rule>
+    <rule>
+        <note>
+            The rule means that requests to /lang-XX/wine/whatever will set the parameter language and name
+        </note>
+        <from>^/lang-(..)/wine/(.*)&amp;(.*)</from>
+        <to>/index.jsp?language=$1&amp;name=$2%26$3</to>
+    </rule>
+    <rule>
+        <note>
+            The rule means that requests to /lang-XX/wine/whatever will set the parameter language and name
+        </note>
+        <from>^/lang-(..)/wine/(.*)</from>
+        <to>/index.jsp?language=$1&amp;name=$2</to>
+    </rule>
+    <rule>
+        <note>
+            The rule means that requests to /lang-XX will set the parameter language
+        </note>
+        <from>^/lang-(..)(.*)</from>
+        <to>/index.jsp?language=$1</to>
+    </rule>
+    <rule>
+        <note>
+            The rule means that requests to /wine/whatever will be redirected to /index.jsp
+        </note>
+        <from>^/wine/(.*);jsessionid.*</from>
+        <to>/index.jsp?name=$1</to>
+    </rule>
+
+    <rule>
+        <note>
+            The rule means that requests to /wine-guide/category/whatever will be redirected to /wine-guide/index.jsp?category=whatever
+        </note>
+        <from>^/wine-guide/(.*)/(.*)/(.*)/(.*)/(.*)/(.*)</from>
+        <to>/wine-guide/index.jsp?$1=$2&amp;$3=$4&amp;$5=$6</to>
+    </rule>
+    <rule>
+        <note>
+            The rule means that requests to /wine-guide/category/whatever will be redirected to /wine-guide/index.jsp?category=whatever
+        </note>
+        <from>^/wine-guide/(.*)/(.*)/(.*)/(.*)</from>
+        <to>/wine-guide/index.jsp?$1=$2&amp;$3=$4</to>
+    </rule>
+
+    <rule>
+         <note>
+            The rule means that requests to /wine-guide/category/whatever will be redirected to /wine-guide/index.jsp?category=whatever
+        </note>
+        <from>^/wine-guide/(.*)/(.*)</from>
+        <to>/wine-guide/index.jsp?$1=$2</to>
+    </rule>
+
+     <rule>
+        <note>
+            The rule means that requests to /store/whatever will be redirected to /store/index.jsp
+        </note>
+        <from>^/store/(.*)&amp;(.*)/</from>
+        <to>/store/index.jsp?shopname=$1%26$2</to>
+    </rule>
+        <rule>
+        <note>
+            The rule means that requests to /linktest/whatever will be redirected to /loglinktest.jsp
+        </note>
+        <from>^/linktest/(.*)</from>
+        <to>/loglinktest.jsp?url=$1</to>
+    </rule>
+    
+
+     <rule>
+        <note>
+            The rule means that requests to /store/whatever will be redirected to /store/index.jsp
+        </note>
+        <from>^/store/(.*)/</from>
+        <to>/store/index.jsp?shopname=$1</to>
+    </rule>
+
+	<rule> 
+		<note>
+            The rule means that requests to /store/name will be redirected to /store/name/, but skips /store/*.jsp
+        </note>
+        <from>^/store/([^/]+(?&lt;!(/|jsp)))(\?[^/]*)?$</from>
+		<to type="permanent-redirect">/store/$1/</to>
+	</rule>	
+
+    <rule>
+        <note>
+            The rule means that requests to /wine/whatever will be redirected to /index.jsp
+        </note>
+        <from>^/wine/(.*)&amp;(.*)</from>
+        <to>/index.jsp?name=$1%26$2</to>
+    </rule>
+    <rule>
+        <note>
+            The rule means that requests to /mwine/whatever will be redirected to /mobile.jsp
+        </note>
+        <condition type="session-attribute" name="sneakpreview" operator="notequal" >true</condition>
+        <from>^/mwine/(.*)&amp;(.*)</from>
+        <to>/mobile.jsp?name=$1%26$2</to>
+    </rule>
+      <rule>
+        <note>
+            The rule means that requests to /wine/whatever will be redirected to /index.jsp
+        </note>
+        <from>^/wine/(.*)?(.*)</from>
+        <to>/index.jsp?name=$1&amp;$2</to>
+    </rule>
+   <rule>
+        <note>
+            The rule means that requests to /wine/whatever will be redirected to /index.jsp
+        </note>
+        <from>^/wine/(.*)</from>
+        <to>/index.jsp?name=$1</to>
+    </rule>
+        <rule>
+        <note>
+            The rule means that requests to /mwine/whatever will be redirected to /mobile.jsp
+        </note>
+        <condition type="session-attribute" name="sneakpreview" operator="notequal" >true</condition>
+        <from>^/mwine/(.*)</from>
+        <to>/mobile.jsp?name=$1</to>
+    </rule>
+    
+        <rule>
+        <note>
+            The rule means that requests to /mwine/whatever will be redirected to /mobile.jsp
+        </note>
+        <condition type="session-attribute" name="sneakpreview" operator="equal" >true</condition>
+        <from>^/mwine/(.*)</from>
+        <to>/m.jsp?name=$1</to>
+    </rule>
+    
+
+    <rule>
+        <note>
+            The rule means that requests to /wine2/whatever will be redirected to /index.jsp met fuzzy search
+        </note>
+        <from>^/wine2/(.*)</from>
+        <to>/index.jsp?fuzzy=true&amp;name=$1</to>
+    </rule>
+
+    <rule>
+        <note>
+            The rule means that requests to /mregion/whatever will be redirected to /region/mobile.jsp
+        </note>
+        <condition type="session-attribute" name="sneakpreview" operator="notequal" >true</condition>
+        <from>^/mregion/(.*)</from>
+        <to>/region/mobile.jsp</to>
+    </rule>
+
+   <rule>
+        <note>
+            The rule means that requests to /mregion/whatever will be redirected to /region/mobile.jsp
+        </note>
+        <condition type="session-attribute" name="sneakpreview" operator="equal" >true</condition>
+        <from>^/mregion/(.*)</from>
+        <to>/region/m.jsp</to>
+    </rule>
+
+    <rule>
+        <note>
+            The rule means that requests to /region/whatever will be redirected to /region/index.jsp
+        </note>
+        <from>^/region/(.*)</from>
+        <to>/region/index.jsp</to>
+    </rule>
+
+ 
+    <rule>
+        <note>
+            The rule means that requests to /winery/whatever will be redirected to /region/index.jsp
+        </note>
+        <from>^/winery/(.*)/?</from>
+        <to>/winery/index.jsp?winery=$1</to>
+    </rule>
+    <rule>
+        <note>
+            The rule means that requests to /winery/whatever will be redirected to /region/index.jsp
+        </note>
+        <condition type="session-attribute" name="sneakpreview" operator="notequal" >true</condition>
+        <from>^/mwinery/(.*)/?</from>
+        <to>/winery/mobile.jsp?winery=$1</to>
+    </rule>
+   <rule>
+        <note>
+            The rule means that requests to /winery/whatever will be redirected to /region/index.jsp
+        </note>
+        <condition type="session-attribute" name="sneakpreview" operator="equal" >true</condition>
+        <from>^/mwinery/(.*)/?</from>
+        <to>/winery/m.jsp?winery=$1</to>
+    </rule>
+   <rule>
+        <note>
+            The rule is to redirect FF/IE toolbar requests /add-on/browser/?name= to /index.jsp
+        </note>
+        <from>^/add-on/(.*?)/(.*)</from>
+        <to>/plugins/redirect.jsp?fuzzy=true&amp;type=$1&amp;name=$2</to>
+    </rule>
+
+   <rule>
+        <note>
+            For mobile browsers
+        </note>
+         <condition type="session-attribute" name="sneakpreview" operator="notequal" >true</condition>
+        <from>^/m$</from>
+        <to>/mobile.jsp</to>
+    </rule>
+      <rule>
+        <note>
+            For mobile browsers
+        </note>
+        <condition type="session-attribute" name="sneakpreview" operator="equal" >true</condition>
+        <from>^/m$</from>
+        <to>/m.jsp</to>
+    </rule>
+   <rule>
+        <note>
+            Sitemap
+        </note>
+        <from>^/sitemap.xml</from>
+        <to>/sitemapxml.jsp</to>
+    </rule>
+
+   <rule>
+        <note>
+            The rule means that requests to /vp.kml/whatever will be redirected to /region/index.jsp
+        </note>
+        <from>^/vp.kml/(.*)</from>
+        <to>/vp.kml.jsp?session=$1</to>
+    </rule>
+
+
+    <outbound-rule>
+        <note>
+            The outbound-rule specifies that when response.encodeURL is called (if you are using JSTL c:url)
+            the url /rewrite-status will be rewritten to /test/status/.
+
+            The above rule and this outbound-rule means that end users should never see the
+            url /rewrite-status only /test/status/ both in thier location bar and in hyperlinks
+            in your pages.
+        </note>
+        <from>/rewrite-status</from>
+        <to>/test/status/</to>
+    </outbound-rule>
+
+
+    <!--
+
+    INSTALLATION
+
+        in your web.xml add...
+
+        <filter>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <filter-class>org.tuckey.web.filters.urlrewrite.UrlRewriteFilter</filter-class>
+            <init-param>
+                <param-name>logLevel</param-name>
+                <param-value>WARN</param-value>
+            </init-param>
+        </filter>
+        <filter-mapping>
+            <filter-name>UrlRewriteFilter</filter-name>
+            <url-pattern>/*</url-pattern>
+        </filter-mapping>
+
+     EXAMPLES
+
+     Redirect one url
+        <rule>
+            <from>/some/old/page.html</from>
+            <to type="redirect">/very/new/page.html</to>
+        </rule>
+
+    Redirect a directory
+        <rule>
+            <from>/some/olddir/(.*)</from>
+            <to type="redirect">/very/newdir/$1</to>
+        </rule>
+
+    Clean a url
+        <rule>
+            <from>/products/([0-9]+)</from>
+            <to>/products/index.jsp?product_id=$1</to>
+        </rule>
+    eg, /products/1234 will be passed on to /products/index.jsp?product_id=1234 without the user noticing.
+
+    Browser detection
+        <rule>
+            <condition name="user-agent">Mozilla/[1-4]</condition>
+            <from>/some/page.html</from>
+            <to>/some/page-for-old-browsers.html</to>
+        </rule>
+    eg, will pass the request for /some/page.html on to /some/page-for-old-browsers.html only for older
+    browsers whose user agent srtings match Mozilla/1, Mozilla/2, Mozilla/3 or Mozilla/4.
+
+    -->
+
+</urlrewrite>
+

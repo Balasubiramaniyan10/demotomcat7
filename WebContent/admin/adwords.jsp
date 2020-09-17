@@ -1,0 +1,1 @@
+<%@page import="com.freewinesearcher.online.Webroutines"%><%@page contentType="text/plain" %><%=Webroutines.getAdwordsData()%>

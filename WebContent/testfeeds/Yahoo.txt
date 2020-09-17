@@ -1,0 +1,3 @@
+code	name	description	price	product-url	merchant-site-url	in-stock
+133213	Chateau Latour 2000 0,75l	Chateau Latour 2000 0,75l	Eur 198,40	http://www.merchant.com/products/product?sectionId=&pcode=2417	http://www.merchant.com	Yes
+138746	Chateau Leoville las Cases 1996 St. Julien Grand Cru	Chateau Leoville las Cases 1996 St. Julien Grand Cru	Eur 162,00	http://www.merchant.com/products/product?sectionId=&pcode=5114	http://www.merchant.com	Yes

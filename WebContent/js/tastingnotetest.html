@@ -1,0 +1,45 @@
+<html>
+<head>
+<script type = 'text/javascript'>
+var tn=false;
+
+function show(){
+	if (tn==false){
+		tn=true;
+		var g_remoteServer = 'http://feed2js.org//feed2js.php?src=http%3A%2F%2Fscrugy.com%2Fsearch%3Fq%3Dquatro%2Bventos%2B2003%26s%3Dtns%26format%3Drss&amp;chan=y&amp;desc=1&amp;targ=y&amp;utf=y';
+		//var g_remoteServer = 'http://www.howdev.com/products/feedsweep/producer.aspx?feeds=&datesort=descending&implementation=divs';
+	script = document.createElement('script');	
+	script.src = g_remoteServer;	
+	script.type = 'text/javascript';
+	script.defer = false;	
+	head = document.getElementsByTagName( "head" )[0];
+    head.appendChild(script);
+    
+	document.getElementById('tastingnote').innerHTML='Please wait while loading tasting note...';
+	//document.getElementById('tastingnote').appendChild(script);
+		
+	}
+	document.getElementById('tastingnote').style.visibility = 'visible';
+}
+function hide(){
+	document.getElementById('tastingnote').style.visibility = 'hidden';
+}
+	
+</script>
+</head>
+<body>
+
+
+	
+Bla<br/>
+
+Bla<br/>
+
+Bla
+				
+<div id='tastingnote' class='tastingnote' name='tastingnote' style='border-style:solid;border-color:blue;background-color:white;visibility:hidden;position:absolute;z-index:999;' onMouseOver='show();' onMouseOut='hide();'>
+</div>
+<div id='show' onMouseOver='javascript:setTimeout("show()",10);' onMouseOut='hide();'>Show TN</div>
+</div><br/>
+Bla
+</html>

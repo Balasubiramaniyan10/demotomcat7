@@ -1,0 +1,14 @@
+2013-04-05 18:31:27,832 INFO Sending traffic reports for January 2013 @ com.freewinesearcher.batch.StoreReport.main(StoreReport.java:381) <Class> com.freewinesearcher.batch.StoreReport 
+2013-04-05 18:31:29,648 INFO Finished sending traffic reports for January 2013 @ com.freewinesearcher.batch.StoreReport.main(StoreReport.java:387) <Class> com.freewinesearcher.batch.StoreReport 
+2013-04-05 18:32:02,993 INFO Sending traffic reports for March 2013 @ com.freewinesearcher.batch.StoreReport.main(StoreReport.java:381) <Class> com.freewinesearcher.batch.StoreReport 
+2013-04-05 18:32:04,748 INFO Finished sending traffic reports for March 2013 @ com.freewinesearcher.batch.StoreReport.main(StoreReport.java:387) <Class> com.freewinesearcher.batch.StoreReport 
+2013-04-05 18:35:39,735 INFO Sending traffic reports for March 2013 @ com.freewinesearcher.batch.StoreReport.main(StoreReport.java:381) <Class> com.freewinesearcher.batch.StoreReport 
+2013-04-05 18:37:00,653 INFO Sending traffic reports for March 2013 @ com.freewinesearcher.batch.StoreReport.main(StoreReport.java:381) <Class> com.freewinesearcher.batch.StoreReport 
+2013-04-05 18:37:04,717 ERROR Could not create traffic report for store 5360 month 03 2013 @ com.freewinesearcher.batch.StoreReport.sendreports(StoreReport.java:353) <Class> com.freewinesearcher.batch.StoreReport 
+java.lang.NullPointerException
+	at com.freewinesearcher.batch.StoreReport.sendreports(StoreReport.java:340)
+	at com.freewinesearcher.batch.StoreReport.main(StoreReport.java:383)
+2013-04-05 18:37:04,722 INFO Finished sending traffic reports for March 2013 @ com.freewinesearcher.batch.StoreReport.main(StoreReport.java:387) <Class> com.freewinesearcher.batch.StoreReport 
+2013-04-05 18:38:21,521 INFO Sending traffic reports for March 2013 @ com.freewinesearcher.batch.StoreReport.main(StoreReport.java:381) <Class> com.freewinesearcher.batch.StoreReport 
+2013-04-05 18:38:26,724 INFO Sending traffic report for Delicasa.NL period 2013-3 to jasper@vinopedia.com  @ com.freewinesearcher.batch.StoreReport.sendreports(StoreReport.java:344) <Class> com.freewinesearcher.batch.StoreReport 
+2013-04-05 18:38:26,726 INFO Finished sending traffic reports for March 2013 @ com.freewinesearcher.batch.StoreReport.main(StoreReport.java:387) <Class> com.freewinesearcher.batch.StoreReport 

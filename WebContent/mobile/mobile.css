@@ -1,0 +1,209 @@
+body{
+	background-color:black;
+	overflow:hidden;
+}
+h1{font-size:1.5em}
+h2{font-size:1.3em}
+h3{font-size:1.15em}
+
+div.ui-page.ui-body-a.vp {
+    background: -moz-linear-gradient(center top , #000000, #222222) repeat scroll 0 0 #F0F0F0;
+    background-image: -webkit-gradient(linear,left top,left bottom,	color-stop(0,#000000),color-stop(1,#222222));
+    color: #dddddd;
+    text-shadow: 0 0px 0 #aaaaaa;
+}
+
+div.ui-page.ui-body-a.vp a{
+	color: #dddddd;
+	}
+.ui-content{
+	padding:0px;
+}
+.ui-controlgroup, fieldset.ui-controlgroup {
+    margin: 0em 0 0em;
+    padding: 0;
+}
+form.searchform{
+	display:none;
+	}
+div.ui-select {
+	width:auto;
+}
+label.ui-select{
+	display: inline-block;
+	width:auto
+	}
+.ui-select {
+    display: inline-block;
+    position: relative;
+	}
+	
+div.ui-field-contain {
+	margin:0px;
+	}
+form.searchform div.ui-field-contain {
+    margin: 2px 0px;
+}
+
+.ui-header .ui-title, .ui-footer .ui-title {
+    font-size: 1.5em;
+    margin: 0.2em 90px 0.6em;
+}
+
+.ui-content .ui-listview {
+    margin: 0px;
+}
+td.oldprice{
+	text-decoration:line-through;
+}
+
+.ui-li .ui-btn-text a.ui-link-inherit {
+    overflow: visible;
+    white-space: normal;
+}
+.ui-btn-inner {
+    white-space: normal;
+}
+
+.ui-header a{
+	text-decoration:none;
+	}
+
+.ui-header .vino{
+	color: #920402;
+    font-family: georgia,arial;
+	}
+.ui-header .pedia{
+	color: #ffffff;
+    font-family: georgia,arial;
+	}
+
+.ui-btn-inner {
+    padding: 0.3em 12px;
+    
+}
+
+div.divider{
+	float:none;
+	border-bottom:solid 1px #aaa;
+	padding:5px;
+	}
+div.divider div{
+	margin-right:10px;
+	float:left;
+}
+div.size{
+	margin-top:4px;
+	color:#aaa;
+	font-size:0.8em;
+	}
+
+div.divider div.wine{
+	clear:left;
+	float:none;
+		}
+h2{
+	margin:5px;
+}
+img.flag{width:20px;height:10px;}
+.sprite{background: url(https://static2.vinopedia.com/css/sprite4.png) no-repeat top left;}
+.spriter{background: url(https://static.vinopedia.com/css/spriter.png) repeat-x top left;}
+.sprite-language{width:22px;height:13px;margin-left:5px;}
+
+.spriter-refine { background-position: 0 0; } 
+.spriter-resultf { background-position: 0 -32px; } 
+.spriter-resulth { background-position: 0 -65px; } 
+.spriter-vintagee { background-position: 0 -98px; } 
+.spriter-vintageo { background-position: 0 -127px; }
+
+.sprite-aaaatransparent{ background-position: 0 0;  } 
+.sprite-arrowgreen{ background-position: 0 -51px;  } 
+.sprite-at{ background-position: 0 -107px;  } 
+.sprite-au{ background-position: 0 -167px;  } 
+.sprite-be{ background-position: 0 -229px;  } 
+.sprite-bg{ background-position: 0 -289px;  } 
+.sprite-ca{ background-position: 0 -349px;  } 
+.sprite-ch{ background-position: 0 -409px;  } 
+.sprite-champagne18{ background-position: 0 -469px;  } 
+.sprite-close{ background-position: 0 -537px;  } 
+.sprite-cn{ background-position: 0 -600px;  } 
+.sprite-cy{ background-position: 0 -662px;  } 
+.sprite-cz{ background-position: 0 -722px;  } 
+.sprite-de{ background-position: 0 -782px;  } 
+.sprite-dessert18{ background-position: 0 -842px;  } 
+.sprite-dglassdessert{ background-position: 0 -910px;  } 
+.sprite-dglassno{ background-position: 0 -1042px;  } 
+.sprite-dglassport{ background-position: 0 -1174px;  } 
+.sprite-dglassred{ background-position: 0 -1306px;  } 
+.sprite-dglassrose{ background-position: 0 -1438px;  } 
+.sprite-dglasssparkling{ background-position: 0 -1570px;  } 
+.sprite-dglasswhite{ background-position: 0 -1702px;  } 
+.sprite-dk{ background-position: 0 -1834px;  } 
+.sprite-dutch{ background-position: 0 -1894px;  } 
+.sprite-ee{ background-position: -122px 0;  } 
+.sprite-empty18{ background-position: -122px -60px;  } 
+.sprite-en{ background-position: -122px -128px;  } 
+.sprite-en{ background-position: -122px -188px;  } 
+.sprite-english{ background-position: -122px -251px;  } 
+.sprite-es{ background-position: -122px -314px;  } 
+.sprite-fi{ background-position: -122px -374px;  } 
+.sprite-fr{ background-position: -122px -434px;  } 
+.sprite-french{ background-position: -122px -494px;  } 
+.sprite-gb{ background-position: -122px -557px;  } 
+.sprite-glassdessert{ background-position: -122px -617px;  } 
+.sprite-glassno{ background-position: -122px -749px;  } 
+.sprite-glassport{ background-position: -122px -881px;  } 
+.sprite-glassred{ background-position: -122px -1013px;  } 
+.sprite-glassrose{ background-position: -122px -1145px;  } 
+.sprite-glasssparkling{ background-position: -122px -1277px;  } 
+.sprite-glasswhite{ background-position: -122px -1409px;  } 
+.sprite-gosmall{ background-position: -122px -1541px;  } 
+.sprite-gr{ background-position: -122px -1619px;  } 
+.sprite-grapered{ background-position: -122px -1679px;  } 
+.sprite-grapewhite{ background-position: -122px -1741px;  } 
+.sprite-greengo{ background-position: -122px -1803px;  } 
+.sprite-hk{ background-position: -122px -1880px;  } 
+.sprite-hu{ background-position: -122px -1940px;  } 
+.sprite-ie{ background-position: -244px 0;  } 
+.sprite-it{ background-position: -244px -60px;  } 
+.sprite-jp{ background-position: -244px -120px;  } 
+.sprite-lt{ background-position: -244px -180px;  } 
+.sprite-lu{ background-position: -244px -240px;  } 
+.sprite-lv{ background-position: -244px -300px;  } 
+.sprite-magnglass{ background-position: -244px -360px;  } 
+.sprite-mt{ background-position: -244px -426px;  } 
+.sprite-nl{ background-position: -244px -486px;  } 
+.sprite-no{ background-position: -244px -546px;  } 
+.sprite-nz{ background-position: -244px -606px;  } 
+.sprite-pl{ background-position: -244px -666px;  } 
+.sprite-port18{ background-position: -244px -726px;  } 
+.sprite-pt{ background-position: -244px -794px;  } 
+.sprite-red18{ background-position: -244px -854px;  } 
+.sprite-refinel{ background-position: -244px -922px;  } 
+.sprite-refiner{ background-position: -244px -1003px;  } 
+.sprite-resultfl{ background-position: -244px -1084px;  } 
+.sprite-resultfr{ background-position: -244px -1166px;  } 
+.sprite-resulthl{ background-position: -244px -1248px;  } 
+.sprite-resulthlstr{ background-position: -244px -1330px;  } 
+.sprite-resulthr{ background-position: -244px -1412px;  } 
+.sprite-rose18{ background-position: -244px -1494px;  } 
+.sprite-roundauthore{ background-position: -244px -1562px;  } 
+.sprite-roundauthoro{ background-position: -244px -1636px;  } 
+.sprite-roundrratingee{ background-position: -244px -1710px;  } 
+.sprite-roundrratingeo{ background-position: -244px -1784px;  } 
+.sprite-roundrratingoe{ background-position: -244px -1858px;  } 
+.sprite-roundrratingoo{ background-position: -244px -1932px;  } 
+.sprite-roundrvintagee{ background-position: -366px 0;  } 
+.sprite-roundrvintageo{ background-position: -366px -78px;  } 
+.sprite-roundwine{ background-position: -366px -156px;  } 
+.sprite-se{ background-position: -366px -278px;  } 
+.sprite-searchgo{ background-position: -366px -338px;  } 
+.sprite-sg{ background-position: -366px -424px;  } 
+.sprite-si{ background-position: -366px -484px;  } 
+.sprite-sk{ background-position: -366px -544px;  } 
+.sprite-sortasc{ background-position: -366px -604px;  } 
+.sprite-sortdesc{ background-position: -366px -667px;  } 
+.sprite-us{ background-position: -366px -730px;  } 
+.sprite-white18{ background-position: -366px -790px;  } 
+.sprite-za{ background-position: -366px -858px;  } 
+.sprite-zchateau{ background-position: -366px -918px;  } 
