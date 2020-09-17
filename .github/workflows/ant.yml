@@ -23,7 +23,7 @@ jobs:
     - name: Build with Ant
       run: pwd && ant clean && ant -noinput -buildfile build.xml
     - name: copy file tomcat to root folder
-      run: cp /home/runner/work/demo/demo/apache-tomcat-7.0.105/webapps/ROOT.war ROOT.war
+      run: cp /home/runner/work/demotomcat7/demotomcat7/apache-tomcat-7.0.105/webapps/ROOT.war ROOT.war
     - name: Upload the war file to deploy
       uses: actions/upload-artifact@v2
       with:

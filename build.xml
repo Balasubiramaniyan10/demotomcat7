@@ -4,8 +4,8 @@
 	<!-- Sets variables which can later be used. -->
 	<!-- The value of a property is accessed via ${} -->
 
-	<property name="TOMCAT" value="/home/runner/work/demo/demo/apache-tomcat-7.0.105" />
-	<property name="TOMCAT.LIB" value="/home/runner/work/demo/demo/apache-tomcat-7.0.105/lib" />
+	<property name="TOMCAT" value="/home/runner/work/demotomcat7/demotomcat7/apache-tomcat-7.0.105" />
+	<property name="TOMCAT.LIB" value="/home/runner/work/demotomcat7/demotomcat7/apache-tomcat-7.0.105/lib" />
 	<property name="src.dir" value="src" />
 	<property name="resources.dir" value="resources" />
 	<property name="war.file" location="ROOT.war" />
